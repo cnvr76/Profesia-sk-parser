@@ -1,0 +1,54 @@
+{
+  "knowledge": [
+    {
+      "name": "Grafika",
+      "description": "Primárna znalosť pre túto pozíciu.  Máte aktívnu prax aspoň 3 roky."
+    },
+    {
+      "name": "Softvér",
+      "description": "Ovládanie Photoshopu, Illustratoru, InDesignu a Figmy je nevyhnutné."
+    },
+    {
+      "name": "Dizajn",
+      "description": "Schopnosť vytvárať online aj offline dizajny.  Množstvo nápadov na obohatenie klientov."
+    },
+    {
+      "name": "Tímová práca",
+      "description": "Schopnosť pracovať v tíme, zdieľať nápady a posúvať tím dopredu."
+    },
+    {
+      "name": "Samostatná práca",
+      "description": "Schopnosť samostatne pracovať a zvládať projekty bez neustáleho dohľadu."
+    },
+    {
+      "name": "Komunikácia",
+      "description": "Schopnosť komunikovať s klientmi a kolegami."
+    },
+    {
+      "name": "Kreativita",
+      "description": "Myslenie „out of the box“,  generovanie nových a inovatívnych nápadov."
+    },
+    {
+      "name": "Jazykové znalosti",
+      "description": "Mierne pokročilá znalosť anglického jazyka (B1)."
+    }
+  ],
+  "frameworks": ["Photoshop", "Illustrator", "InDesign", "Figma"],
+  "salary": "1 400 EUR/mesiac",
+  "experience": "3 roky aktívnej praxe v grafike",
+  "education": [
+    "Stredoškolské s maturitou",
+    "Nadstavbové/vyššie odborné vzdelanie",
+    "Študent vysokej školy",
+    "Vysokoškolské I. stupňa",
+    "Vysokoškolské II. stupňa",
+    "Vysokoškolské III. stupňa"
+  ],
+  "other": ["Vodičský preukaz B", "Živnosť"],
+  "language": [
+    {
+      "name": "Slovenský",
+      "level": "Pokročilý (C1)"
+    }
+  ]
+}

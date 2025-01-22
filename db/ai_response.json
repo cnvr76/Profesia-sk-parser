@@ -1,0 +1,42 @@
+{
+  "knowledge": [
+    {
+      "name": "Grafický dizajn",
+      "description": "Skúsenosti s grafickým dizajnom pre print, web a sociálne siete.  Portfólio je výhodou."
+    },
+    {
+      "name": "Softvér",
+      "description": "Pokročilá znalosť Adobe Photoshop, Illustrator a InDesign."
+    },
+    {
+      "name": "Kreativita",
+      "description": "Schopnosť vytvárať atraktívne a inovatívne vizuály.  Schopnosť pracovať na viacerých projektoch súčasne a dodržiavať termíny."
+    },
+    {
+      "name": "Komunikácia",
+      "description": "Dobrý komunikačné schopnosti (nie je explicitne uvedené, ale je implicitne očakávané)."
+    }
+  ],
+  "frameworks": [
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Adobe InDesign"
+  ],
+  "salary": "1 400 EUR/mesiac",
+  "experience": "3 roky praxe v grafickom dizajne",
+  "education": [
+    "Stredoškolské s maturitou",
+    "Nadstavbové/vyššie odborné vzdelanie",
+    "Vysokoškolské I. stupňa",
+    "Vysokoškolské II. stupňa"
+  ],
+  "other": [
+    "Živnosť"
+  ],
+  "language": [
+    {
+      "name": "Slovenský",
+      "level": "Pokročilý (C1)"
+    }
+  ]
+}
