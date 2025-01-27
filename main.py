@@ -1,12 +1,15 @@
-if __name__ == '__main__':
-    # query_params = {
-    #     "newer_than": (10, "day"),
-    #     "older_than": (1, "day"),
-    #     "sender": "support@profesia.sk"
-    # }
-    # parser: Parser = Parser(query_params)
+from public.scripts.Parser import Parser
+from pprint import pprint
 
-    # messages = parser.get_messages()
+if __name__ == '__main__':
+    query_params = {
+        "newer_than": (10, "day"),
+        "older_than": (1, "day"),
+        "sender": "support@profesia.sk"
+    }
+    parser: Parser = Parser(query_params)
+
+    messages = parser.get_messages()
     # vacancies = parser.parse_messages(messages)
     # unique_vacancies = parser.remove_duplicates(vacancies, replace=True)
     # parser.write_to_json()
@@ -22,4 +25,3 @@ if __name__ == '__main__':
 
     # answer = parser.ai.load_json_answer()
     # pprint(answer)
-    ...

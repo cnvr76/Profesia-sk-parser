@@ -1,0 +1,73 @@
+:root {
+  --btn-color-1: #2b0935;
+  --btn-color-2: #1d0e39;
+  --btn-color-card: #5b048f;
+  --btn-color-icons: #2f1169;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--darkgrey);
+  border-radius: var(--border-radius-section);
+  padding: 20px 10px;
+  margin-bottom: 15px;
+}
+.bar .left-part,
+.bar .right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(0deg, var(--btn-color-icons) 50%, black 70%);
+  background-size: 100% 200%;
+  background-position: top;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-btn:hover {
+  background-position: bottom;
+  transform: scale(1.1);
+}
+
+#newest-btn,
+#filters-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#newest-btn {
+  background: var(--btn-color-1);
+}
+#filters-btn {
+  background: var(--btn-color-2);
+  min-width: 130px;
+}
+
+.bar .right-part img {
+  width: 40px;
+  height: inherit;
+  border-radius: 50%;
+}
+.button {
+  margin: 0;
+  text-decoration: none;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  transition: all 0.3s;
+  color: white;
+}
+.bar .button:hover {
+}

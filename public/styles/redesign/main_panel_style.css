@@ -1,0 +1,20 @@
+.main-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vacancies-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: var(--darkgrey);
+  padding: 15px;
+  border-radius: var(--border-radius-section);
+  max-height: calc(100vh - 100px);
+  overflow-y: scroll; /* Включение прокрутки */
+  scrollbar-width: none; /* Firefox */
+}
+.vacancies-container::-webkit-scrollbar {
+  display: none; /* Safari и Chrome */
+}

@@ -1,0 +1,20 @@
+:root {
+  --z-gradient-blue: #8378ff;
+  --z-gradient-purple: #7f0de4;
+}
+
+.side-panel {
+  background: var(--accent-color);
+  padding: 20px;
+  border-radius: var(--border-radius-section);
+}
+
+.z-letter {
+  font-size: 72px;
+  background: -webkit-linear-gradient(
+    var(--z-gradient-blue),
+    var(--z-gradient-purple)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
