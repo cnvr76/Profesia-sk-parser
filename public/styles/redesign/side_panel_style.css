@@ -1,20 +1,139 @@
 :root {
   --z-gradient-blue: #8378ff;
   --z-gradient-purple: #7f0de4;
+  --details-card-bg: #211f24;
+  --details-card-text: #00ffcc;
+
+  --koeff: 1.2;
 }
 
 .side-panel {
   background: var(--accent-color);
   padding: 20px;
   border-radius: var(--border-radius-section);
+  position: relative;
 }
 
 .z-letter {
-  font-size: 72px;
+  font-size: 5rem;
   background: -webkit-linear-gradient(
     var(--z-gradient-blue),
     var(--z-gradient-purple)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position: absolute;
+  filter: blur(4px);
+  user-select: none;
+  z-index: -1;
+}
+
+#z1 {
+  font-size: 8rem;
+  top: calc(30px * var(--koeff));
+  left: 10%;
+  transform: rotate(-20deg);
+  opacity: 0.75;
+}
+
+#z2 {
+  font-size: 7rem;
+  top: calc(150px * var(--koeff));
+  left: 60%;
+  transform: rotate(20deg);
+  opacity: 0.6;
+}
+
+#z3 {
+  font-size: 5rem;
+  top: calc(300px * var(--koeff));
+  left: 25%;
+  transform: rotate(-35deg);
+  opacity: 0.6;
+}
+
+#z4 {
+  font-size: 3rem;
+  top: calc(450px * var(--koeff));
+  left: 55%;
+  transform: rotate(15deg);
+  opacity: 0.5;
+}
+
+#z5 {
+  font-size: 2rem;
+  top: calc(600px * var(--koeff));
+  left: 40%;
+  transform: rotate(-15deg);
+  opacity: 0.5;
+}
+
+.details-panel {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.details-card .fa-gear {
+  margin-right: 5px;
+}
+.details-card .fa-chevron-down {
+  opacity: 0.5;
+}
+.details-card-position {
+  color: white;
+  font-size: 1.8rem;
+  text-align: start;
+  text-shadow: 3px 3px #009073;
+}
+.details-card-location {
+  font-size: 1rem;
+  color: white;
+  opacity: 0.7;
+  width: 100%;
+  text-align: end;
+}
+
+.details-card {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  background: var(--details-card-bg);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.details-card-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.details-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: end;
+  color: var(--details-card-text);
+}
+
+.side-panel .hidden {
+  visibility: hidden;
+}
+
+.side-panel .shown {
+  visibility: visible;
+}
+
+.side-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 30px;
 }

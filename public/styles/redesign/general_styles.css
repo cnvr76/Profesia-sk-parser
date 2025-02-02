@@ -22,6 +22,7 @@ body {
     var(--gradient-purple) 40%,
     black 90%
   );
+  overflow: hidden;
 }
 
 .pattern {
