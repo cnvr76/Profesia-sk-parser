@@ -7,11 +7,26 @@
       crossorigin="anonymous"
     ></script>
     <title>Title</title>
-    <link rel="stylesheet" href="public/styles/redesign/main_panel_style.css" />
-    <link rel="stylesheet" href="public/styles/redesign/side_panel_style.css" />
-    <link rel="stylesheet" href="public/styles/redesign/bar_style.css" />
-    <link rel="stylesheet" href="public/styles/redesign/general_styles.css" />
-    <link rel="stylesheet" href="public/styles/redesign/card_style.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/redesign/main_panel_style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/redesign/side_panel_style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/redesign/bar_style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/redesign/general_styles.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/redesign/card_style.css') }}"
+    />
   </head>
   <body>
     <div class="pattern"></div>
@@ -19,46 +34,7 @@
     <div class="everything">
       <!-- SIDE -->
       <section class="side-panel">
-        <div class="details-panel shown">
-          <h1 class="details-card-position">Grafik Petit creative</h1>
-          <h3 class="details-card-location">Praca z domu</h3>
-          <div class="details-card">
-            <div class="details-card-name">
-              <h3><i class="fa-solid fa-gear"></i>Salary</h3>
-              <i class="fa-solid fa-chevron-down"></i>
-            </div>
-            <div class="details-card-info">
-              <p>1400eur/mesiac</p>
-            </div>
-          </div>
-          <div class="details-card">
-            <div class="details-card-name">
-              <h3><i class="fa-solid fa-gear"></i>Knowledge</h3>
-              <i class="fa-solid fa-chevron-down"></i>
-            </div>
-            <div class="details-card-info">
-              <p>Adobe Photoshop</p>
-              <p>Adobe Illustrator</p>
-              <p>Adobe inDesign</p>
-            </div>
-          </div>
-          <div class="details-card">
-            <div class="details-card-name">
-              <h3><i class="fa-solid fa-gear"></i>Experience</h3>
-              <i class="fa-solid fa-chevron-down"></i>
-            </div>
-            <div class="details-card-info">
-              <p>3 roky praxe v grafickom dizajne</p>
-            </div>
-          </div>
-
-          <div class="side-btn-container">
-            <i class="fa-solid fa-xmark"></i>
-            <a href="#" class="button apply-btn">Apply</a>
-            <!-- <i class="fa-solid fa-star"></i> -->
-            <i class="fa-regular fa-star"></i>
-          </div>
-        </div>
+        {% include 'templates/details_panel.html' %}
 
         <div class="zzzz-container">
           <span class="z-letter" id="z1">Z</span>
@@ -75,7 +51,7 @@
         <section class="bar">
           <!-- left side -->
           <div class="left-part">
-            <a href="#" class="button" id="newest-btn">Newest</a>
+            <a href="/getAll" class="button" id="newest-btn">Newest</a>
             <div class="dropdown">
               <button class="button" id="filters-btn">
                 <i class="fa-solid fa-arrow-down-wide-short"></i>
@@ -89,47 +65,30 @@
           </div>
           <!-- right side -->
           <div class="right-part">
-            <a href="#" class="button icon-btn"
+            <a href="/" class="button icon-btn"
               ><i class="fa-solid fa-paper-plane"></i
             ></a>
-            <a href="#" class="button icon-btn"
+            <a href="/" class="button icon-btn"
               ><i class="fa-solid fa-envelope"></i
             ></a>
-            <a href="#" class="button icon-btn"
+            <a href="/" class="button icon-btn"
               ><i class="fa-solid fa-bookmark"></i
             ></a>
-            <img
-              src="/public/images/avatar.jpg"
-              alt="Profile picture"
-              id="profile-picture"
-            />
+            <a href="/"
+              ><img
+                src="/public/images/avatar.jpg"
+                alt="Profile picture"
+                id="profile-picture"
+            /></a>
           </div>
         </section>
 
         <!-- place for vacancies cards -->
         <section class="vacancies-container">
-          {% for _ in range(10) %}
-          <!-- card -->
-          <div class="card">
-            <div class="info-text">
-              <h1 class="position-title">Grafik Petit creative</h1>
-              <h3 class="company-name">Petit Press, a.s.</h3>
-              <h3 class="location-name">Práca z domu</h3>
-            </div>
-            <div class="clickables">
-              <div class="icons">
-                <i class="fa-solid fa-xmark"></i>
-                <!-- <i class="fa-solid fa-star"></i> -->
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <div class="card-buttons">
-                <a href="#" class="button details-btn">Details</a>
-                <a href="#" class="button apply-btn"
-                  >Apply<i class="fa-solid fa-moon"></i
-                ></a>
-              </div>
-            </div>
-          </div>
+          {% for vac in vacancies %}
+          <!-- here goes the vacation card -->
+
+          {% with vac=vac %} {% include 'templates/card.html' %} {% endwith %}
           {% endfor %}
         </section>
       </section>
