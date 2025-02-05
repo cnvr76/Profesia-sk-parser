@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link rel="stylesheet" href="public/styles/original/general_styles.css" />
+    <link rel="stylesheet" href="public/styles/original/main_panel_style.css" />
+    <link rel="stylesheet" href="public/styles/original/side_panel_style.css" />
+
+    <script src="public/scripts/hand_script.js" defer></script>
+  </head>
+  <body>
+    <img src="public/images/hand.png" id="hand-img" />
+    <div class="everything">
+      <!-- SIDE -->
+      <section class="side-panel"></section>
+
+      <!-- MAIN -->
+      <section class="main-panel">
+        <!-- task bar -->
+        <section class="bar">
+          <!-- left side -->
+          <div class="left-part">
+            <a href="#" class="button" id="newest-btn">Newest</a>
+            <a href="#" class="button" id="saved-btn">Saved</a>
+            <div class="dropdown">
+              <button class="button dropdown-btn" id="filters-btn">
+                <!-- <i class="fi fi-sr-apps-sort"></i> -->
+                Filters
+              </button>
+              <!-- <div class="dropdown-content">
+                <a href="#">Show all</a>
+                <a href="#">Show applied to</a>
+              </div> -->
+            </div>
+          </div>
+          <!-- right side -->
+          <div class="right-part">
+            <a href="#" class="button">Replies</a>
+            <img
+              src="public/images/avatar.jpg"
+              alt="Profile picture"
+              id="profile-picture"
+            />
+          </div>
+        </section>
+
+        <!-- place for vacancies cards -->
+        <section class="vacancies-container">
+          <!-- card -->
+          <div class="card">
+            <div class="info-text">
+              <h1 class="position-title">Grafik Petit creative</h1>
+              <h3 class="company-name">Petit Press, a.s.</h3>
+              <h3 class="location-name">Práca z domu</h3>
+            </div>
+            <div class="clickables">
+              <div class="icons">
+                <i class="fi fi-rs-trash"></i>
+                <i class="fi fi-rr-bookmark saved"></i>
+                <!-- <i class="fi fi-rr-bookmark-slash"></i> -->
+              </div>
+              <div class="card-buttons">
+                <a href="#" class="button details-btn">Details</a>
+                <a href="#" class="button apply-btn">Apply</a>
+              </div>
+            </div>
+          </div>
+
+          {% for item in range(10) %}
+          <!-- card 2 -->
+          <div class="card">
+            <div class="info-text">
+              <h1 class="position-title">Grafik Petit creative</h1>
+              <h3 class="company-name">Petit Press, a.s.</h3>
+              <h3 class="location-name">Práca z domu</h3>
+            </div>
+            <div class="clickables">
+              <div class="icons">
+                <i class="fi fi-rs-trash"></i>
+                <i class="fi fi-rr-bookmark"></i>
+                <!-- <i class="fi fi-rr-bookmark-slash"></i> -->
+              </div>
+              <div class="card-buttons">
+                <a href="#" class="button details-btn">Details</a>
+                <a href="#" class="button apply-btn">Apply</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </section>
+      </section>
+    </div>
+  </body>
+</html>

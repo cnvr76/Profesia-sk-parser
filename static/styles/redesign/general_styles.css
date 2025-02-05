@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Multicolore";
-  src: url("/public/fonts/Multicolore.woff");
+  src: url("/static/fonts/Multicolore.woff");
 }
 
 :root {
@@ -30,7 +30,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: url("/public/images/star_pattern.png");
+  background: url("/static/images/star_pattern.png");
   background-repeat: repeat;
   background-size: 70px, 70px, auto;
   mix-blend-mode: overlay;

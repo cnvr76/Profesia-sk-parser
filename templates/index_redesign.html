@@ -6,7 +6,13 @@
       src="https://kit.fontawesome.com/125ee9bf92.js"
       crossorigin="anonymous"
     ></script>
-    <title>Title</title>
+
+    <!-- JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+    <script src="{{ url_for('static', filename='scripts/details_ajax.js') }}"></script>
+
+    <title>Parser | Main page</title>
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='styles/redesign/main_panel_style.css') }}"
@@ -34,7 +40,7 @@
     <div class="everything">
       <!-- SIDE -->
       <section class="side-panel">
-        {% include 'templates/details_panel.html' %}
+        {% include 'includes/details_panel.html' %}
 
         <div class="zzzz-container">
           <span class="z-letter" id="z1">Z</span>
@@ -51,7 +57,7 @@
         <section class="bar">
           <!-- left side -->
           <div class="left-part">
-            <a href="/getAll" class="button" id="newest-btn">Newest</a>
+            <a href="/" class="button" id="newest-btn">Newest</a>
             <div class="dropdown">
               <button class="button" id="filters-btn">
                 <i class="fa-solid fa-arrow-down-wide-short"></i>
@@ -76,7 +82,7 @@
             ></a>
             <a href="/"
               ><img
-                src="/public/images/avatar.jpg"
+                src="{{ url_for('static', filename='images/avatar.jpg') }}"
                 alt="Profile picture"
                 id="profile-picture"
             /></a>
@@ -85,11 +91,9 @@
 
         <!-- place for vacancies cards -->
         <section class="vacancies-container">
-          {% for vac in vacancies %}
           <!-- here goes the vacation card -->
-
-          {% with vac=vac %} {% include 'templates/card.html' %} {% endwith %}
-          {% endfor %}
+          {% for vac in vacancies %} {% with vac=vac %} {% include
+          'includes/card.html' %} {% endwith %} {% endfor %}
         </section>
       </section>
     </div>
