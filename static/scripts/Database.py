@@ -11,6 +11,9 @@ class Connector:
         self.connection = sql.connect(self.db_name)
         self.cursor = self.connection.cursor()
         return self
+
+    def close(self):
+        self.connection.close()
     
     def all(self):
         query: str = """
@@ -24,10 +27,9 @@ class Connector:
     def delete_from(self, table: str):
         return self.executeQuery(f"DELETE FROM {table}")
 
-    def executeQuery(self, query: str, params: Tuple=(), format=True) -> List[Dict[str, int | str]] | bool:
+    def executeQuery(self, query: str, params: Tuple=(), format: bool=True) -> List[Dict[str, int | str]] | bool:
         try:
             self.cursor.execute(query, params)
-            # print(self.cursor.description)
             if self.cursor.description:
                 data = self.cursor.fetchall()
                 return self._format(data, self.cursor.description) if format else data

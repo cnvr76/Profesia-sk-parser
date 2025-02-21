@@ -5,12 +5,16 @@
     <script
       src="https://kit.fontawesome.com/125ee9bf92.js"
       crossorigin="anonymous"
+      defer
     ></script>
 
     <!-- JQuery -->
     <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
-    <script src="{{ url_for('static', filename='scripts/details_ajax.js') }}"></script>
+    <script
+      src="{{ url_for('static', filename='scripts/details_ajax.js') }}"
+      defer
+    ></script>
 
     <title>Parser | Main page</title>
     <link
@@ -40,7 +44,10 @@
     <div class="everything">
       <!-- SIDE -->
       <section class="side-panel">
-        {% include 'includes/details_panel.html' %}
+        <!-- Details section panel (side panel) -->
+        <div class="details-panel shown" id="details-panel">
+          {% include 'includes/details_panel.html' %}
+        </div>
 
         <div class="zzzz-container">
           <span class="z-letter" id="z1">Z</span>

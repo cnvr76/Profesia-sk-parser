@@ -19,7 +19,8 @@ class Parser:
         self.query_params: Dict = query_params
         self.messages: List = []
         self.vacancies: Dict[str, Dict] = {}
-        self.json_file = "db/vacancies.json"
+        self.json_vacancies = "db/vacancies.json"
+        self.json_last_response = "db/last_response.json"
 
         self.ai = Gemini(token="tokens/gemini_token.txt")
 
@@ -168,7 +169,7 @@ class Parser:
 
         if replace:
             self.vacancies = unique_vacancies
-            self.write_to_json(unique_vacancies)
+            self.write_to_json(unique_vacancies, self.json_vacancies)
 
         return unique_vacancies
 
@@ -193,20 +194,23 @@ class Parser:
         job_info = soup.find("div", attrs={"class": "details", "itemprop": "description"})
         job_info_text: str = job_info.get_text(separator="\n").strip() if job_info else "No information found"
 
-        return {
+        response: Dict = {
             "header": job_panel_info,
             "details": job_info_text,
             "applied": haveApplied,
             "expired": isExpired
         }
+        self.write_to_json(response, self.json_last_response)
+        return response
 
-    def read_from_json(self, replace: bool = False) -> Dict[str, Dict]:
-        with open(self.json_file, "r", encoding="utf-8") as file:
+    # "replace" parameter replaces only vacancies
+    def read_from_json(self, json_file: str, replace: bool = False) -> Dict[str, Dict]:
+        with open(json_file, "r", encoding="utf-8") as file:
             data = json.load(file)
-            if replace:
+            if replace and json_file == self.json_vacancies:
                 self.vacancies = data
             return data
 
-    def write_to_json(self, vacancies: Dict[str, Dict]) -> None:
-        with open(self.json_file, "w", encoding="utf-8") as file:
-            json.dump(vacancies, file, indent=4, ensure_ascii=False)
+    def write_to_json(self, data: Dict[str, Dict | str | bool], json_file: str) -> None: 
+        with open(json_file, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)

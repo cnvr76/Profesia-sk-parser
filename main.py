@@ -1,4 +1,4 @@
-from public.scripts.Parser import Parser
+from static.scripts.Parser import Parser
 from pprint import pprint
 
 if __name__ == '__main__':
