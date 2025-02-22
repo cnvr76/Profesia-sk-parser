@@ -172,5 +172,5 @@ cython_debug/
 
 # tokens
 gmail_token.json
-tokens/
+client_secret.json
 db/profesiask.db

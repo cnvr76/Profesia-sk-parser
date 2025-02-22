@@ -1,5 +1,6 @@
 from static.scripts.Parser import Parser
 from pprint import pprint
+from datetime import datetime
 
 if __name__ == '__main__':
     query_params = {
@@ -9,7 +10,25 @@ if __name__ == '__main__':
     }
     parser: Parser = Parser(query_params)
 
-    messages = parser.get_messages()
+    # sqlite - data selection
+    # data = parser.sqlite.connect().executeQuery("select * from Vacancies")
+    # print(data)
+
+    # sql server - data insertion
+    # parser.sqlserver.connect()
+
+    # for row in data:
+    #     date = datetime.fromisoformat(row["Date"][:-6])  # Преобразуем в объект даты
+    #     formatted_date = date.strftime('%Y-%m-%d %H:%M:%S')  # Форматируем для SQL
+
+    #     params = (row["Position"], row["Link"], row["Company"], row["Location"], date)
+    #     parser.sqlserver.executeQuery("""
+    #         INSERT INTO Vacancies (Position, Link, Company, Location, Date)
+    #         VALUES (?, ?, ?, ?, ?);
+    #     """, params)
+
+
+    # messages = parser.get_messages()
     # vacancies = parser.parse_messages(messages)
     # unique_vacancies = parser.remove_duplicates(vacancies, replace=True)
     # parser.write_to_json()

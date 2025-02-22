@@ -16,9 +16,10 @@ parser = Parser(query_params)
 @app.route("/", methods=['GET', 'POST'])
 def home():
     try:
-        data = parser.db.connect().all()
+        parser.db.connect()
+        data = parser.db.all()
         parser.db.close()
-        return render_template("index_redesign.html", vacancies=data)
+        return render_template("index_redesign.html", vacancies=data["view"])
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

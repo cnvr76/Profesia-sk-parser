@@ -1,11 +1,14 @@
 import sqlite3 as sql
 from typing import List, Dict, Tuple
 from pprint import pprint
+from static.scripts.DatabaseFunctions import Functions
 
-class Connector:
+class Connector(Functions):
     def __init__(self):
         self.db_name = "db/profesiask.db"
         self.connect()
+
+        super().__init__(self.executeQuery)
 
     def connect(self):
         self.connection = sql.connect(self.db_name)
@@ -14,20 +17,8 @@ class Connector:
 
     def close(self):
         self.connection.close()
-    
-    def all(self):
-        query: str = """
-            SELECT v.V_id, v.Position, v.Link, c.Name as 'Company', l.City as 'Location' 
-            FROM Vacancies v
-            JOIN Locations l ON l.L_id = v.Location
-            JOIN Companies c ON c.C_id = v.Company
-        """
-        return self.executeQuery(query)
-    
-    def delete_from(self, table: str):
-        return self.executeQuery(f"DELETE FROM {table}")
 
-    def executeQuery(self, query: str, params: Tuple=(), format: bool=True) -> List[Dict[str, int | str]] | bool:
+    def executeQuery(self, query: str, params: Tuple=(), format: bool=True) -> List[Dict[str, int | str] | Tuple] | bool:
         try:
             self.cursor.execute(query, params)
             if self.cursor.description:

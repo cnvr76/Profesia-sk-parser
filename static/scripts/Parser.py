@@ -9,22 +9,24 @@ from bs4 import BeautifulSoup
 from simplegmail import Gmail
 from simplegmail.query import construct_query
 
-from static.scripts.Database import Connector
+import static.scripts.SQLServer as sqlserver_con 
+# import static.scripts.SQLite as sqlite_con
 from static.scripts.Gemini import Gemini
 
 
 class Parser:
     def __init__(self, query_params: Dict):
-        self.gmail = Gmail(client_secret_file="tokens/client_secret.json")
+        self.gmail = Gmail(client_secret_file="client_secret.json")
         self.query_params: Dict = query_params
         self.messages: List = []
         self.vacancies: Dict[str, Dict] = {}
         self.json_vacancies = "db/vacancies.json"
         self.json_last_response = "db/last_response.json"
 
-        self.ai = Gemini(token="tokens/gemini_token.txt")
-
-        self.db = Connector()
+        self.ai = Gemini()
+        # self.sqlserver = sqlserver_con.Connector()
+        # self.sqlite = sqlite_con.Connector()
+        self.db = sqlserver_con.Connector()
 
     def get_messages(self) -> List:
         return self.gmail.get_messages(query=construct_query(self.query_params))
@@ -115,10 +117,10 @@ class Parser:
         # except sqlite3.IntegrityError as ie:
         #     print("Locations are already inserted!")
         # 2 -------------------
-        view_companies: List[Tuple] = self.db.executeQuery("SELECT * FROM Companies", format=False)
+        view_companies: List[Tuple] = self.db.executeQuery("SELECT * FROM Companies")["sqlite"]
         companies_sql: Dict[str, int] = {row[1]: row[0] for row in view_companies}
 
-        view_locations: List[Tuple] = self.db.executeQuery("SELECT * FROM Locations", format=False)
+        view_locations: List[Tuple] = self.db.executeQuery("SELECT * FROM Locations")["sqlite"]
         locations_sql: Dict[str, int] = {row[1]: row[0] for row in view_locations}
 
         locations_sql2 = locations_sql.copy()

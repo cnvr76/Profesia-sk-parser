@@ -1,10 +1,11 @@
 import google.generativeai as genai
 import simplejson as json
 from typing import List, Dict
+import os
 
 class Gemini:
-    def __init__(self, token: str):
-        self.token = open(token, "r", encoding="utf-8").read().strip()
+    def __init__(self):
+        self.token = os.getenv("GEMINI_TOKEN")
         genai.configure(api_key=self.token)
         self.model = genai.GenerativeModel("gemini-1.5-flash")
         self.response_file = "db/ai_response.json"
