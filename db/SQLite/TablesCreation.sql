@@ -22,7 +22,7 @@ CREATE TABLE Vacancies (
 	Position NVARCHAR(128) NOT NULL,
 	Link NVARCHAR(850) NOT NULL UNIQUE,
 	Salary INT,
-	Description NVARCHAR(255),
+	Description NVARCHAR(MAX),
 	Company INT NOT NULL,
 	Resume INT DEFAULT NULL,
 	Location INT NOT NULL,

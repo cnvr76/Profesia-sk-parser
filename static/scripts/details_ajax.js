@@ -9,7 +9,7 @@ const createCardDetailsSection = async (cardData) => {
   // фором добавлять <p>, а потом еще одним, но по кол-ву, записывать в шаблон карточки
   let detailsHTML = "";
   for (details in cardDetails.le) {
-    detailsHTML += `
+    cardHTML += `
     <!-- Card -->
     <div class="details-card">
       <div class="details-card-name">
@@ -20,6 +20,9 @@ const createCardDetailsSection = async (cardData) => {
         <p> <!-- СЮДА ВСТАВИТЬ ИНФО ФОРОМ --> </p>
       </div>
     </div>
+    `;
+    detailsHTML = `
+    
     `;
   }
 };
@@ -32,6 +35,7 @@ detailsButtons.forEach((button) => {
       if (response.ok) {
         const cardDetails = await response.json();
         console.log(cardDetails);
+        createCardDetailsSection(cardDetails);
       }
     } catch (error) {
       alert(error.message);

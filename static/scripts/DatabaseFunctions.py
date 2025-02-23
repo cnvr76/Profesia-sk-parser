@@ -1,4 +1,4 @@
-from typing import Callable
+from typing import Callable, Tuple, List, Dict
 
 class Functions:
     def __init__(self, executeQuery: Callable):

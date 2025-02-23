@@ -1,41 +1,58 @@
 {
-  "summary": "Hľadá sa talentovaný grafik pre spoločnosť Petit creative na prácu z domu. Náplňou práce je tvorba atraktívnych vizuálov pre rôzne projekty (print, web, sociálne siete). Požadované sú skúsenosti s grafickým dizajnom (minimálne 3 roky), znalosť programov Adobe Photoshop, Illustrator a InDesign, kreativita, schopnosť pracovať na viacerých projektoch súčasne a dodržiavať termíny. Spoločnosť ponúka prácu v dynamickom prostredí a možnosť profesionálneho rastu.  Pracovný pomer je formou živnosti. Uchádzači by mali zaslať životopis a motivačný list v slovenskom jazyku na uvedenú e-mailovú adresu, spolu so súhlasom so spracovaním osobných údajov.  Portfólio je vítané.",
+  "summary": "Hľadá sa kreatívny grafik/grafička pre spoločnosť v Podunajských Biskupiciach.  Náplňou práce je tvorba vizuálov pre eventy (plagáty, letáky, bannery, online grafika atď.), návrh grafických podkladov pre tlač a online, spolupráca s marketingom a produkčným tímom a tvorba vizuálnej identity pre eventy.  Ponúka sa práca na plný alebo skrátený úväzok, na dohodu alebo živnosť.  Mzda je od 1100 EUR/mesiac (hrubého).  Firma ponúka vstupenky na podujatia a ďalšie benefity.",
   "knowledge": [
     {
-      "name": "Grafika",
-      "description": "Minimálne 3 roky aktívnej praxe v grafickom dizajne.  Skúsenosti s tvorbou vizuálov pre print, web a sociálne siete."
+      "name": "Grafický dizajn",
+      "description": "Preukázateľné skúsenosti s grafickým dizajnom (nutné portfólio).  Skúsenosti s eventovou grafikou sú vítané."
     },
     {
       "name": "Softvér",
-      "description": "Pokročilá znalosť Adobe Photoshop, Illustrator a InDesign."
+      "description": "Pokročilá znalosť Adobe Photoshopu a InDesignu.  Mierne pokročilá znalosť Canvy.  Znalosť Adobe Illustratora je výhodou."
     },
     {
-      "name": "Dizajn",
-      "description": "Schopnosť vytvárať atraktívne a inovatívne vizuály."
+      "name": "Tvorba vizuálov",
+      "description": "Schopnosť vytvárať rôzne vizuálne materiály pre eventy (plagáty, letáky, bannery, online grafika, social media content)."
     },
     {
-      "name": "Manažment času",
-      "description": "Schopnosť pracovať na viacerých projektoch súčasne a dodržiavať termíny."
+      "name": "Tímová práca",
+      "description": "Schopnosť pracovať v tíme s marketingovým a produkčným tímom."
     },
     {
-      "name": "Kreativita",
-      "description": "Schopnosť generovať nové a originálne nápady."
+      "name": "Samostatná práca",
+      "description": "Schopnosť samostatne pracovať na projektoch a dodržiavať termíny."
+    },
+    {
+      "name": "Komunikácia",
+      "description": "Komunikácia s kolegami a prípadne klientmi."
+    },
+    {
+      "name": "Kreativita a zmysel pre detail",
+      "description": "Kreatívne myslenie a dôraz na detail v grafických návrhoch."
+    },
+    {
+      "name": "Jazykové znalosti",
+      "description": "Stredne pokročilá znalosť anglického jazyka (B2)."
     }
   ],
-  "frameworks": ["Adobe Photoshop", "Adobe Illustrator", "Adobe InDesign"],
-  "salary": "1 400 EUR/mesiac",
-  "experience": "3 roky",
+  "frameworks": ["Adobe Photoshop", "Adobe InDesign", "Adobe Illustrator", "Canva"],
+  "salary": "1 100 - 1 300 EUR/mesiac (brutto)",
+  "experience": "2 roky praxe v grafickom dizajne",
   "education": [
+    "Stredoškolské bez maturity",
     "Stredoškolské s maturitou",
     "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské I. stupňa",
-    "Vysokoškolské II. stupňa"
+    "Študent vysokej školy"
   ],
-  "other": ["Živnosť", "Portfólio (výhodou)"],
+  "other": ["Portfólio je nutné"],
   "language": [
     {
+      "name": "Anglický",
+      "level": "Stredne pokročilý (B2)"
+    },
+    {
       "name": "Slovenský",
-      "level": "Pokročilý (C1)"
+      "level": "Pokročilý"
     }
-  ]
+  ],
+  "work_type": ["plný úväzok", "skrátený úväzok", "na dohodu", "živnosť"]
 }

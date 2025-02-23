@@ -25,45 +25,82 @@ def home():
 
 @app.route("/<v_id>/details")
 def show_details(v_id):
+    v_id = int(v_id)
     try:
         parser.db.connect()
+        
+        data: Dict = parser.db.executeQuery("SELECT * FROM Vacancies WHERE V_id = ?", (v_id))["view"][0]
 
-        # data: Dict = parser.db.executeQuery("SELECT Link FROM Vacancies WHERE V_id = ?", (v_id))[0]
-        
-        # response: Dict = parser.send_request(link=data["Link"])
-        
-        # prompt: str = parser.ai.make_prompt(
-        #     question="Что мне нужно знать для этой вакансии (на словацком)",
-        #     context=f"Header of the vacancy: {response['header']}\nBody: {response['details']}"
-        # )
-        
-        # answer = parser.ai.ask(prompt)
-        answer = parser.ai.load_json_answer()
-        response = parser.read_from_json(parser.json_last_response)
+        # Getting info for the vacation
+        last_response: Dict = parser.read_from_json(parser.json_last_response)
+        response = last_response
+        detailsExist: bool = data["Salary"] != None
+        answer: Dict = {}
 
-        try:
-            salary: int = int(''.join(re.findall(r"\d+", answer["salary"])))
-            query: str = f"INSERT INTO Vacancies(Salary, Description, haveApplied, hasExpired) VALUES ({salary}, '{answer['summary']}', {int(response['applied'])}, {int(response['expired'])});"
-            result: bool = parser.db.executeQuery(query)
-        except Exception as e:
-            flash(message=f"Problem with writing vacancy to db: {str(e)}")
-            return jsonify({"error": str(e)}), 500
-    
-        for knowledge in answer["knowledge"]:
-            try: 
-                query: str = f"INSERT INTO Knowledges(V_id, Field, Description) VALUES ({v_id}, '{knowledge['name']}', '{knowledge['description']}')"
-                parser.db.executeQuery(query)
+        if v_id == last_response["v_id"]:
+            answer = parser.ai.load_json_answer()
+        # If the row has any type of the missing data
+        elif detailsExist:
+            answer = parser.db.executeQuery("""
+                SELECT Salary as 'salary', Description as 'summary', 
+                                            haveApplied as 'applied', hasExpired as 'expired' 
+                FROM Vacancies
+            """)["view"][0]
+        else:
+            response = parser.send_request(v_id, link=data["Link"])
+            prompt: str = parser.ai.make_prompt(
+                question="Что мне нужно знать для этой вакансии (на словацком) + зарплату бери минимальную и одним числом",
+                context=f"Header of the vacancy: {response['header']}\nBody: {response['details']}"
+            )
+            answer = parser.ai.ask(prompt)
+
+
+        # Writing missing info to db (table Vacations)
+        if not detailsExist:
+            try:
+                salary: int = int(''.join(re.findall(r"\d+", answer["salary"])))
+                parser.db.executeQuery("""
+                    UPDATE Vacancies
+                    SET 
+                        Salary = CASE WHEN Salary IS NULL THEN ? ELSE Salary END,
+                        Description = CASE WHEN Description IS NULL THEN ? ELSE Description END,
+                        haveApplied = CASE WHEN haveApplied IS NULL THEN ? ELSE haveApplied END,
+                        hasExpired = CASE WHEN hasExpired IS NULL THEN ? ELSE hasExpired END
+                    WHERE V_id = ?;
+                """,
+                (salary, answer['summary'], int(response['applied']), int(response['expired']), v_id))
             except Exception as e:
-                flash(message=f"Problem with writing knowledges to db: {str(e)}")
+                flash(message=f"Problem with writing vacancy to db: {str(e)}")
                 return jsonify({"error": str(e)}), 500
+        
+        # Writing info to db (table Knowledges)
+        knowledgesExists: bool = len(parser.db.executeQuery("SELECT * FROM Knowledges WHERE V_id = ?", (v_id))["sqlite"]) > 0
+        if not knowledgesExists:
+            for knowledge in answer["knowledge"]:
+                try: 
+                    parser.db.executeQuery("INSERT INTO Knowledges(V_id, Field, Description) VALUES (?, ?, ?)", 
+                                        (v_id, knowledge['name'], knowledge['description']))
+                except Exception as e:
+                    flash(message=f"Problem with writing knowledges to db: {str(e)}")
+                    return jsonify({"error": str(e)}), 500
 
+        # Final details of the vacancy
         details: Dict = parser.db.executeQuery("""
-            SELECT v.Position, v.Link, v.Company, v.Location, v.Salary, v.haveApplied, v.hasExpired,
-                   k.Field, k.Description
+            SELECT v.Position, v.Link, c.Name as 'Company', l.City as 'Location',
+                    v.Salary, v.haveApplied, v.hasExpired
             FROM Vacancies v
-            JOIN Knowledges k ON k.V_id = v.V_id
+            JOIN Companies c ON c.C_id = v.Company
+            JOIN Locations l ON l.L_id = v.Location
             WHERE v.V_id = ?
-        """, (v_id))[0]
+        """, (v_id))["view"][0]
+
+        knowledges: Dict = parser.db.executeQuery("""
+            SELECT Field, Description
+            FROM Knowledges
+            WHERE V_id = ?
+        """, (v_id))["view"]
+
+        details["Knowledges"] = knowledges
         
         return jsonify(details)
     

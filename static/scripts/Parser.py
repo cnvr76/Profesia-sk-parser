@@ -76,13 +76,14 @@ class Parser:
         return self.vacancies
 
     # TODO - Сделать проверку но то, что уже есть в дб, после чего записать новую инфурмацию
+    # FIXME - Исправить код под sql server (при необходимости)
     def write_to_db(self, vacancies: Dict[str, Dict]) -> Awaitable[bool]:
         # 1. insert into Companies, Locations
         # 2. select c_id from Companies
         # 3. use this info + json to insert into Vacancies
 
         # 1 -------------------
-        # Companies inserts
+        # Companies inserts (code won't be used anymore)
         # try:
         #     companies: Set[str] = set()
         #     for date, propositions in vacancies.items():
@@ -175,7 +176,7 @@ class Parser:
 
         return unique_vacancies
 
-    def send_request(self, link: str, timeout: float = 2) -> Dict[str, str | bool]:
+    def send_request(self, v_id: int, link: str, timeout: float = 2) -> Dict[str, str | bool]:
         page: requests.Request = requests.get(link, timeout=timeout)
         soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -197,6 +198,7 @@ class Parser:
         job_info_text: str = job_info.get_text(separator="\n").strip() if job_info else "No information found"
 
         response: Dict = {
+            "v_id": v_id,
             "header": job_panel_info,
             "details": job_info_text,
             "applied": haveApplied,
