@@ -1,58 +1,49 @@
 {
-  "summary": "Hľadá sa kreatívny grafik/grafička pre spoločnosť v Podunajských Biskupiciach.  Náplňou práce je tvorba vizuálov pre eventy (plagáty, letáky, bannery, online grafika atď.), návrh grafických podkladov pre tlač a online, spolupráca s marketingom a produkčným tímom a tvorba vizuálnej identity pre eventy.  Ponúka sa práca na plný alebo skrátený úväzok, na dohodu alebo živnosť.  Mzda je od 1100 EUR/mesiac (hrubého).  Firma ponúka vstupenky na podujatia a ďalšie benefity.",
+  "summary": "Hľadá sa skúsený účtovník pre spoločnosť so sídlom v Žiline.  Náplň práce zahŕňa vedenie kompletného účtovníctva (tuzemské a zahraničné faktúry, mzdy, majetok, dane atď.), spracovanie daňových priznaní a výkazov, spoluprácu pri inventarizácii a závierke.  Ponúka sa stabilné zamestnanie v medzinárodnej spoločnosti s benefitmi ako školenia, služobný telefón, firemné akcie a príspevok na šport.",
   "knowledge": [
     {
-      "name": "Grafický dizajn",
-      "description": "Preukázateľné skúsenosti s grafickým dizajnom (nutné portfólio).  Skúsenosti s eventovou grafikou sú vítané."
+      "name": "Účtovníctvo",
+      "description": "Pokročilé znalosti podvojného účtovníctva, min. 5 rokov praxe.  Znalosť zákonov SR (zákon o účtovníctve, zákon o dani z príjmov, zákon o DPH)."
+    },
+    {
+      "name": "Daňové priznania",
+      "description": "Skúsenosti so spracovaním daňových priznaní DPH, kontrolných výkazov a súhrnných výkazov, dane z motorových vozidiel."
     },
     {
       "name": "Softvér",
-      "description": "Pokročilá znalosť Adobe Photoshopu a InDesignu.  Mierne pokročilá znalosť Canvy.  Znalosť Adobe Illustratora je výhodou."
-    },
-    {
-      "name": "Tvorba vizuálov",
-      "description": "Schopnosť vytvárať rôzne vizuálne materiály pre eventy (plagáty, letáky, bannery, online grafika, social media content)."
+      "description": "Pokročilá znalosť programu Omega, Microsoft Excel, Outlook, Word."
     },
     {
       "name": "Tímová práca",
-      "description": "Schopnosť pracovať v tíme s marketingovým a produkčným tímom."
+      "description": "Schopnosť pracovať v tíme a efektívne komunikovať s kolegami."
     },
     {
       "name": "Samostatná práca",
-      "description": "Schopnosť samostatne pracovať na projektoch a dodržiavať termíny."
-    },
-    {
-      "name": "Komunikácia",
-      "description": "Komunikácia s kolegami a prípadne klientmi."
-    },
-    {
-      "name": "Kreativita a zmysel pre detail",
-      "description": "Kreatívne myslenie a dôraz na detail v grafických návrhoch."
+      "description": "Schopnosť samostatne a zodpovedne vykonávať pridelené úlohy."
     },
     {
       "name": "Jazykové znalosti",
-      "description": "Stredne pokročilá znalosť anglického jazyka (B2)."
+      "description": "Základná znalosť anglického jazyka (A2)."
     }
   ],
-  "frameworks": ["Adobe Photoshop", "Adobe InDesign", "Adobe Illustrator", "Canva"],
-  "salary": "1 100 - 1 300 EUR/mesiac (brutto)",
-  "experience": "2 roky praxe v grafickom dizajne",
+  "frameworks": ["OMEGA", "Microsoft Excel", "Microsoft Outlook", "Microsoft Word"],
+  "salary": "1600",
+  "experience": "5 rokov praxe v účtovníctve",
   "education": [
-    "Stredoškolské bez maturity",
     "Stredoškolské s maturitou",
     "Nadstavbové/vyššie odborné vzdelanie",
-    "Študent vysokej školy"
+    "Vysokoškolské I. stupňa",
+    "Vysokoškolské II. stupňa"
   ],
-  "other": ["Portfólio je nutné"],
+  "other": [],
   "language": [
-    {
-      "name": "Anglický",
-      "level": "Stredne pokročilý (B2)"
-    },
     {
       "name": "Slovenský",
       "level": "Pokročilý"
+    },
+    {
+      "name": "Anglický",
+      "level": "Základný (A2)"
     }
-  ],
-  "work_type": ["plný úväzok", "skrátený úväzok", "na dohodu", "živnosť"]
+  ]
 }

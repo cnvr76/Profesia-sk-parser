@@ -10,10 +10,11 @@
   gap: 15px;
   padding: 15px;
   border-radius: 15px;
-  max-height: calc(100vh - 100px);
+  height: calc(100vh - 115px);
   overflow-y: scroll; /* Включение прокрутки */
   scrollbar-width: none; /* Firefox */
 }
+
 .vacancies-container::-webkit-scrollbar {
   display: none; /* Safari и Chrome */
 }

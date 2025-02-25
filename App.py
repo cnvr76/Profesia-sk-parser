@@ -1,8 +1,6 @@
 from static.scripts.Parser import Parser
 from flask import Flask, jsonify, render_template, flash
-from datetime import datetime
 from typing import Dict, Tuple, List
-import re
 
 app = Flask(__name__, template_folder="./templates", static_folder="./static")
 
@@ -43,9 +41,10 @@ def show_details(v_id):
         elif detailsExist:
             answer = parser.db.executeQuery("""
                 SELECT Salary as 'salary', Description as 'summary', 
-                                            haveApplied as 'applied', hasExpired as 'expired' 
+                    haveApplied as 'applied', hasExpired as 'expired' 
                 FROM Vacancies
-            """)["view"][0]
+                WHERE V_id = ?
+            """, (v_id,))["view"][0]
         else:
             response = parser.send_request(v_id, link=data["Link"])
             prompt: str = parser.ai.make_prompt(
@@ -58,30 +57,29 @@ def show_details(v_id):
         # Writing missing info to db (table Vacations)
         if not detailsExist:
             try:
-                salary: int = int(''.join(re.findall(r"\d+", answer["salary"])))
-                parser.db.executeQuery("""
-                    UPDATE Vacancies
-                    SET 
-                        Salary = CASE WHEN Salary IS NULL THEN ? ELSE Salary END,
-                        Description = CASE WHEN Description IS NULL THEN ? ELSE Description END,
-                        haveApplied = CASE WHEN haveApplied IS NULL THEN ? ELSE haveApplied END,
-                        hasExpired = CASE WHEN hasExpired IS NULL THEN ? ELSE hasExpired END
-                    WHERE V_id = ?;
-                """,
-                (salary, answer['summary'], int(response['applied']), int(response['expired']), v_id))
+                parser.db.update_vacancy_details(v_id, answer, response)
             except Exception as e:
                 flash(message=f"Problem with writing vacancy to db: {str(e)}")
                 return jsonify({"error": str(e)}), 500
         
         # Writing info to db (table Knowledges)
-        knowledgesExists: bool = len(parser.db.executeQuery("SELECT * FROM Knowledges WHERE V_id = ?", (v_id))["sqlite"]) > 0
-        if not knowledgesExists:
+        knowledgesExist: bool = len(parser.db.executeQuery("SELECT * FROM Knowledges WHERE V_id = ?", (v_id))["sqlite"]) > 0
+        if not knowledgesExist:
             for knowledge in answer["knowledge"]:
-                try: 
+                try:
                     parser.db.executeQuery("INSERT INTO Knowledges(V_id, Field, Description) VALUES (?, ?, ?)", 
                                         (v_id, knowledge['name'], knowledge['description']))
                 except Exception as e:
                     flash(message=f"Problem with writing knowledges to db: {str(e)}")
+                    return jsonify({"error": str(e)}), 500
+                
+        frameworksExist: bool = len(parser.db.executeQuery("SELECT * FROM Frameworks WHERE V_id = ?", (v_id))["sqlite"]) > 0
+        if not frameworksExist:
+            for framework in answer["frameworks"]:
+                try: 
+                    parser.db.executeQuery("INSERT INTO Frameworks(V_id, Name) VALUES (?, ?)", (v_id, framework))
+                except Exception as e:
+                    flash(message=f"Problem with writing frameworks to db: {str(e)}")
                     return jsonify({"error": str(e)}), 500
 
         # Final details of the vacancy
@@ -100,7 +98,14 @@ def show_details(v_id):
             WHERE V_id = ?
         """, (v_id))["view"]
 
+        frameworks: Dict = parser.db.executeQuery("""
+            SELECT Name
+            FROM Frameworks
+            WHERE V_id = ?
+        """, (v_id))["view"]
+
         details["Knowledges"] = knowledges
+        details["Frameworks"] = frameworks
         
         return jsonify(details)
     

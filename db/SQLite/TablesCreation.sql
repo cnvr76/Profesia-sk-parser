@@ -42,6 +42,13 @@ CREATE TABLE Knowledges (
     FOREIGN KEY (V_id) REFERENCES Vacancies(V_id) ON DELETE CASCADE
 );
 
+CREATE TABLE Frameworks (
+    F_id INT IDENTITY(1,1) PRIMARY KEY,
+    V_id INT NOT NULL,
+    Name NVARCHAR(255),
+    FOREIGN KEY (V_id) REFERENCES Vacancies(V_id) ON DELETE CASCADE
+);
+
 CREATE TABLE Responses (
     Resp_id INT IDENTITY(1,1) PRIMARY KEY,
     isPositive BIT NOT NULL,
