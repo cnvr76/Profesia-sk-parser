@@ -1,49 +1,43 @@
 {
-  "summary": "Hľadá sa skúsený účtovník pre spoločnosť so sídlom v Žiline.  Náplň práce zahŕňa vedenie kompletného účtovníctva (tuzemské a zahraničné faktúry, mzdy, majetok, dane atď.), spracovanie daňových priznaní a výkazov, spoluprácu pri inventarizácii a závierke.  Ponúka sa stabilné zamestnanie v medzinárodnej spoločnosti s benefitmi ako školenia, služobný telefón, firemné akcie a príspevok na šport.",
+  "summary": "Hľadá sa komunikatívny a zodpovedný človek pre pozíciu v call centre v Žiline.  Náplňou práce je aktívne oslovovanie zákazníkov, predaj poistných a bankových produktov a práca s interným systémom.  Skúsenosti v call centre sú výhodou, ale nie podmienkou. Ponúka sa stabilná práca v priateľskom tíme, flexibilný pracovný čas (6 alebo 8 hodín denne), možnosť home office, rôzne benefity (Multisport karta, príspevky na stravu, kávu, snack automat) a variabilná zložka mzdy.",
   "knowledge": [
     {
-      "name": "Účtovníctvo",
-      "description": "Pokročilé znalosti podvojného účtovníctva, min. 5 rokov praxe.  Znalosť zákonov SR (zákon o účtovníctve, zákon o dani z príjmov, zákon o DPH)."
+      "name": "Komunikácia",
+      "description": "Výborné komunikačné a prezentačné schopnosti sú kľúčové pre úspech na tejto pozícii."
     },
     {
-      "name": "Daňové priznania",
-      "description": "Skúsenosti so spracovaním daňových priznaní DPH, kontrolných výkazov a súhrnných výkazov, dane z motorových vozidiel."
+      "name": "Predaj",
+      "description": "Obchodný duch a chuť dosahovať predajné výsledky sú žiadúce.  Skúsenosti v predaji sú výhodou, ale nie podmienkou."
     },
     {
-      "name": "Softvér",
-      "description": "Pokročilá znalosť programu Omega, Microsoft Excel, Outlook, Word."
+      "name": "Práca s počítačom",
+      "description": "Základy práce s počítačom, Microsoft Word a Excel."
     },
     {
       "name": "Tímová práca",
-      "description": "Schopnosť pracovať v tíme a efektívne komunikovať s kolegami."
+      "description": "Schopnosť spolupracovať v tíme a samostatne pracovať na výsledkoch."
     },
     {
-      "name": "Samostatná práca",
-      "description": "Schopnosť samostatne a zodpovedne vykonávať pridelené úlohy."
-    },
-    {
-      "name": "Jazykové znalosti",
-      "description": "Základná znalosť anglického jazyka (A2)."
+      "name": "Odolnosť",
+      "description": "Odolnosť voči odmietnutiu a schopnosť udržať si motiváciu."
     }
   ],
-  "frameworks": ["OMEGA", "Microsoft Excel", "Microsoft Outlook", "Microsoft Word"],
-  "salary": "1600",
-  "experience": "5 rokov praxe v účtovníctve",
+  "frameworks": [],
+  "salary": "880",
+  "experience": "Skúsenosti v call centre sú výhodou, ale nie podmienkou.",
   "education": [
-    "Stredoškolské s maturitou",
-    "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské I. stupňa",
-    "Vysokoškolské II. stupňa"
+    "stredoškolské bez maturity",
+    "stredoškolské s maturitou",
+    "nadstavbové/vyššie odborné vzdelanie",
+    "študent vysokej školy",
+    "vysokoškolské I. stupňa",
+    "vysokoškolské II. stupňa"
   ],
   "other": [],
   "language": [
     {
       "name": "Slovenský",
-      "level": "Pokročilý"
-    },
-    {
-      "name": "Anglický",
-      "level": "Základný (A2)"
+      "level": "Expert (C2)"
     }
   ]
 }

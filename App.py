@@ -1,8 +1,18 @@
 from static.scripts.Parser import Parser
 from flask import Flask, jsonify, render_template, flash
 from typing import Dict, Tuple, List
+import os
+import dotenv
+
+# TODO - при сохранении с общего -> обновляется и в деталях, и в общем
+# при сохранении с деталей -> обновляется у обоих, но потом резко в исходное
+
+# TODO - удаление выдает ошибку джсона, но все равно вакансия удаляется при обновлении
+
+dotenv.load_dotenv()
 
 app = Flask(__name__, template_folder="./templates", static_folder="./static")
+app.secret_key = os.getenv("FLASK_SECRET_KEY") 
 
 query_params = {
     "newer_than": (5, "day"),
@@ -17,13 +27,12 @@ def home():
         parser.db.connect()
         data = parser.db.all()
         parser.db.close()
-        return render_template("index_redesign.html", vacancies=data["view"])
+        return render_template("index_redesign.html", vacancies=data["view"]), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/<v_id>/details")
+@app.route("/<int:v_id>/details")
 def show_details(v_id):
-    v_id = int(v_id)
     try:
         parser.db.connect()
         
@@ -60,7 +69,7 @@ def show_details(v_id):
                 parser.db.update_vacancy_details(v_id, answer, response)
             except Exception as e:
                 flash(message=f"Problem with writing vacancy to db: {str(e)}")
-                return jsonify({"error": str(e)}), 500
+                return jsonify({"error": str(e)}), 404
         
         # Writing info to db (table Knowledges)
         knowledgesExist: bool = len(parser.db.executeQuery("SELECT * FROM Knowledges WHERE V_id = ?", (v_id))["sqlite"]) > 0
@@ -71,7 +80,7 @@ def show_details(v_id):
                                         (v_id, knowledge['name'], knowledge['description']))
                 except Exception as e:
                     flash(message=f"Problem with writing knowledges to db: {str(e)}")
-                    return jsonify({"error": str(e)}), 500
+                    return jsonify({"error": str(e)}), 404
                 
         frameworksExist: bool = len(parser.db.executeQuery("SELECT * FROM Frameworks WHERE V_id = ?", (v_id))["sqlite"]) > 0
         if not frameworksExist:
@@ -80,15 +89,16 @@ def show_details(v_id):
                     parser.db.executeQuery("INSERT INTO Frameworks(V_id, Name) VALUES (?, ?)", (v_id, framework))
                 except Exception as e:
                     flash(message=f"Problem with writing frameworks to db: {str(e)}")
-                    return jsonify({"error": str(e)}), 500
+                    return jsonify({"error": str(e)}), 404
 
         # Final details of the vacancy
         details: Dict = parser.db.executeQuery("""
-            SELECT v.Position, v.Link, c.Name as 'Company', l.City as 'Location',
-                    v.Salary, v.haveApplied, v.hasExpired
+            SELECT v.V_id, v.Position, v.Link, c.Name as 'Company', l.City as 'Location',
+                    v.Salary, v.haveApplied, v.hasExpired, s.S_id as 'isStarred'
             FROM Vacancies v
             JOIN Companies c ON c.C_id = v.Company
             JOIN Locations l ON l.L_id = v.Location
+            LEFT JOIN Starred s ON v.V_id = s.V_id                                               
             WHERE v.V_id = ?
         """, (v_id))["view"][0]
 
@@ -107,12 +117,49 @@ def show_details(v_id):
         details["Knowledges"] = knowledges
         details["Frameworks"] = frameworks
         
-        return jsonify(details)
+        return jsonify(details), 200
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     finally:
         parser.db.close()
+
+
+@app.route("/<int:v_id>/delete", methods=["GET", "POST"])
+def delete_vacancy(v_id):
+    try:
+        parser.db.connect()
+        # success: bool = parser.db.executeQuery("DELETE FROM Vacancies WHERE v_id = ?", (v_id,))
+        success: bool = True
+        if success:
+            return jsonify({"executed": success}), 204
+        else:
+            return jsonify({"error": "Not deleted"}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/<int:v_id>/save", methods=["GET", "POST"])
+def save_vacancy(v_id):
+    try:
+        parser.db.connect()
+        parser.db.connect()
+
+        result: Dict[str, List] = parser.db.executeQuery("SELECT V_id FROM Starred WHERE V_id = ?", (v_id,))
+        exists: bool = bool(result.get("view"))
+
+        if exists:
+            executed: bool = parser.db.executeQuery("DELETE FROM Starred WHERE V_id = ?", (v_id,))
+            isStarred: bool = False 
+            flash("Vacancy removed from starred")
+        else:
+            executed: bool = parser.db.executeQuery("INSERT INTO Starred(V_id) VALUES(?)", (v_id,))
+            isStarred: bool = True
+            flash("Vacancy added to starred")
+
+        return jsonify({"executed": executed, "starred": isStarred}), 201
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 

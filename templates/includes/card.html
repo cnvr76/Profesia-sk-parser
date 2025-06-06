@@ -7,16 +7,20 @@
   </div>
   <div class="clickables">
     <div class="icons">
-      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark" data-vac_id="{{ vac['V_id'] }}"></i>
       <!-- <i class="fa-solid fa-star"></i> -->
-      <i class="fa-regular fa-star"></i>
+      {% if vac["isStarred"] %}
+      <i class="fa-solid fa-star" data-vac_id="{{ vac['V_id'] }}"></i>
+      {% else %}
+      <i class="fa-regular fa-star" data-vac_id="{{ vac['V_id'] }}"></i>
+      {% endif %}
     </div>
     <div class="card-buttons">
       <a href="#" class="button details-btn" data-vac_id="{{ vac['V_id'] }}"
         >Details</a
       >
       <a href="{{ vac['Link'] }}" class="button apply-btn" target="_blank"
-        >Apply<i class="fa-solid fa-moon"></i
+        >Apply<i class="fa-solid fa-mo*on"></i
       ></a>
     </div>
   </div>

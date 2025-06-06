@@ -177,7 +177,7 @@ class Parser:
         return unique_vacancies
 
     def send_request(self, v_id: int, link: str, timeout: float = 2) -> Dict[str, str | bool]:
-        page: requests.Request = requests.get(link, timeout=timeout)
+        page: requests.Response = requests.get(link, timeout=timeout)
         soup = BeautifulSoup(page.content, 'html.parser')
 
         haveApplied: bool = soup.find(

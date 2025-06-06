@@ -2,11 +2,13 @@ import pyodbc
 import os
 from typing import Tuple, List, Dict
 from static.scripts.DatabaseFunctions import Functions
-
+import dotenv
 
 class Connector(Functions):
     def __init__(self):
         super().__init__(self.executeQuery)
+
+        dotenv.load_dotenv()
 
         self.connected: bool = False
         self.cursor: pyodbc.Cursor = None
@@ -42,9 +44,9 @@ class Connector(Functions):
             self.cursor.close()
             self.connection.close()
         
-    def executeQuery(self, query: str, params: Tuple = ()) -> Dict[str, List[Tuple | Dict]] | bool:
+    def executeQuery(self, query: str, params: Tuple = None) -> Dict[str, List[Tuple | Dict]] | bool:
         try:
-            self.cursor.execute(query, params)
+            self.cursor.execute(query, params or ())
 
             if self.cursor.description:
                 cols: List[str] = [desc[0] for desc in self.cursor.description]

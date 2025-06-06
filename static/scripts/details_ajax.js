@@ -1,3 +1,5 @@
+import { updateAllIcons } from "./icon_funcs_ajax.js";
+
 const detailsButtons = document.querySelectorAll(".card-buttons .details-btn");
 
 const createCardDetailsSection = async (cardData) => {
@@ -15,51 +17,41 @@ const createCardDetailsSection = async (cardData) => {
       </div>
     </div>
   `;
+
   const buttons = `
-    <!-- Buttons part -->
     <div class="side-btn-container">
-      <i class="fa-solid fa-xmark"></i>
-      <a href=${cardData.Link} class="button apply-btn" target="_blank">Apply</a>
-      <!-- <i class="fa-solid fa-star"></i> -->
-      <i class="fa-regular fa-star"></i>
+      <i class="fa-solid fa-xmark" id="delete-btn-details"></i>
+      <a href=${
+        cardData.Link
+      } class="button apply-btn" target="_blank">Apply</a>
+      <i class="fa-${cardData.isStarred ? "solid" : "regular"} fa-star"
+         id="save-btn-details"
+         data-vac_id="${cardData.V_id}"></i>
     </div>
   `;
 
-  let rowK = "";
-  for (const knowledge of cardData.Knowledges) {
-    rowK += `
-      <p>${knowledge.Field}</p>
-    `;
-  }
+  let rowK = cardData.Knowledges.map(
+    (knowledge) => `<p>${knowledge.Field}</p>`
+  ).join("");
+  let rowF = cardData.Frameworks.map(
+    (framework) => `<p>${framework.Name}</p>`
+  ).join("");
 
-  let rowF = "";
-  for (const framework of cardData.Frameworks) {
-    rowF += `
-      <p>${framework.Name}</p>
-    `;
-  }
   let cardHTML = `
-      <!-- Card -->
       <div class="details-card">
         <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Knowledges</h3>
           <i class="fa-solid fa-chevron-down"></i>
         </div>
-        <div class="details-card-info">
-          ${rowK}
-        </div>
+        <div class="details-card-info">${rowK}</div>
       </div>
-      <!-- Card -->
       <div class="details-card">
         <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Frameworks</h3>
           <i class="fa-solid fa-chevron-down"></i>
         </div>
-        <div class="details-card-info">
-          ${rowF.length > 0 ? rowF : "No data found("}
-        </div>
+        <div class="details-card-info">${rowF || "No data found("}</div>
       </div>
-      <!-- Card -->
       <div class="details-card">
         <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Salary</h3>
@@ -74,7 +66,7 @@ const createCardDetailsSection = async (cardData) => {
         </div>
       </div>
     `;
-  return { cardHTML, detailsCardTitles, buttons };
+  return { detailsCardTitles, cardHTML, buttons };
 };
 
 detailsButtons.forEach((button) => {
@@ -88,6 +80,7 @@ detailsButtons.forEach((button) => {
         const details = await createCardDetailsSection(cardDetails);
 
         const detailsCardPlace = document.getElementById("details-panel");
+        detailsCardPlace.dataset.vac_id = cardDetails.V_id;
         detailsCardPlace.innerHTML = `
           ${details.detailsCardTitles}
           ${details.cardHTML}
@@ -98,4 +91,53 @@ detailsButtons.forEach((button) => {
       alert(error.message);
     }
   });
+});
+
+/*
+const changeIcon = (icon, isSaved) => {
+  if (isSaved) {
+    icon.classList.replace("fa-regular", "fa-solid");
+  } else {
+    icon.classList.replace("fa-solid", "fa-regular");
+  }
+};
+
+document.addEventListener("click", async (event) => {
+  const saveIcon = event.target.closest("#save-btn-details");
+  if (!saveIcon) return;
+
+  const detailsPanel = document.getElementById("details-panel");
+  const id = detailsPanel?.dataset.vac_id;
+  if (!id) return console.error("Vacancy ID not found!");
+
+  try {
+    const response = await fetch(`/${id}/save`);
+    if (response.ok) {
+      const result = await response.json();
+      if (result.executed) changeIcon(saveIcon, result.starred);
+    }
+  } catch (error) {
+    console.error("Error saving vacancy:", error);
+  }
+});
+*/
+
+document.addEventListener("click", async (event) => {
+  const saveIcon = event.target.closest("#save-btn-details");
+  if (!saveIcon) return;
+
+  const vacancyId = saveIcon.dataset.vac_id;
+  if (!vacancyId) return console.error("Vacancy ID not found! (details)");
+
+  try {
+    const response = await fetch(`/${vacancyId}/save`);
+    if (response.ok) {
+      const result = await response.json();
+      if (result.executed) {
+        updateAllIcons(vacancyId, result.starred);
+      }
+    }
+  } catch (error) {
+    console.error("Error saving vacancy:", error);
+  }
 });
