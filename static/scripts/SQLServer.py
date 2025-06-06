@@ -14,7 +14,7 @@ class Connector(Functions):
         self.cursor: pyodbc.Cursor = None
         self.connection: pyodbc.Connection = None
     
-    def connect(self) -> bool:
+    def connect(self) -> pyodbc.Connection:
         driver_name: str = "ODBC Driver 17 for SQL Server"
         server_name: str = os.getenv("SERVER_NAME_SQLSERVER")
         database_name: str = os.getenv("DATABASE_NAME_SQLSERVER")
@@ -32,11 +32,11 @@ class Connector(Functions):
             self.cursor = cursor
             self.connected = True
 
-            return True
+            return self.connection
         except Exception as e:
             print(e)
             self.close()
-            return False
+            return None
         
     def close(self):
         if self.cursor is not None and self.connected:
@@ -44,22 +44,55 @@ class Connector(Functions):
             self.cursor.close()
             self.connection.close()
         
-    def executeQuery(self, query: str, params: Tuple = None) -> Dict[str, List[Tuple | Dict]] | bool:
+    def executeQuery(self, query: str, params: Tuple = None, multi: bool = False) -> Dict | List[Dict]:
         try:
             self.cursor.execute(query, params or ())
-
+            results = []
+            
+            # Обработка для запросов, возвращающих данные
             if self.cursor.description:
-                cols: List[str] = [desc[0] for desc in self.cursor.description]
-                rows: List[pyodbc.Row] = self.cursor.fetchall()
-                return {"view": self._format(cols, rows), "sqlite": rows}
+                while True:
+                    cols = [desc[0] for desc in self.cursor.description]
+                    rows = self.cursor.fetchall()
+                    
+                    result_set = {
+                        "view": self._format(cols, rows),
+                        "rows": rows,
+                        "cols": cols
+                    }
+                    
+                    results.append(result_set)
+                    
+                    # Для multi-режима переходим к следующему набору
+                    if not multi or not self.cursor.nextset():
+                        break
+            
+            # Для запросов без возвращаемых данных (INSERT/UPDATE/DELETE)
             else:
-                # For INSERT, UPDATE, DELETE queries, commit the transaction
                 self.connection.commit()
-                print('Query executed successfully')
-                return True
+                affected_rows = self.cursor.rowcount
+                return {
+                    "success": True,
+                    "rowcount": affected_rows
+                }
+            
+            # Возвращаем результат в зависимости от режима
+            if multi:
+                return results
+            else:
+                return results[0] if results else None
+                
         except Exception as e:
             print("Error executing query:", e)
-            return False
+            # Откатываем транзакцию при ошибке
+            if self.connection:
+                self.connection.rollback()
+                
+            # Возвращаем информацию об ошибке в соответствующем формате
+            if multi:
+                return [{"error": str(e)}]
+            else:
+                return {"error": str(e)}
 
     def _format(self, cols: List[str], rows: List[pyodbc.Row]) -> List[Dict[str, object]]:
         result = []

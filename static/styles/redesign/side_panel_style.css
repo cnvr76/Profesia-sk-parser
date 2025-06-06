@@ -9,7 +9,7 @@
 
 .side-panel {
   background: var(--accent-color);
-  padding: 20px;
+  padding: 10px;
   border-radius: var(--border-radius-section);
   position: relative;
 }
@@ -78,6 +78,7 @@
   /* justify-content: start; */
   gap: 15px;
   overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
 }
 
 .additional-info {

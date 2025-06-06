@@ -73,7 +73,7 @@ detailsButtons.forEach((button) => {
   button.addEventListener("click", async (event) => {
     try {
       const id = event.currentTarget.dataset.vac_id;
-      const response = await fetch(`/${id}/details`);
+      const response = await fetch(`/vacancies/${id}/details`);
       if (response.ok) {
         const cardDetails = await response.json();
         console.log(cardDetails);
@@ -130,7 +130,7 @@ document.addEventListener("click", async (event) => {
   if (!vacancyId) return console.error("Vacancy ID not found! (details)");
 
   try {
-    const response = await fetch(`/${vacancyId}/save`);
+    const response = await fetch(`/vacancies/${vacancyId}/save`);
     if (response.ok) {
       const result = await response.json();
       if (result.executed) {

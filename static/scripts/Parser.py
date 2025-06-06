@@ -26,7 +26,7 @@ class Parser:
         self.ai = Gemini()
         # self.sqlserver = sqlserver_con.Connector()
         # self.sqlite = sqlite_con.Connector()
-        self.db = sqlserver_con.Connector()
+        self.connector = sqlserver_con.Connector()
 
     def get_messages(self) -> List:
         return self.gmail.get_messages(query=construct_query(self.query_params))
@@ -118,10 +118,10 @@ class Parser:
         # except sqlite3.IntegrityError as ie:
         #     print("Locations are already inserted!")
         # 2 -------------------
-        view_companies: List[Tuple] = self.db.executeQuery("SELECT * FROM Companies")["sqlite"]
+        view_companies: List[Tuple] = self.connector.executeQuery("SELECT * FROM Companies")["sqlite"]
         companies_sql: Dict[str, int] = {row[1]: row[0] for row in view_companies}
 
-        view_locations: List[Tuple] = self.db.executeQuery("SELECT * FROM Locations")["sqlite"]
+        view_locations: List[Tuple] = self.connector.executeQuery("SELECT * FROM Locations")["sqlite"]
         locations_sql: Dict[str, int] = {row[1]: row[0] for row in view_locations}
 
         locations_sql2 = locations_sql.copy()
@@ -143,18 +143,18 @@ class Parser:
                 company = details['company']
                 company_id: int = companies_sql.get(company, -1)
                 if company_id == -1:
-                    result: bool = self.db.executeQuery(f"""
+                    result: bool = self.connector.executeQuery(f"""
                         INSERT INTO Companies (Name) VALUES
                         ('{details['company']}');
                     """)
                     if result:
-                        company_id = self.db.executeQuery(
+                        company_id = self.connector.executeQuery(
                             f"SELECT C_id FROM Companies WHERE Name = '{details['company']}'")[0]["C_id"]
                 values.append(f"('{position}', '{details['link']}', {company_id}, {location_id}, '{date}');")
         for value in values:
             try:
                 query: str = f"{query_vacancies} {value}"
-                result: bool = self.db.executeQuery(query)
+                result: bool = self.connector.executeQuery(query)
                 if not result:
                     print("Problem with writing this vacancy: ", value)
             except sqlite3.IntegrityError as ie:

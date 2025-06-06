@@ -1,43 +1,45 @@
 {
-  "summary": "Hľadá sa komunikatívny a zodpovedný človek pre pozíciu v call centre v Žiline.  Náplňou práce je aktívne oslovovanie zákazníkov, predaj poistných a bankových produktov a práca s interným systémom.  Skúsenosti v call centre sú výhodou, ale nie podmienkou. Ponúka sa stabilná práca v priateľskom tíme, flexibilný pracovný čas (6 alebo 8 hodín denne), možnosť home office, rôzne benefity (Multisport karta, príspevky na stravu, kávu, snack automat) a variabilná zložka mzdy.",
+  "summary": "Hľadá sa grafický dizajnér pre spoločnosť Beki Design v Košiciach.  Náplň práce zahŕňa tvorbu grafických vizuálov pre rôznych klientov z rôznych odvetví.  Spoločnosť ponúka stabilné zamestnanie, pravidelné a mimoriadne ohodnotenie, príjemné pracovné prostredie, možnosť vzdelávania a prácu na zaujímavých projektoch.",
   "knowledge": [
     {
+      "name": "Grafický dizajn",
+      "description": "Dôležité sú skúsenosti s grafickým dizajnom a schopnosť previesť predstavy klientov do finálnej podoby.  Zodpovednosť za detail a dokončenie práce."
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "description": "Pokročilá znalosť programov Adobe (Photoshop, Illustrator, InDesign - predpokladá sa)."
+    },
+    {
       "name": "Komunikácia",
-      "description": "Výborné komunikačné a prezentačné schopnosti sú kľúčové pre úspech na tejto pozícii."
+      "description": "Schopnosť komunikovať s klientmi a tímovými kolegami."
     },
     {
-      "name": "Predaj",
-      "description": "Obchodný duch a chuť dosahovať predajné výsledky sú žiadúce.  Skúsenosti v predaji sú výhodou, ale nie podmienkou."
+      "name": "Samostatná práca",
+      "description": "Schopnosť samostatne pracovať na projektoch a riadiť si svoj čas."
     },
     {
-      "name": "Práca s počítačom",
-      "description": "Základy práce s počítačom, Microsoft Word a Excel."
-    },
-    {
-      "name": "Tímová práca",
-      "description": "Schopnosť spolupracovať v tíme a samostatne pracovať na výsledkoch."
-    },
-    {
-      "name": "Odolnosť",
-      "description": "Odolnosť voči odmietnutiu a schopnosť udržať si motiváciu."
+      "name": "Zodpovednosť",
+      "description": "Zmysel pre detail a zodpovednosť za kvalitu výstupov."
     }
   ],
-  "frameworks": [],
-  "salary": "880",
-  "experience": "Skúsenosti v call centre sú výhodou, ale nie podmienkou.",
+  "frameworks": ["Photoshop", "Illustrator", "InDesign"],
+  "salary": "1200",
+  "experience": "2 roky",
   "education": [
-    "stredoškolské bez maturity",
-    "stredoškolské s maturitou",
-    "nadstavbové/vyššie odborné vzdelanie",
-    "študent vysokej školy",
-    "vysokoškolské I. stupňa",
-    "vysokoškolské II. stupňa"
+    "Stredoškolské s maturitou",
+    "Nadstavbové/vyššie odborné vzdelanie",
+    "Vysokoškolské I. stupňa",
+    "Vysokoškolské II. stupňa"
   ],
   "other": [],
   "language": [
     {
+      "name": "Anglický",
+      "level": "B1"
+    },
+    {
       "name": "Slovenský",
-      "level": "Expert (C2)"
+      "level": "Rodný"
     }
   ]
 }
