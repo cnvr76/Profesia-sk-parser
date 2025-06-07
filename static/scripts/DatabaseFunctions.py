@@ -64,6 +64,9 @@ class Functions:
     
     def add_to_starred(self, v_id: int):
         return self.executeQuery("INSERT INTO Starred(V_id) VALUES(?)", (v_id,))
+    
+    def delete_vacancy(self, v_id: int):
+        return self.executeQuery("DELETE FROM Vacancies WHERE v_id = ?", (v_id,))
 
     def update_vacancy_details(self, v_id: int, ai_answer: Dict, parsed_response: Dict) -> None:
         salary: int = int(''.join(re.findall(r"\d+", ai_answer.get("salary", 0))))

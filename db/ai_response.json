@@ -1,45 +1,28 @@
 {
-  "summary": "Hľadá sa grafický dizajnér pre spoločnosť Beki Design v Košiciach.  Náplň práce zahŕňa tvorbu grafických vizuálov pre rôznych klientov z rôznych odvetví.  Vyžaduje sa zodpovednosť, ochota ísť „o krok ďalej“ a dokončovať projekty do detailu.  Spoločnosť ponúka stabilné pracovné prostredie, pravidelné a mimoriadne ohodnotenie, možnosť vzdelávania a prácu v tíme skúsených kolegov.",
+  "summary": "Hľadá sa šikovná kolegyňa na čistiace a upratovacie práce vo výrobnom závode v Žiline. Práca na plný úväzok (8 hodín denne). Skúsenosti s upratovaním sú vítané, ale nie sú podmienkou. Ponúka sa dlhodobá práca, stravné lístky a štandardná dovolenka.",
   "knowledge": [
     {
-      "name": "Grafický dizajn",
-      "description": "Dôležitá je prax v grafickom dizajne, minimálne 2 roky."
-    },
-    {
-      "name": "Softvér",
-      "description": "Pokročilá znalosť programov Adobe (Photoshop, Illustrator, atď.) je nevyhnutná."
+      "name": "Upratovanie",
+      "description": "Základné znalosti a skúsenosti s čistením a upratovaním výrobných hál, kancelárií a šatní sú vítané."
     },
     {
       "name": "Zodpovednosť",
-      "description": "Schopnosť samostatne pracovať na projektoch a doviesť ich do úspešného konca s dôrazom na detaily."
-    },
-    {
-      "name": "Komunikácia",
-      "description": "Schopnosť komunikovať s klientmi a kolegami."
-    },
-    {
-      "name": "Tímová práca",
-      "description": "Schopnosť pracovať v tíme a vzájomne si pomáhať."
+      "description": "Zodpovedný prístup k práci a dodržiavanie pokynov."
     }
   ],
-  "frameworks": ["Adobe Photoshop", "Adobe Illustrator", "iné Adobe programy"],
-  "salary": "1200",
-  "experience": "2 roky",
+  "frameworks": [],
+  "salary": "840",
+  "experience": "Skúsenosti s upratovaním vítané, ale nie sú podmienkou.",
   "education": [
+    "Stredoškolské bez maturity",
     "Stredoškolské s maturitou",
-    "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské I. stupňa",
-    "Vysokoškolské II. stupňa"
+    "Nadstavbové/vyššie odborné vzdelanie"
   ],
   "other": [],
   "language": [
     {
-      "name": "Anglický",
-      "level": "Mierne pokročilý (B1)"
-    },
-    {
       "name": "Slovenský",
-      "level": "Rodilý"
+      "level": "Pokročilý (aspoň na komunikáciu)"
     }
   ]
 }

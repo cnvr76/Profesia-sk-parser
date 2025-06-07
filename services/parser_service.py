@@ -79,7 +79,14 @@ class ParserService:
             self.conn.close()
 
     def delete_vacancy(self, v_id: int):
-        pass
+        try:
+            self.conn.connect()
+            success: bool = self.conn.delete_vacancy(v_id)
+            return {"executed": success}
+        except Exception as e:
+            return {"executed": False, "error": str(e)}
+        finally:
+            self.conn.close()
 
     def star_vacancy(self, v_id: int):
         try:

@@ -10,6 +10,7 @@
   background: rgb(0, 0, 0, 30%);
   padding: 25px;
   border-radius: 20px;
+  transition: opacity 0.3s ease;
 }
 .card .info-text {
   display: flex;

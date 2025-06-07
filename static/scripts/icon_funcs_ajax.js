@@ -4,18 +4,25 @@ const saveIcons = document.querySelectorAll(".fa-star");
 deleteIcons.forEach((icon) => {
   icon.addEventListener("click", async (event) => {
     const id = event.currentTarget.dataset.vac_id;
+    const card = event.target.closest(".card"); // Находим родительскую карточку
+
     try {
-      const response = await fetch(`/vacancies/${id}/delete`);
-      if (response.ok) {
-        const { hasExecuted, isDeleted } = await response.json();
-        alert(
-          `Vacancy deleted: ${
-            hasExecuted && isDeleted ? "successfuly" : "failed"
-          }!`
-        );
+      const response = await fetch(`/vacancies/${id}/delete`, {
+        method: "DELETE", // Явно указываем метод DELETE
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.hasExecuted && result.isDeleted) {
+        // Плавно скрываем и удаляем карточку
+        card.style.transition = "opacity 0.3s";
+        card.style.opacity = "0";
+        setTimeout(() => card.remove(), 300); // Удаляем после анимации
+      } else {
+        alert(`Failed to delete vacancy: ${result.error || "Unknown error"}`);
       }
     } catch (error) {
-      alert("Error fetching deleting: " + error);
+      alert("Error deleting vacancy: " + error);
     }
   });
 });
