@@ -59,13 +59,19 @@ class Functions:
             "Frameworks": result[2]["view"]
         }
     
-    def update_vacancy_details(self, v_id: int, answer: Dict, response: Dict) -> None:
-        salary: int = int(''.join(re.findall(r"\d+", answer.get("salary", 0))))
+    def remove_from_starred(self, v_id: int):
+        return self.executeQuery("DELETE FROM Starred WHERE V_id = ?", (v_id,))
+    
+    def add_to_starred(self, v_id: int):
+        return self.executeQuery("INSERT INTO Starred(V_id) VALUES(?)", (v_id,))
+
+    def update_vacancy_details(self, v_id: int, ai_answer: Dict, parsed_response: Dict) -> None:
+        salary: int = int(''.join(re.findall(r"\d+", ai_answer.get("salary", 0))))
         params = (
             salary,
-            answer.get("summary"),
-            int(response.get("applied", False)),
-            int(response.get("expired", False)),
+            ai_answer.get("summary"),
+            int(parsed_response.get("applied", False)),
+            int(parsed_response.get("expired", False)),
             v_id
         )
         return self.executeQuery("""

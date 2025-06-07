@@ -1,28 +1,28 @@
 {
-  "summary": "Hľadá sa grafický dizajnér pre spoločnosť Beki Design v Košiciach.  Náplň práce zahŕňa tvorbu grafických vizuálov pre rôznych klientov z rôznych odvetví.  Spoločnosť ponúka stabilné zamestnanie, pravidelné a mimoriadne ohodnotenie, príjemné pracovné prostredie, možnosť vzdelávania a prácu na zaujímavých projektoch.",
+  "summary": "Hľadá sa grafický dizajnér pre spoločnosť Beki Design v Košiciach.  Náplň práce zahŕňa tvorbu grafických vizuálov pre rôznych klientov z rôznych odvetví.  Vyžaduje sa zodpovednosť, ochota ísť „o krok ďalej“ a dokončovať projekty do detailu.  Spoločnosť ponúka stabilné pracovné prostredie, pravidelné a mimoriadne ohodnotenie, možnosť vzdelávania a prácu v tíme skúsených kolegov.",
   "knowledge": [
     {
       "name": "Grafický dizajn",
-      "description": "Dôležité sú skúsenosti s grafickým dizajnom a schopnosť previesť predstavy klientov do finálnej podoby.  Zodpovednosť za detail a dokončenie práce."
+      "description": "Dôležitá je prax v grafickom dizajne, minimálne 2 roky."
     },
     {
-      "name": "Adobe Creative Suite",
-      "description": "Pokročilá znalosť programov Adobe (Photoshop, Illustrator, InDesign - predpokladá sa)."
-    },
-    {
-      "name": "Komunikácia",
-      "description": "Schopnosť komunikovať s klientmi a tímovými kolegami."
-    },
-    {
-      "name": "Samostatná práca",
-      "description": "Schopnosť samostatne pracovať na projektoch a riadiť si svoj čas."
+      "name": "Softvér",
+      "description": "Pokročilá znalosť programov Adobe (Photoshop, Illustrator, atď.) je nevyhnutná."
     },
     {
       "name": "Zodpovednosť",
-      "description": "Zmysel pre detail a zodpovednosť za kvalitu výstupov."
+      "description": "Schopnosť samostatne pracovať na projektoch a doviesť ich do úspešného konca s dôrazom na detaily."
+    },
+    {
+      "name": "Komunikácia",
+      "description": "Schopnosť komunikovať s klientmi a kolegami."
+    },
+    {
+      "name": "Tímová práca",
+      "description": "Schopnosť pracovať v tíme a vzájomne si pomáhať."
     }
   ],
-  "frameworks": ["Photoshop", "Illustrator", "InDesign"],
+  "frameworks": ["Adobe Photoshop", "Adobe Illustrator", "iné Adobe programy"],
   "salary": "1200",
   "experience": "2 roky",
   "education": [
@@ -35,11 +35,11 @@
   "language": [
     {
       "name": "Anglický",
-      "level": "B1"
+      "level": "Mierne pokročilý (B1)"
     },
     {
       "name": "Slovenský",
-      "level": "Rodný"
+      "level": "Rodilý"
     }
   ]
 }

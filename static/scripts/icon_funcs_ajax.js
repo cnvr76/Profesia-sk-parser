@@ -5,7 +5,7 @@ deleteIcons.forEach((icon) => {
   icon.addEventListener("click", async (event) => {
     const id = event.currentTarget.dataset.vac_id;
     try {
-      const response = await fetch(`/${id}/delete`);
+      const response = await fetch(`/vacancies/${id}/delete`);
       if (response.ok) {
         const { hasExecuted, isDeleted } = await response.json();
         alert(
@@ -63,7 +63,7 @@ document.addEventListener("click", async (event) => {
   if (!vacancyId) return console.error("Vacancy ID not found! (funcs)");
 
   try {
-    const response = await fetch(`/${vacancyId}/save`);
+    const response = await fetch(`/vacancies/${vacancyId}/star`);
     if (response.ok) {
       const result = await response.json();
       if (result.executed) {

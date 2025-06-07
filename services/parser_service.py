@@ -82,6 +82,23 @@ class ParserService:
         pass
 
     def star_vacancy(self, v_id: int):
-        pass
+        try:
+            self.conn.connect()
+
+            result: Dict[str, List] = self.conn.executeQuery("SELECT V_id FROM Starred WHERE V_id = ?", (v_id,))
+            exists: bool = bool(result.get("view"))
+
+            if exists:
+                executed: bool = self.conn.remove_from_starred(v_id)
+                isStarred: bool = False 
+            else:
+                executed: bool = self.conn.add_to_starred(v_id)
+                isStarred: bool = True
+            
+            return {"executed": executed, "starred": isStarred}
+        except Exception as e:
+            return {f"error ({__name__})": str(e)}
+        finally:
+            self.conn.close()
 
 parser_service: ParserService = ParserService()
