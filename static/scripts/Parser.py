@@ -8,6 +8,7 @@ import simplejson as json
 from bs4 import BeautifulSoup
 from simplegmail import Gmail
 from simplegmail.query import construct_query
+from datetime import datetime
 
 import static.scripts.SQLServer as sqlserver_con 
 # import static.scripts.SQLite as sqlite_con
@@ -75,9 +76,14 @@ class Parser:
             self.vacancies[msg.date] = vacancy
         return self.vacancies
 
+    def parse_date(self, date: str) -> str:
+        parsed_date: datetime = datetime.strptime(date, "%Y-%m-%d %H:%M:%S%z")
+        sql_date: str = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
+        return sql_date
+
     # TODO - Сделать проверку но то, что уже есть в дб, после чего записать новую инфурмацию
     # FIXME - Исправить код под sql server (при необходимости)
-    def write_to_db(self, vacancies: Dict[str, Dict]) -> Awaitable[bool]:
+    def write_to_db(self, vacancies: Dict[str, Dict]) -> None:
         # 1. insert into Companies, Locations
         # 2. select c_id from Companies
         # 3. use this info + json to insert into Vacancies
@@ -118,10 +124,10 @@ class Parser:
         # except sqlite3.IntegrityError as ie:
         #     print("Locations are already inserted!")
         # 2 -------------------
-        view_companies: List[Tuple] = self.connector.executeQuery("SELECT * FROM Companies")["sqlite"]
+        view_companies: List[Tuple] = self.connector.executeQuery("SELECT * FROM Companies")["rows"]
         companies_sql: Dict[str, int] = {row[1]: row[0] for row in view_companies}
 
-        view_locations: List[Tuple] = self.connector.executeQuery("SELECT * FROM Locations")["sqlite"]
+        view_locations: List[Tuple] = self.connector.executeQuery("SELECT * FROM Locations")["rows"]
         locations_sql: Dict[str, int] = {row[1]: row[0] for row in view_locations}
 
         locations_sql2 = locations_sql.copy()
@@ -134,6 +140,9 @@ class Parser:
             if len(propositions) == 0:
                 continue
             for position, details in propositions.items():
+                positionExists = self.connector.is_position_exists(position)
+                if positionExists:
+                    continue
 
                 location_id = next(
                     (id for city, id in locations_sql2.items() if city in details["location"]),
@@ -141,16 +150,17 @@ class Parser:
                 )
 
                 company = details['company']
-                company_id: int = companies_sql.get(company, -1)
-                if company_id == -1:
-                    result: bool = self.connector.executeQuery(f"""
-                        INSERT INTO Companies (Name) VALUES
-                        ('{details['company']}');
-                    """)
+                company_id: int | None = companies_sql.get(company)
+                if not company_id:
+                    result: bool = self.connector.executeQuery("""
+                        INSERT INTO Companies (Name) VALUES (?);
+                    """, (details['company'],))
                     if result:
                         company_id = self.connector.executeQuery(
-                            f"SELECT C_id FROM Companies WHERE Name = '{details['company']}'")[0]["C_id"]
-                values.append(f"('{position}', '{details['link']}', {company_id}, {location_id}, '{date}');")
+                            "SELECT C_id FROM Companies WHERE Name = ?", 
+                            (details['company'],))["view"][0]["C_id"]
+                parsed_date = self.parse_date(date)
+                values.append(f"('{position}', '{details['link']}', {company_id}, {location_id}, '{parsed_date}');")
         for value in values:
             try:
                 query: str = f"{query_vacancies} {value}"

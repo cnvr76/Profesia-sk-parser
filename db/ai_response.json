@@ -1,28 +1,54 @@
 {
-  "summary": "Hľadá sa šikovná kolegyňa na čistiace a upratovacie práce vo výrobnom závode v Žiline. Práca na plný úväzok (8 hodín denne). Skúsenosti s upratovaním sú vítané, ale nie sú podmienkou. Ponúka sa dlhodobá práca, stravné lístky a štandardná dovolenka.",
+  "summary": "Elisa Polystar hľadá nadšených vývojárov pre prácu na vysoko výkonnom distribuovanom monitorovacom systéme v telekomunikačnom sektore.  Ponúka sa flexibilná práca (hybridný model), atraktívne benefity a možnosť profesionálneho rastu.",
   "knowledge": [
     {
-      "name": "Upratovanie",
-      "description": "Základné znalosti a skúsenosti s čistením a upratovaním výrobných hál, kancelárií a šatní sú vítané."
+      "name": "Java",
+      "description": "Potrebné sú pevné skúsenosti s Javou ako full-stack alebo back-end vývojárom."
     },
     {
-      "name": "Zodpovednosť",
-      "description": "Zodpovedný prístup k práci a dodržiavanie pokynov."
+      "name": "Linux",
+      "description": "Dôležité sú znalosti Linuxu."
+    },
+    {
+      "name": "Kubernetes",
+      "description": "Skúsenosti s nasadzovaním a správou aplikácií v prostredí Kubernetes."
+    },
+    {
+      "name": "Telekomunikačné protokoly",
+      "description": "Znalosti v oblasti signálov, protokolov a mobilných sietí sú výhodou."
+    },
+    {
+      "name": "CI/CD",
+      "description": "Znalosť a skúsenosť s procesmi Continuous Integration/Continuous Delivery."
+    },
+    {
+      "name": "Riešenie problémov",
+      "description": "Schopnosť riešiť zložité problémy v interných a výrobných systémoch."
+    },
+    {
+      "name": "Tímová práca",
+      "description": "Schopnosť pracovať v tíme a podporovať kolegov."
     }
   ],
   "frameworks": [],
-  "salary": "840",
-  "experience": "Skúsenosti s upratovaním vítané, ale nie sú podmienkou.",
+  "salary": "3000",
+  "experience": "Pevné skúsenosti ako full-stack alebo back-end developer",
   "education": [
-    "Stredoškolské bez maturity",
     "Stredoškolské s maturitou",
-    "Nadstavbové/vyššie odborné vzdelanie"
+    "Nadstavbové/vyššie odborné vzdelanie",
+    "Vysokoškolské (bakalárske)",
+    "Vysokoškolské (magisterské)",
+    "Doktorandské"
   ],
   "other": [],
   "language": [
     {
+      "name": "Anglický",
+      "level": "Horná stredná (B2)"
+    },
+    {
       "name": "Slovenský",
-      "level": "Pokročilý (aspoň na komunikáciu)"
+      "level": "Rodilý"
     }
   ]
 }

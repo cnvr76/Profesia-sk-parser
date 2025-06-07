@@ -40,7 +40,9 @@
 }
 
 #newest-btn,
-#filters-btn {
+#filters-btn,
+#home-btn,
+#tinder-btn {
   padding: 10px 20px;
   border-radius: 10px;
 }
@@ -50,6 +52,12 @@
 #filters-btn {
   background: var(--btn-color-2);
   min-width: 130px;
+}
+#home-btn {
+  background: var(--btn-color-1);
+}
+#tinder-btn {
+  background: var(--btn-color-1);
 }
 
 .bar .right-part img {

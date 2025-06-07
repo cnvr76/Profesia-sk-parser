@@ -7,11 +7,12 @@ class Functions:
 
     def all(self):
         query: str = """
-            SELECT v.V_id, v.Position, v.Link, c.Name as 'Company', l.City as 'Location', s.S_id as 'isStarred'
+            SELECT v.V_id, v.Position, v.Link, c.Name as 'Company', l.City as 'Location', s.S_id as 'isStarred', v.Date
             FROM Vacancies v
             JOIN Locations l ON l.L_id = v.Location
             JOIN Companies c ON c.C_id = v.Company
-            LEFT JOIN Starred s ON v.V_id = s.V_id  
+            LEFT JOIN Starred s ON v.V_id = s.V_id 
+            ORDER BY v.Date desc
         """
         return self.executeQuery(query)["view"]
     
@@ -59,6 +60,10 @@ class Functions:
             "Frameworks": result[2]["view"]
         }
     
+    def is_position_exists(self, position: str) -> bool:
+        result = self.executeQuery("SELECT 1 FROM Vacancies WHERE Position = ?", (position,))["rows"]
+        return len(result) > 0
+
     def remove_from_starred(self, v_id: int):
         return self.executeQuery("DELETE FROM Starred WHERE V_id = ?", (v_id,))
     

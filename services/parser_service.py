@@ -21,6 +21,15 @@ class ParserService:
     def engine(self):
         return self.__parser
 
+    def load_all_data(self):
+        try:
+            self.conn.connect()
+            return self.conn.all()
+        except Exception as e:
+            return {f"error ({__name__})": str(e)}
+        finally:
+            self.conn.close()
+
     def get_vacancy_details(self, v_id: int) -> Dict:
         try:
             self.conn.connect()
@@ -105,6 +114,22 @@ class ParserService:
             return {"executed": executed, "starred": isStarred}
         except Exception as e:
             return {f"error ({__name__})": str(e)}
+        finally:
+            self.conn.close()
+
+    def load_newest_vacancies(self):
+        try:
+            messages = self.engine.get_messages()
+            parsed_messages = self.engine.parse_messages(messages)
+            unique_vacancies = self.engine.remove_duplicates(parsed_messages, replace=True)
+            
+            self.conn.connect()
+            self.engine.write_to_db(unique_vacancies)
+
+            return {"executed": True}
+        except Exception as e:
+            return {f"error ({__name__})": str(e),
+                    "executed": False}
         finally:
             self.conn.close()
 

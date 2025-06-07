@@ -1,29 +1,22 @@
 from flask import Blueprint, render_template, jsonify, flash
 from services.parser_service import parser_service
-from static.scripts.utilities import specify_error
+from static.scripts.utilities import handle_errors
 
 bp = Blueprint("vacancies", __name__, url_prefix='/vacancies')
 
 @bp.route("/<int:v_id>/details")
-@specify_error
+@handle_errors
 def show_details(v_id: int):
-    try:
-        details = parser_service.get_vacancy_details(v_id)
-        return jsonify(details), 200
-    except Exception as e:
-        return jsonify({f"error ({__name__})": str(e)}), 500
+    details = parser_service.get_vacancy_details(v_id)
+    return jsonify(details), 200
     
-@bp.route("/<int:v_id>/star")
-@specify_error
+@bp.route("/<int:v_id>/star", methods=["POST"])
+@handle_errors
 def star_vacancy(v_id: int):
-    try:
-        result = parser_service.star_vacancy(v_id)
-        return jsonify(result), 200
-    except Exception as e:
-        return jsonify({f"error ({__name__})": str(e)}), 500
+    result = parser_service.star_vacancy(v_id)
+    return jsonify(result), 200
     
 @bp.route("/<int:v_id>/delete", methods=["DELETE"])
-@specify_error
 def delete_vacancy(v_id: int):
     try:
         result = parser_service.delete_vacancy(v_id)

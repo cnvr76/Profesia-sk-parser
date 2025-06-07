@@ -2,7 +2,7 @@ from flask import Flask
 import os
 import dotenv
 
-# TODO - удаление выдает ошибку джсона, но все равно вакансия удаляется при обновлении
+from routes import home
 
 def create_app() -> Flask:
     dotenv.load_dotenv()
@@ -13,8 +13,9 @@ def create_app() -> Flask:
                 )
     app.secret_key = os.getenv("FLASK_SECRET_KEY")
     
-    from routes import main, vacancies
-    app.register_blueprint(main.bp)
+    from routes import home, vacancies, top_bar
+    app.register_blueprint(home.bp)
     app.register_blueprint(vacancies.bp)
+    app.register_blueprint(top_bar.bp)
 
     return app

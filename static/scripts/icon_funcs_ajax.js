@@ -63,18 +63,23 @@ saveIcons.forEach((icon) => {
 */
 
 document.addEventListener("click", async (event) => {
-  const saveIcon = event.target.closest(".fa-star"); // Ловим клик по звездочке
+  const saveIcon = event.target.closest(".fa-star");
   if (!saveIcon) return;
 
-  const vacancyId = saveIcon.dataset.vac_id; // Получаем ID вакансии
+  const vacancyId = saveIcon.dataset.vac_id;
   if (!vacancyId) return console.error("Vacancy ID not found! (funcs)");
 
   try {
-    const response = await fetch(`/vacancies/${vacancyId}/star`);
+    const response = await fetch(`/vacancies/${vacancyId}/star`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
     if (response.ok) {
       const result = await response.json();
       if (result.executed) {
-        updateAllIcons(vacancyId, result.starred); // Обновляем все иконки с этим ID
+        updateAllIcons(vacancyId, result.starred);
       }
     }
   } catch (error) {
