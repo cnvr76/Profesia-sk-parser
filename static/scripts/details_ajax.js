@@ -43,7 +43,7 @@ const createCardDetailsSection = async (cardData) => {
           <h3><i class="fa-solid fa-gear"></i>Knowledges</h3>
           <i class="fa-solid fa-chevron-down"></i>
         </div>
-        <div class="details-card-info">${rowK}</div>
+        <div class="details-card-info">${rowK || "No data found("}</div>
       </div>
       <div class="details-card">
         <div class="details-card-name">

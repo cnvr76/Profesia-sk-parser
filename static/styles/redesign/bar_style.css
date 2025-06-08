@@ -25,7 +25,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(0deg, var(--btn-color-icons) 50%, black 70%);
+  background: linear-gradient(
+    0deg,
+    var(--btn-color-icons) 50%,
+    rgba(0, 0, 0, 0) 70%
+  );
   background-size: 100% 200%;
   background-position: top;
   width: 40px;
@@ -40,9 +44,9 @@
 }
 
 #newest-btn,
-#filters-btn,
 #home-btn,
-#tinder-btn {
+#tinder-btn,
+#filters-btn {
   padding: 10px 20px;
   border-radius: 10px;
 }
@@ -58,6 +62,46 @@
 }
 #tinder-btn {
   background: var(--btn-color-1);
+}
+#filters-btn {
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  background-color: var(--btn-color-2);
+  padding: 10px;
+  border-radius: 0 10px 10px 10px;
+  width: 120%;
+}
+.dropdown-content a {
+  color: rgba(255, 255, 255, 0.619);
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+.dropdown-content a:hover {
+  color: white;
+}
+#selected {
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgba(50, 30, 87, 1) 30%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  padding: 5px 13px;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: 95%;
+  top: 5px;
+  z-index: -1;
+  text-wrap: nowrap;
 }
 
 .bar .right-part img {

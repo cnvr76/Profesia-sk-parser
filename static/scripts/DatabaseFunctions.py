@@ -1,29 +1,24 @@
 from typing import Callable, Tuple, List, Dict, Callable, Any
 import re
+from datetime import datetime
 
 class Functions:
     def __init__(self, executeQuery: Callable):
         self.executeQuery = executeQuery
 
-    def all(self):
+    def all(self) -> Dict[str, Any]:
         query: str = """
-            SELECT v.V_id, v.Position, v.Link, c.Name as 'Company', l.City as 'Location', s.S_id as 'isStarred', v.Date
-            FROM Vacancies v
-            JOIN Locations l ON l.L_id = v.Location
-            JOIN Companies c ON c.C_id = v.Company
-            LEFT JOIN Starred s ON v.V_id = s.V_id 
-            ORDER BY v.Date desc
+            SELECT * FROM AllVacanciesInfo
+            ORDER BY Date desc
         """
         return self.executeQuery(query)["view"]
     
-    def get_vacancy_by_id(self, v_id: int):
+    def get_vacancy_by_id(self, v_id: int) -> Dict[str, Any]:
         return self.executeQuery("SELECT * FROM Vacancies WHERE V_id = ?", (v_id))["view"][0]
     
-    def get_vacancy_metadata(self, v_id: int):
+    def get_vacancy_metadata(self, v_id: int) -> Dict[str, Any]:
         query: str = """
-            SELECT Salary as 'salary', Description as 'summary', 
-                haveApplied as 'applied', hasExpired as 'expired' 
-            FROM Vacancies
+            SELECT * FROM VacanciesMetadata
             WHERE V_id = ?
         """
         return self.executeQuery(query, (v_id,))["view"][0]
@@ -49,10 +44,10 @@ class Functions:
                 except Exception as e:
                     return {f"error ({__name__})": str(e)}
     
-    def delete_from(self, table: str):
-        return self.executeQuery(f"DELETE FROM {table}")
+    def delete_from(self, table: str) -> bool:
+        return self.executeQuery(f"DELETE FROM {table}").get("success", False)
     
-    def get_full_vacancy_details(self, v_id: int):
+    def get_full_vacancy_details(self, v_id: int) -> Dict[str, Any]:
         result = self.executeQuery("EXEC GetVacancyDetails ?", (v_id,), multi=True)
         return {
             **result[0]["view"][0],
@@ -64,14 +59,14 @@ class Functions:
         result = self.executeQuery("SELECT 1 FROM Vacancies WHERE Position = ?", (position,))["rows"]
         return len(result) > 0
 
-    def remove_from_starred(self, v_id: int):
-        return self.executeQuery("DELETE FROM Starred WHERE V_id = ?", (v_id,))
+    def remove_from_starred(self, v_id: int) -> bool:
+        return self.executeQuery("DELETE FROM Starred WHERE V_id = ?", (v_id,)).get("success", False)
     
-    def add_to_starred(self, v_id: int):
-        return self.executeQuery("INSERT INTO Starred(V_id) VALUES(?)", (v_id,))
+    def add_to_starred(self, v_id: int) -> bool:
+        return self.executeQuery("INSERT INTO Starred(V_id) VALUES(?)", (v_id,)).get("success", False)
     
-    def delete_vacancy(self, v_id: int):
-        return self.executeQuery("DELETE FROM Vacancies WHERE v_id = ?", (v_id,))
+    def delete_vacancy(self, v_id: int) -> bool:
+        return self.executeQuery("DELETE FROM Vacancies WHERE v_id = ?", (v_id,)).get("success", False)
 
     def update_vacancy_details(self, v_id: int, ai_answer: Dict, parsed_response: Dict) -> None:
         salary: int = int(''.join(re.findall(r"\d+", ai_answer.get("salary", 0))))

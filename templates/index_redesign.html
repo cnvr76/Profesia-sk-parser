@@ -21,6 +21,11 @@
       type="module"
       defer
     ></script>
+    <script
+      src="{{ url_for('static', filename='scripts/filters.js') }}"
+      type="module"
+      defer
+    ></script>
 
     <title>Parser | Main page</title>
     <link
@@ -78,10 +83,8 @@
                 <i class="fa-solid fa-arrow-down-wide-short"></i>
                 Filters
               </button>
-              <!-- <div class="dropdown-content">
-                      <a href="#">Show all</a>
-                      <a href="#">Show applied to</a>
-                    </div> -->
+              <span id="selected"></span>
+              <div class="dropdown-content"></div>
             </div>
           </div>
           <!-- right side -->

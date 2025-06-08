@@ -1,54 +1,59 @@
 {
-  "summary": "Elisa Polystar hľadá nadšených vývojárov pre prácu na vysoko výkonnom distribuovanom monitorovacom systéme v telekomunikačnom sektore.  Ponúka sa flexibilná práca (hybridný model), atraktívne benefity a možnosť profesionálneho rastu.",
+  "summary": "Hľadá sa šikovný brigádnik/brigádnička na marketing s flexibilným pracovným časom.  Náplň práce zahŕňa online analýzy, monitoring reklám, aktualizáciu produktov na e-shopoch, jednoduché grafické úpravy v Canve, pomoc pri marketingových kampaniach a komunikáciu.  Ponúka sa príjemné pracovné prostredie a možnosť získať cenné skúsenosti v marketingu s potenciálom na trvalý pracovný pomer.",
   "knowledge": [
     {
-      "name": "Java",
-      "description": "Potrebné sú pevné skúsenosti s Javou ako full-stack alebo back-end vývojárom."
+      "name": "Online analýzy",
+      "description": "Schopnosť vyhľadávať a analyzovať informácie online."
     },
     {
-      "name": "Linux",
-      "description": "Dôležité sú znalosti Linuxu."
+      "name": "Monitoring reklám a zmienok",
+      "description": "Sledovanie reklám a zmienok o značkách a produktoch."
     },
     {
-      "name": "Kubernetes",
-      "description": "Skúsenosti s nasadzovaním a správou aplikácií v prostredí Kubernetes."
+      "name": "Aktualizácia e-shopov",
+      "description": "Aktualizácia produktov a popisov na e-shopoch."
     },
     {
-      "name": "Telekomunikačné protokoly",
-      "description": "Znalosti v oblasti signálov, protokolov a mobilných sietí sú výhodou."
+      "name": "Grafické úpravy (Canva)",
+      "description": "Základná znalosť práce s programom Canva."
     },
     {
-      "name": "CI/CD",
-      "description": "Znalosť a skúsenosť s procesmi Continuous Integration/Continuous Delivery."
+      "name": "Marketingové kampane",
+      "description": "Pomoc pri príprave a plánovaní marketingových kampaní (vyhľadávanie inšpirácií, návrhy, idey)."
     },
     {
-      "name": "Riešenie problémov",
-      "description": "Schopnosť riešiť zložité problémy v interných a výrobných systémoch."
+      "name": "Komunikácia",
+      "description": "Jednoduchá e-mailová a telefonická komunikácia."
     },
     {
-      "name": "Tímová práca",
-      "description": "Schopnosť pracovať v tíme a podporovať kolegov."
+      "name": "Newslettery a online výstupy",
+      "description": "Spolupráca na príprave newsletterov a ďalších online výstupov."
+    },
+    {
+      "name": "Microsoft Office",
+      "description": "Základná znalosť Wordu, PowerPointu a Outlooku; základný Excel."
     }
   ],
-  "frameworks": [],
-  "salary": "3000",
-  "experience": "Pevné skúsenosti ako full-stack alebo back-end developer",
+  "frameworks": ["Canva"],
+  "salary": "7 EUR/hod.",
+  "experience": "Nie je nutná, výhodou je záujem o marketing.",
   "education": [
+    "Základné vzdelanie",
+    "Stredoškolské bez maturity",
     "Stredoškolské s maturitou",
     "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské (bakalárske)",
-    "Vysokoškolské (magisterské)",
-    "Doktorandské"
+    "Študent strednej školy",
+    "Študent vysokej školy"
   ],
   "other": [],
   "language": [
     {
-      "name": "Anglický",
-      "level": "Horná stredná (B2)"
+      "name": "Slovenský",
+      "level": "Expert (C2)"
     },
     {
-      "name": "Slovenský",
-      "level": "Rodilý"
+      "name": "Anglický",
+      "level": "Mierne pokročilý (B1)"
     }
   ]
 }

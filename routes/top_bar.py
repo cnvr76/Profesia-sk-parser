@@ -18,5 +18,6 @@ def matching():
 
 @bp.route("/filters/<string:name>")
 @handle_errors
-def apply_filters(filter_name: str):
-    pass
+def apply_filters(name: str):
+    filtered_data = parser_service.filter_vacancies(name)
+    return render_template("index_redesign.html", vacancies=filtered_data), 200

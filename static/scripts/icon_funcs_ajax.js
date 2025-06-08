@@ -7,9 +7,12 @@ deleteIcons.forEach((icon) => {
     const card = event.target.closest(".card"); // Находим родительскую карточку
 
     try {
-      const response = await fetch(`/vacancies/${id}/delete`, {
-        method: "DELETE", // Явно указываем метод DELETE
-      });
+      const response = await fetch(
+        `/vacancies/${encodeURIComponent(id)}/delete`,
+        {
+          method: "DELETE", // Явно указываем метод DELETE
+        }
+      );
 
       const result = await response.json();
 
@@ -37,7 +40,7 @@ const changeIcon = (icon, isSaved) => {
 
 const updateAllIcons = (vacancyId, isSaved) => {
   const allIcons = document.querySelectorAll(
-    `[data-vac_id="${vacancyId}"].fa-star`
+    `[data-vac_id="${encodeURIComponent(vacancyId)}"].fa-star`
   );
   console.log(allIcons);
   allIcons.forEach((icon) => changeIcon(icon, isSaved));
@@ -70,12 +73,15 @@ document.addEventListener("click", async (event) => {
   if (!vacancyId) return console.error("Vacancy ID not found! (funcs)");
 
   try {
-    const response = await fetch(`/vacancies/${vacancyId}/star`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const response = await fetch(
+      `/vacancies/${encodeURIComponent(vacancyId)}/star`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
     if (response.ok) {
       const result = await response.json();
       if (result.executed) {

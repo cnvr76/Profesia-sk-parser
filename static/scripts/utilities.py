@@ -5,6 +5,7 @@ from flask import jsonify
 from functools import wraps
 from typing import Callable, Union, Tuple, Dict
 from flask import jsonify, Response
+from static.scripts.SQLServer import Connector
 
 def handle_errors(func: Callable):
     @wraps(func)
@@ -12,23 +13,18 @@ def handle_errors(func: Callable):
         try:
             response = func(*args, **kwargs)
             
-            # Если функция вернула готовый Response (например, jsonify) — ничего не меняем
             if isinstance(response, Response):
                 return response
             
-            # Если функция вернула кортеж (data, status)
             elif isinstance(response, tuple) and len(response) == 2:
                 data, status = response
                 
-                # Если data — словарь, добавляем _meta
                 if isinstance(data, dict):
                     data['_meta'] = {'handler': func.__name__}
                     return jsonify(data), status
                 
-                # Иначе просто возвращаем как есть
                 return response
             
-            # Во всех остальных случаях — оборачиваем в jsonify
             return jsonify(response)
             
         except Exception as e:
@@ -36,7 +32,22 @@ def handle_errors(func: Callable):
                 **getattr(e, 'error_data', {}),
                 "location": f"{func.__module__}.{func.__name__}",
                 "type": type(e).__name__,
-                "error": str(e)  # Добавляем текст ошибки для отладки
+                "error": str(e)
             }
             return jsonify(error_data), 500
     return wrapper
+
+def handle_db_connection(func: Callable):
+    @wraps(func)
+    def wrapper(self, *args, **kwargs):
+        connection = self.conn
+        try:
+            connection.connect()
+            result = func(self, *args, **kwargs)
+            return result
+        except Exception as e:
+            return {f"error ({func.__name__})": str(e)}
+        finally:
+            connection.close()
+    return wrapper
+

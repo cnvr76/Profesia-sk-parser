@@ -2,11 +2,13 @@ import pyodbc
 import os
 from typing import Tuple, List, Dict
 from static.scripts.DatabaseFunctions import Functions
+from static.scripts.FilterFunctions import FilterFunctions
 import dotenv
 
-class Connector(Functions):
+class Connector(Functions, FilterFunctions):
     def __init__(self):
-        super().__init__(self.executeQuery)
+        Functions.__init__(self, self.executeQuery)
+        FilterFunctions.__init__(self, self.executeQuery)
 
         dotenv.load_dotenv()
 
