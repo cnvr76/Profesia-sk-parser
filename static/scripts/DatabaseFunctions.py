@@ -32,7 +32,7 @@ class Functions:
             value_adapter: Callable[[Any], tuple] = lambda x: (x,)
         ):
         dataExist: bool = len(
-            self.executeQuery(f"SELECT * FROM {table} WHERE V_id = ?", (v_id))["rows"]) > 0
+            self.executeQuery(f"SELECT * FROM {table} WHERE V_id = ?", (v_id,))["rows"]) > 0
 
         if not dataExist:
             for item in items:

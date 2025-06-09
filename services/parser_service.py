@@ -13,6 +13,7 @@ class ParserService:
         self.__parser = Parser(self.__query_params)
         self.__filter_options: Dict[str, Callable] = {
             "all": self.load_all_data,
+            "fetched": self.conn.get_fetched_vacancies,
             "applied_to": self.conn.get_applied_to,
             "expired": self.conn.get_expired,
             "most_recent": self.conn.get_most_recent

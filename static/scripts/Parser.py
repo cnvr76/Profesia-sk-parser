@@ -77,7 +77,7 @@ class Parser:
         return self.vacancies
 
     def parse_date(self, date: str) -> str:
-        parsed_date: datetime = datetime.strptime(date, "%Y-%m-%d %H:%M:%S%z")
+        parsed_date: datetime = datetime.strptime(date, "%Y-%d-%m %H:%M:%S%z")
         sql_date: str = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
         return sql_date
 

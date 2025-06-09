@@ -5,7 +5,7 @@ const dropdownContentBlock = document.querySelector(
 );
 const dropdownBlock = document.querySelector(".dropdown");
 
-const options = ["All", "Applied to", "Expired", "Most recent"];
+const options = ["All", "Fetched", "Expired", "Most recent"];
 
 function initFilters() {
   dropdownContentBlock.innerHTML = "";

@@ -93,4 +93,47 @@ document.addEventListener("click", async (event) => {
   }
 });
 
-export { updateAllIcons };
+const addToggleHandlers = () => {
+  const detailsCards = document.querySelectorAll(".details-card-name");
+
+  // Инициализация состояния всех карточек
+  detailsCards.forEach((cardName, index) => {
+    const content = cardName.nextElementSibling;
+    const card = cardName.parentElement;
+
+    // Устанавливаем начальную высоту для всех открытых карточек
+    if (!card.classList.contains("collapsed")) {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+
+    // Скрываем первую карточку (Summary) по умолчанию
+    if (index === 0) {
+      card.classList.add("collapsed");
+      // cardName.querySelector(".unfold-arrow-icon").classList.add("rotated");
+      content.style.maxHeight = "0px";
+    }
+  });
+
+  detailsCards.forEach((cardName) => {
+    cardName.addEventListener("click", (e) => {
+      const arrow = cardName.querySelector(".unfold-arrow-icon");
+      const content = cardName.nextElementSibling;
+      const card = cardName.parentElement;
+
+      // Toggle класса для анимации стрелочки
+      arrow.classList.toggle("rotated");
+
+      // Toggle класса для скрытия контента
+      card.classList.toggle("collapsed");
+
+      // Управление высотой для плавной анимации
+      if (card.classList.contains("collapsed")) {
+        content.style.maxHeight = "0px";
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  });
+};
+
+export { updateAllIcons, addToggleHandlers };

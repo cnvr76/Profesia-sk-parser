@@ -11,6 +11,7 @@
   padding: 25px;
   border-radius: 20px;
   transition: opacity 0.3s ease;
+  gap: 15px;
 }
 .card .info-text {
   display: flex;
@@ -23,8 +24,8 @@
   font-size: 1.3rem;
 }
 .card .info-text h3 {
-  font-size: 0.7rem;
-  font-weight: lighter;
+  font-size: 0.8rem;
+  font-weight: 600;
   color: var(--blue-text-color);
 }
 
@@ -70,13 +71,9 @@
 }
 
 .apply-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
   border-radius: 35px;
   background: var(--buttons-color);
-  padding: 10px 25px;
+  padding: 10px 30px;
 }
 
 .details-btn {

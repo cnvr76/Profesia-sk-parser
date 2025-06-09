@@ -1,59 +1,45 @@
 {
-  "summary": "Hľadá sa šikovný brigádnik/brigádnička na marketing s flexibilným pracovným časom.  Náplň práce zahŕňa online analýzy, monitoring reklám, aktualizáciu produktov na e-shopoch, jednoduché grafické úpravy v Canve, pomoc pri marketingových kampaniach a komunikáciu.  Ponúka sa príjemné pracovné prostredie a možnosť získať cenné skúsenosti v marketingu s potenciálom na trvalý pracovný pomer.",
+  "summary": "Hľadá sa špecialista na digitálnu 3D výrobu zdravotníckych pomôcok pre spoločnosť Hörluchs® so sídlom v Nemecku.  Práca je na diaľku z Českej republiky (ideálne Plzeň a okolie), po 3-mesačnom zaškolení v Nemecku (cestovné a ubytovanie hradené).  Náplňou práce je tvorba individuálnych súčiastok pomocou 3D softvéru a výroba vysoko kvalitných zdravotníckych pomôcok.  Ponúka sa pracovná zmluva na dobu neurčitú, atraktívne platové podmienky s bonusmi, práca s moderným softvérom a možnosť odborného vzdelávania a profesijného rastu.",
   "knowledge": [
     {
-      "name": "Online analýzy",
-      "description": "Schopnosť vyhľadávať a analyzovať informácie online."
+      "name": "3D modelovanie",
+      "description": "Znalosť 3D modelovania a softvéru pre digitálnu výrobu je nevyhnutná. Minimálne 3 roky praxe."
     },
     {
-      "name": "Monitoring reklám a zmienok",
-      "description": "Sledovanie reklám a zmienok o značkách a produktoch."
+      "name": "CAD softvér",
+      "description": "Skúsenosti s prácou s CAD softvérom pre návrh a výrobu zdravotníckych pomôcok."
     },
     {
-      "name": "Aktualizácia e-shopov",
-      "description": "Aktualizácia produktov a popisov na e-shopoch."
+      "name": "Výroba zdravotníckych pomôcok",
+      "description": "Skúsenosti s výrobou zdravotníckych pomôcok sú výhodou."
     },
     {
-      "name": "Grafické úpravy (Canva)",
-      "description": "Základná znalosť práce s programom Canva."
-    },
-    {
-      "name": "Marketingové kampane",
-      "description": "Pomoc pri príprave a plánovaní marketingových kampaní (vyhľadávanie inšpirácií, návrhy, idey)."
+      "name": "Samostatná práca",
+      "description": "Schopnosť samostatne pracovať na projektoch a dodržiavať termíny."
     },
     {
       "name": "Komunikácia",
-      "description": "Jednoduchá e-mailová a telefonická komunikácia."
-    },
-    {
-      "name": "Newslettery a online výstupy",
-      "description": "Spolupráca na príprave newsletterov a ďalších online výstupov."
-    },
-    {
-      "name": "Microsoft Office",
-      "description": "Základná znalosť Wordu, PowerPointu a Outlooku; základný Excel."
+      "description": "Schopnosť komunikovať s kolegami a nadriadenými (aspoň základná znalosť angličtiny)."
     }
   ],
-  "frameworks": ["Canva"],
-  "salary": "7 EUR/hod.",
-  "experience": "Nie je nutná, výhodou je záujem o marketing.",
+  "frameworks": [], 
+  "salary": "1400",
+  "experience": "3 roky praxe v 3D modelovaní a/alebo výrobe zdravotníckych pomôcok",
   "education": [
-    "Základné vzdelanie",
-    "Stredoškolské bez maturity",
-    "Stredoškolské s maturitou",
+    "Stredoškolské vzdelanie s maturitou",
     "Nadstavbové/vyššie odborné vzdelanie",
-    "Študent strednej školy",
-    "Študent vysokej školy"
+    "Vysokoškolské vzdelanie"
   ],
   "other": [],
   "language": [
     {
-      "name": "Slovenský",
-      "level": "Expert (C2)"
+      "name": "Anglický",
+      "level": "Základná úroveň (A2)"
     },
     {
-      "name": "Anglický",
-      "level": "Mierne pokročilý (B1)"
+      "name": "Nemecký",
+      "level": "Základná úroveň (A2) - výhoda"
     }
+
   ]
 }

@@ -12,7 +12,16 @@ class FilterFunctions:
             WHERE vm.applied = 1
         """
         return self.executeQuery(query)["view"]
-        
+    
+    def get_fetched_vacancies(self):
+        query: str = """
+            SELECT avi.*
+            FROM AllVacanciesInfo avi
+            JOIN VacanciesMetadata vm ON vm.V_id = avi.V_id
+            WHERE vm.summary IS NOT NULL
+            ORDER BY avi.Date desc
+        """
+        return self.executeQuery(query)["view"]
 
     def get_expired(self) -> Dict[str, Any]:
         query: str = """
@@ -27,7 +36,7 @@ class FilterFunctions:
         query: str = """
             SELECT *
             FROM AllVacanciesInfo
-            WHERE Date BETWEEN DATEADD(day, -3, GETDATE()) AND GETDATE()
+            WHERE Date BETWEEN DATEADD(day, -10, GETDATE()) AND GETDATE()
             ORDER BY Date desc
         """
         return self.executeQuery(query)["view"]

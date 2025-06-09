@@ -1,4 +1,4 @@
-import { updateAllIcons } from "./icon_funcs_ajax.js";
+import { addToggleHandlers } from "./icon_funcs_ajax.js";
 
 const detailsButtons = document.querySelectorAll(".card-buttons .details-btn");
 
@@ -40,22 +40,31 @@ const createCardDetailsSection = async (cardData) => {
   let cardHTML = `
       <div class="details-card">
         <div class="details-card-name">
+          <h3><i class="fa-solid fa-gear"></i>Summary</h3>
+          <i class="fa-solid fa-chevron-down unfold-arrow-icon"></i>
+        </div>
+        <div class="details-card-info">
+        <b><span style="color: white">${cardData.Company}</span></b><br/>
+        ${cardData.Summary || "No data found("}</div>
+      </div>
+      <div class="details-card">
+        <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Knowledges</h3>
-          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-chevron-down unfold-arrow-icon rotated"></i>
         </div>
         <div class="details-card-info">${rowK || "No data found("}</div>
       </div>
       <div class="details-card">
         <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Frameworks</h3>
-          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-chevron-down unfold-arrow-icon rotated"></i>
         </div>
         <div class="details-card-info">${rowF || "No data found("}</div>
       </div>
       <div class="details-card">
         <div class="details-card-name">
           <h3><i class="fa-solid fa-gear"></i>Salary</h3>
-          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-solid fa-chevron-down unfold-arrow-icon rotated"></i>
         </div>
         <div class="details-card-info">
           <p>${
@@ -86,6 +95,8 @@ detailsButtons.forEach((button) => {
           ${details.cardHTML}
           ${details.buttons}
         `;
+
+        addToggleHandlers();
       }
     } catch (error) {
       alert(error.message);
