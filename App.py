@@ -2,7 +2,7 @@ from flask import Flask
 import os
 import dotenv
 
-from routes import home
+from routes import home_route, home_route, top_bar_route
 
 def create_app() -> Flask:
     dotenv.load_dotenv()
@@ -13,9 +13,9 @@ def create_app() -> Flask:
                 )
     app.secret_key = os.getenv("FLASK_SECRET_KEY")
     
-    from routes import home, vacancies, top_bar
-    app.register_blueprint(home.bp)
-    app.register_blueprint(vacancies.bp)
-    app.register_blueprint(top_bar.bp)
+    from routes import vacancies_route
+    app.register_blueprint(home_route.bp)
+    app.register_blueprint(vacancies_route.bp)
+    app.register_blueprint(top_bar_route.bp)
 
     return app

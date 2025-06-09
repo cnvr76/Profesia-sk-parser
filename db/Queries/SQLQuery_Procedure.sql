@@ -1,9 +1,13 @@
+USE Profesiask
+
+SELECT * FROM Vacancies
+
 CREATE PROCEDURE GetVacancyDetails(@v_id INT)
 AS
 BEGIN
     -- Основная информация
     SELECT 
-        v.V_id, v.Position, v.Link, 
+        v.V_id, v.Position, v.Description as 'Summary', v.Link, 
         c.Name as 'Company', l.City as 'Location',
         v.Salary, v.haveApplied, v.hasExpired, s.S_id as 'isStarred'
     FROM Vacancies v
@@ -18,3 +22,10 @@ BEGIN
     -- Фреймворки
     SELECT Name FROM Frameworks WHERE V_id = @v_id;
 END
+
+DROP PROCEDURE GetVacancyDetails
+EXEC GetVacancyDetails 77
+
+SELECT * FROM sys.objects WHERE name = 'GetVacancyDetails'
+
+SELECT * FROM Companies WHERE Position = 'FINTECH - C#NET Developer (remote/on-site)'
