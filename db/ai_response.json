@@ -1,45 +1,10 @@
 {
-  "summary": "Hľadá sa špecialista na digitálnu 3D výrobu zdravotníckych pomôcok pre spoločnosť Hörluchs® so sídlom v Nemecku.  Práca je na diaľku z Českej republiky (ideálne Plzeň a okolie), po 3-mesačnom zaškolení v Nemecku (cestovné a ubytovanie hradené).  Náplňou práce je tvorba individuálnych súčiastok pomocou 3D softvéru a výroba vysoko kvalitných zdravotníckych pomôcok.  Ponúka sa pracovná zmluva na dobu neurčitú, atraktívne platové podmienky s bonusmi, práca s moderným softvérom a možnosť odborného vzdelávania a profesijného rastu.",
-  "knowledge": [
-    {
-      "name": "3D modelovanie",
-      "description": "Znalosť 3D modelovania a softvéru pre digitálnu výrobu je nevyhnutná. Minimálne 3 roky praxe."
-    },
-    {
-      "name": "CAD softvér",
-      "description": "Skúsenosti s prácou s CAD softvérom pre návrh a výrobu zdravotníckych pomôcok."
-    },
-    {
-      "name": "Výroba zdravotníckych pomôcok",
-      "description": "Skúsenosti s výrobou zdravotníckych pomôcok sú výhodou."
-    },
-    {
-      "name": "Samostatná práca",
-      "description": "Schopnosť samostatne pracovať na projektoch a dodržiavať termíny."
-    },
-    {
-      "name": "Komunikácia",
-      "description": "Schopnosť komunikovať s kolegami a nadriadenými (aspoň základná znalosť angličtiny)."
-    }
-  ],
-  "frameworks": [], 
-  "salary": "1400",
-  "experience": "3 roky praxe v 3D modelovaní a/alebo výrobe zdravotníckych pomôcok",
-  "education": [
-    "Stredoškolské vzdelanie s maturitou",
-    "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské vzdelanie"
-  ],
+  "summary": "Pre nedostatok informácií v zadaní nie je možné poskytnúť detailný popis náplne práce a požiadaviek na danú pozíciu.  Prosím, poskytnite viac informácií o pracovnej pozícii.",
+  "knowledge": [],
+  "frameworks": [],
+  "salary": "660", 
+  "experience": null,
+  "education": [],
   "other": [],
-  "language": [
-    {
-      "name": "Anglický",
-      "level": "Základná úroveň (A2)"
-    },
-    {
-      "name": "Nemecký",
-      "level": "Základná úroveň (A2) - výhoda"
-    }
-
-  ]
+  "language": []
 }

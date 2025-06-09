@@ -11,7 +11,6 @@ from simplegmail.query import construct_query
 from datetime import datetime
 
 import static.scripts.SQLServer as sqlserver_con 
-# import static.scripts.SQLite as sqlite_con
 from static.scripts.Gemini import Gemini
 
 
@@ -25,8 +24,6 @@ class Parser:
         self.json_last_response = "db/last_response.json"
 
         self.ai = Gemini()
-        # self.sqlserver = sqlserver_con.Connector()
-        # self.sqlite = sqlite_con.Connector()
         self.connector = sqlserver_con.Connector()
 
     def get_messages(self) -> List:
@@ -81,8 +78,6 @@ class Parser:
         sql_date: str = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
         return sql_date
 
-    # TODO - Сделать проверку но то, что уже есть в дб, после чего записать новую инфурмацию
-    # FIXME - Исправить код под sql server (при необходимости)
     def write_to_db(self, vacancies: Dict[str, Dict]) -> None:
         # 1. insert into Companies, Locations
         # 2. select c_id from Companies
@@ -186,17 +181,24 @@ class Parser:
 
         return unique_vacancies
 
-    def send_request(self, v_id: int, link: str, timeout: float = 2) -> Dict[str, str | bool]:
-        page: requests.Response = requests.get(link, timeout=timeout)
-        soup = BeautifulSoup(page.content, 'html.parser')
+    def __check_vacancy_status(self, html: str) -> Dict[str, bool]:
+        soup = BeautifulSoup(html, 'html.parser')
 
         haveApplied: bool = soup.find(
-            text=re.compile("Na túto pracovnú ponuku ste reagovali poslaním životopisu")
+            string=re.compile("Na túto pracovnú ponuku ste reagovali poslaním životopisu")
         ) is not None
 
         isExpired: bool = soup.find(
-            text=re.compile("spoločnosť ponúkajúca danú pracovnú pozíciu ukončila")
+            string=re.compile("spoločnosť ponúkajúca danú pracovnú pozíciu ukončila")
         ) is not None
+
+        return {
+            "applied": haveApplied,
+            "expired": isExpired
+        }
+
+    def __parse_default_vacancy_page(self, html: str) -> Dict[str, str]:
+        soup = BeautifulSoup(html, 'html.parser')
 
         job_panel = soup.find("div", attrs={"class": "panel-body"})
         job_panel_info: str = (
@@ -207,13 +209,50 @@ class Parser:
         job_info = soup.find("div", attrs={"class": "details", "itemprop": "description"})
         job_info_text: str = job_info.get_text(separator="\n").strip() if job_info else "No information found"
 
-        response: Dict = {
-            "v_id": v_id,
+        return {
             "header": job_panel_info,
             "details": job_info_text,
-            "applied": haveApplied,
-            "expired": isExpired
         }
+
+    def __parse_stylized_vacancy_page(self, html: str) -> Dict[str, str]:
+        soup = BeautifulSoup(html, 'html.parser')
+
+        job_panel = soup.find("div", attrs={"class", "panel-body"})
+        job_panel_info: str = (
+            "\n".join([line.strip() for line in job_panel.get_text().splitlines() if line.strip()])
+            if job_panel else "No information found"
+        )
+
+        target_class_re = re.compile(r"^[a-zA-Z0-9_-]+-container")
+        all_potential_containers = soup.find_all(["div", "section"], attrs={"class": target_class_re})
+        job_info_element = None
+        
+        for container in all_potential_containers:
+            classes = container.get('class')
+            if classes and len(classes) == 1 and target_class_re.fullmatch(classes[0]):
+                if container.find(["div", "section"], attrs={"class": ["details-section", "custom-upper-info-box"]}):
+                    job_info_element = container
+                    break
+        
+        job_info_text = job_info_element.get_text(separator="\n").strip() if job_info_element else "No information found"
+
+        return {
+            "header": job_panel_info,
+            "details": job_info_text,
+        }
+
+
+    def send_request(self, v_id: int, link: str, timeout: float = 2) -> Dict[str, str | bool]:
+        page: requests.Response = requests.get(link, timeout=timeout)
+        
+        statuses: Dict[str, bool] = self.__check_vacancy_status(page.content)
+        parsed: Dict[str, str] = self.__parse_default_vacancy_page(page.content)
+        if parsed.get("details") in ("No information found", "") or parsed.get("header") in ("No information found", ""):
+            print("TRYING ANOTHER WAY")
+            parsed = self.__parse_stylized_vacancy_page(page.content)
+        
+        response: Dict[str, str | bool] = {"v_id": v_id, **parsed, **statuses}
+
         self.write_to_json(response, self.json_last_response)
         return response
 
@@ -228,3 +267,8 @@ class Parser:
     def write_to_json(self, data: Dict[str, Dict | str | bool], json_file: str) -> None: 
         with open(json_file, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
+
+
+# parser = Parser({})
+# data = parser.send_request(1, "https://www.profesia.sk/praca/prima-banka-slovensko/O4987764?search_id=2b517d9a-96f8-4741-ae4d-fe0ed9a1b12f&utm_campaign=10007&utm_content=call-to-action&utm_medium=mail&utm_source=10007&utm_term=2025-01-09")
+# print(data)
