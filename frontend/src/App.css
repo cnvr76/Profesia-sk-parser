@@ -1,0 +1,185 @@
+/* Импортируем твои оригинальные CSS файлы */
+@import "./styles/general_styles.css";
+@import "./styles/bar_style.css";
+@import "./styles/card_style.css";
+@import "./styles/main_panel_style.css";
+@import "./styles/side_panel_style.css";
+
+/* Стили для состояний загрузки и ошибок */
+.loading-container,
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.loading-container {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  margin: 20px;
+}
+
+.error-container {
+  background: rgba(255, 107, 107, 0.2);
+  border: 2px solid rgba(255, 107, 107, 0.5);
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.spinner {
+  font-size: 24px;
+  animation: spin 2s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Стили для статистики вакансий */
+.vacancies-stats {
+  /* position: sticky;
+  top: 0; */
+  padding: 15px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 0;
+}
+
+.vacancies-stats p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.vacancies-stats strong {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+/* Стили для профиля в Header */
+.profile-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.profile-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Стили для retry кнопки */
+.retry-btn {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.retry-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+}
+
+.icons i.starring {
+  animation: starPulse 0.5s ease-in-out;
+}
+
+@keyframes starPulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}
+
+/* Стили для selected фильтра в dropdown */
+.dropdown-content a.selected {
+  background: rgba(255, 215, 0, 0.3);
+  color: #ffd700;
+  font-weight: 600;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .everything {
+    flex-direction: column;
+  }
+
+  .side-panel {
+    width: 100%;
+    height: auto;
+    order: 2;
+  }
+
+  .main-panel {
+    order: 1;
+  }
+
+  .bar {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+  }
+
+  .left-part,
+  .right-part {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .vacancies-stats {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/* Темная тема для консистентности */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.1);
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

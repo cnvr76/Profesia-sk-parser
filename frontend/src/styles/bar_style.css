@@ -1,0 +1,128 @@
+:root {
+  --btn-color-1: #2b0935;
+  --btn-color-2: #1d0e39;
+  --btn-color-card: #5b048f;
+  --btn-color-icons: #2f1169;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--darkgrey);
+  border-radius: var(--border-radius-section);
+  padding: 20px 10px;
+}
+.bar .left-part,
+.bar .right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    0deg,
+    var(--btn-color-icons) 50%,
+    rgba(0, 0, 0, 0) 70%
+  );
+  background-size: 100% 200%;
+  background-position: top;
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-btn:hover {
+  background-position: bottom;
+  transform: scale(1.1);
+}
+
+#newest-btn,
+#home-btn,
+#tinder-btn,
+#filters-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#newest-btn {
+  background: var(--btn-color-1);
+}
+#filters-btn {
+  background: var(--btn-color-2);
+  min-width: 130px;
+}
+#home-btn {
+  background: var(--btn-color-1);
+}
+#tinder-btn {
+  background: var(--btn-color-1);
+}
+#filters-btn {
+  border-radius: 10px;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  background-color: var(--btn-color-2);
+  padding: 10px;
+  border-radius: 0 10px 10px 10px;
+  width: 120%;
+}
+.dropdown-content a {
+  color: rgba(255, 255, 255, 0.619);
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+.dropdown-content a:hover {
+  color: white;
+}
+#selected {
+  color: white;
+  background: linear-gradient(
+    to right,
+    rgba(50, 30, 87, 1) 30%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  padding: 5px 13px;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: 95%;
+  top: 5px;
+  z-index: -1;
+  text-wrap: nowrap;
+  font-weight: 600;
+}
+
+.bar .right-part img {
+  width: 40px;
+  height: inherit;
+  border-radius: 50%;
+}
+.button {
+  margin: 0;
+  text-decoration: none;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  transition: all 0.3s;
+  color: white;
+  font-weight: 600;
+}
+.bar .button:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

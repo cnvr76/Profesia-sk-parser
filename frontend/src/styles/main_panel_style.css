@@ -1,0 +1,39 @@
+.main-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vacancies-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  height: calc(100vh - 115px);
+  overflow-y: scroll; /* Включение прокрутки */
+  scrollbar-width: none; /* Firefox */
+}
+
+.vacancies-container::-webkit-scrollbar {
+  display: none; /* Safari и Chrome */
+}
+
+.nothing-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.nothing-found-container img {
+  width: 40%;
+}
+.nothing-found-container span {
+  color: white;
+  font-size: 1.5rem;
+  user-select: none;
+  font-family: "Multicolore";
+}
