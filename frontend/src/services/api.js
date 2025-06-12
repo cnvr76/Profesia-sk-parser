@@ -50,6 +50,7 @@ export const api = {
   getNewestVacancies: async () => {
     try {
       const response = await longApiClient.get("/bar/newest");
+      console.log(response);
       if (response.data.executed) {
         return {
           success: true,

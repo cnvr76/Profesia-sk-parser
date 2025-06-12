@@ -85,8 +85,7 @@ const Header = ({
               borderRadius: isDropdownOpen ? "10px 10px 0 0" : "10px",
             }}
           >
-            <i className="fa-solid fa-arrow-down-wide-short"></i>
-            Filters
+            <i class="fa-solid fa-filter"></i> Filters
           </button>
 
           <span id="selected">{selectedFilter}</span>

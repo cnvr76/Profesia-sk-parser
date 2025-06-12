@@ -19,8 +19,8 @@ const VacanciesContainer = ({
           <i className="fa-solid fa-spinner fa-spin"></i>
           <p>
             {retryAttempt > 0
-              ? `Повторная попытка ${retryAttempt + 1}/4...`
-              : "Загружаем вакансии..."}
+              ? `Retry ${retryAttempt + 1}/4...`
+              : "Loading vacancies..."}
           </p>
           {retryAttempt > 0 && (
             <p style={{ fontSize: "14px", opacity: 0.7 }}>
@@ -36,9 +36,9 @@ const VacanciesContainer = ({
     return (
       <section className="vacancies-container">
         <div className="error-container">
-          <p>Ошибка: {error}</p>
+          <p>Error: {error}</p>
           <button onClick={onRetry} className="retry-btn">
-            🔄 Попробовать снова
+            Try again
           </button>
         </div>
       </section>
@@ -61,14 +61,14 @@ const VacanciesContainer = ({
       {/* Статистика */}
       <div className="vacancies-stats">
         <p>
-          Найдено вакансий: <strong>{vacancies.length}</strong>
+          Vacancies: <strong>{vacancies.length}</strong>
         </p>
         <p>
-          В избранном:{" "}
+          Starred:{" "}
           <strong>{vacancies.filter((v) => v.isStarred).length}</strong>
         </p>
         <p>
-          Компаний:{" "}
+          Companies:{" "}
           <strong>
             {[...new Set(vacancies.map((v) => v.Company))].length}
           </strong>

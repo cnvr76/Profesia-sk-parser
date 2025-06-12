@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,7 +10,18 @@ import "./App.css";
 import VacanciesPage from "./pages/VacanciesPage";
 import HomePage from "./pages/HomePage";
 
-function App() {
+const App = () => {
+  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      setCursorPos({
+        x: e.clientX,
+        y: e.clientY,
+      });
+    };
+    return () => window.addEventListener("mousemove", handleMouseMove);
+  }, []);
+
   return (
     <Router>
       <Routes>
@@ -22,6 +33,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;

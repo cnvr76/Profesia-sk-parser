@@ -45,13 +45,9 @@ const DetailsPanel = ({
     setError(null);
 
     try {
-      console.log(`🔥 DETAILS: Загружаем детали для вакансии ${vacancyId}`);
       const details = await api.getVacancyDetails(vacancyId);
-
-      console.log("✅ DETAILS: Детали загружены:", details);
       setVacancyDetails(details);
     } catch (error) {
-      console.error("❌ DETAILS: Ошибка загрузки деталей:", error);
       setError(error.message);
     } finally {
       setLoading(false);
@@ -60,8 +56,6 @@ const DetailsPanel = ({
 
   // Функция переключения секций (заменяет addToggleHandlers из details_ajax.js)
   const toggleSection = (sectionName) => {
-    console.log(`🔥 DETAILS: Переключаем секцию ${sectionName}`);
-
     setCollapsedSections((prev) => ({
       ...prev,
       [sectionName]: !prev[sectionName],
@@ -133,7 +127,7 @@ const DetailsPanel = ({
     <div className="details-panel shown">
       {loading && (
         <div className="details-loading">
-          <div className="spinner">⏳</div>
+          <i class="fa-solid fa-spinner fa-spin-pulse"></i>
           <p>Загружаем детали...</p>
         </div>
       )}

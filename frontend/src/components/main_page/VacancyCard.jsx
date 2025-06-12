@@ -120,14 +120,12 @@ const VacancyCard = ({
           </a>
 
           {/* Кнопка применить */}
-          <a
-            href={vacancy.Link}
-            className="button apply-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Apply
-          </a>
+          <div className="button apply-btn">
+            <a href={vacancy.Link} target="_blank" rel="noopener noreferrer">
+              Apply
+            </a>
+            <i class="fa-regular fa-moon fa-flip-horizontal"></i>
+          </div>
         </div>
       </div>
     </div>

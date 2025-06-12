@@ -57,14 +57,15 @@ const Layout = () => {
         retryCount < maxRetries &&
         (error.message.includes("Сервер не отвечает") ||
           error.message.includes("ERR_NETWORK") ||
-          error.message.includes("timeout"))
+          error.message.includes("timeout") ||
+          error.message.includes("Timeout"))
       ) {
         await new Promise((resolve) => setTimeout(resolve, 2000));
         return loadVacancies(retryCount + 1, maxRetries);
       }
 
       setError(
-        `${error.message} (попытка ${retryCount + 1}/${maxRetries + 1})`
+        `${error.message} (attampt ${retryCount + 1}/${maxRetries + 1})`
       );
       setVacancies([]);
       setRetryAttempt(0);
@@ -127,7 +128,7 @@ const Layout = () => {
       }
     } catch (error) {
       console.error("Ошибка при парсинге новых вакансий:", error);
-      setError(`Ошибка парсинга: ${error.message}`);
+      setError(`Parsing error: ${error.message}`);
     } finally {
       setIsNewestFetching(false);
     }

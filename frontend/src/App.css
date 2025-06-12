@@ -36,6 +36,11 @@
   animation: spin 2s linear infinite;
   margin-bottom: 15px;
 }
+.details-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @keyframes spin {
   from {
@@ -48,23 +53,28 @@
 
 /* Стили для статистики вакансий */
 .vacancies-stats {
-  /* position: sticky;
-  top: 0; */
   padding: 15px 20px;
-  background: rgba(255, 255, 255, 0.1);
+  border: transparent 3px solid;
+  background-image: radial-gradient(
+    circle at 50% 1900%,
+    rgba(234, 141, 255, 0.6),
+    transparent
+  );
   border-radius: 10px;
   margin-bottom: 20px;
   display: flex;
   gap: 30px;
   justify-content: center;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
   z-index: 0;
 }
 
 .vacancies-stats p {
   margin: 0;
-  font-size: 14px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .vacancies-stats strong {

@@ -26,9 +26,9 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-    0deg,
-    var(--btn-color-icons) 50%,
-    rgba(0, 0, 0, 0) 70%
+    to top,
+    var(--btn-color-icons) 55%,
+    rgba(0, 0, 0, 1) 80%
   );
   background-size: 100% 200%;
   background-position: top;
