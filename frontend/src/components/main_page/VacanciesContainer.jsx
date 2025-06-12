@@ -1,6 +1,6 @@
 import React from "react";
 import VacancyCard from "./VacancyCard";
-import sleepyCat from "../static/images/sleepy_cat.png";
+import sleepyCat from "../../static/images/sleepy_cat.png";
 
 const VacanciesContainer = ({
   vacancies,

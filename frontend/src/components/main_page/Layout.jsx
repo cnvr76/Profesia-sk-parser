@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import VacanciesContainer from "./VacanciesContainer";
 import DetailsPanel from "./DetailsPanel";
 import Header from "./Header";
-import { api } from "../services/api";
+import { api } from "../../services/api";
 
 const Layout = () => {
   const [vacancies, setVacancies] = useState([]);

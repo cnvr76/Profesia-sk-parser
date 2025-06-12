@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import avatar from "../static/images/avatar.jpg";
+import avatar from "../../static/images/avatar.jpg";
 
 const Header = ({
   currentFilter,

@@ -1,12 +1,27 @@
-// frontend/src/App.js
-// Главный компонент приложения
-
 import React from "react";
-import Layout from "./components/Layout";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import "./App.css";
 
+import VacanciesPage from "./pages/VacanciesPage";
+import HomePage from "./pages/HomePage";
+
 function App() {
-  return <Layout />;
+  return (
+    <Router>
+      <Routes>
+        {/* <Route path="/" element={<HomePage />} /> */}
+
+        <Route path="/" element={<VacanciesPage />} />
+
+        <Route path="/home" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
