@@ -22,11 +22,6 @@ const VacanciesContainer = ({
               ? `Retry ${retryAttempt + 1}/4...`
               : "Loading vacancies..."}
           </p>
-          {retryAttempt > 0 && (
-            <p style={{ fontSize: "14px", opacity: 0.7 }}>
-              Первый запрос может занять больше времени
-            </p>
-          )}
         </div>
       </section>
     );

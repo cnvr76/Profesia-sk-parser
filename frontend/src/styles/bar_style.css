@@ -93,7 +93,7 @@
   color: white;
   background: linear-gradient(
     to right,
-    rgba(50, 30, 87, 1) 30%,
+    rgb(83, 52, 141) 30%,
     rgba(0, 0, 0, 0) 90%
   );
   padding: 5px 13px;
@@ -104,6 +104,16 @@
   z-index: -1;
   text-wrap: nowrap;
   font-weight: 600;
+  user-select: none;
+}
+.selected-in-dropdown {
+  background: linear-gradient(
+    to right,
+    rgb(83, 52, 141) 30%,
+    rgba(0, 0, 0, 0) 90%
+  );
+  border-radius: 3px;
+  padding: 1px 10px;
 }
 
 .bar .right-part img {

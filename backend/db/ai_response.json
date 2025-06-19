@@ -1,54 +1,10 @@
 {
-  "summary": "Spoločnosť TRELLIS s.r.o. hľadá technicky zameraného človeka pre pozíciu v oblasti priemyselnej automatizácie v Trenčíne.  Náplň práce zahŕňa komunikáciu so zákazníkmi, analýzu zákaziek, prípravu a realizáciu projektov, komunikáciu s dodávateľmi a programovanie systémov automatického riadenia (Siemens, Rockwell Automation, Schneider Electric). Spoločnosť ponúka prácu na plný úväzok, zmluvu na dobu neurčitú, príjemné pracovné prostredie, zaujímavé projekty a benefity (stravné, podpora vzdelávania).",
-  "knowledge": [
-    {
-      "name": "Elektrotechnika",
-      "description": "Stredoškolské, nadstavbové, vyššie odborné alebo vysokoškolské vzdelanie v elektrotechnike je nevyhnutné."
-    },
-    {
-      "name": "Programovanie PLC",
-      "description": "Skúsenosti s programovaním systémov automatického riadenia (Siemens, Rockwell Automation, Schneider Electric)."
-    },
-    {
-      "name": "AutoCAD",
-      "description": "Znalosť programu AutoCAD."
-    },
-    {
-      "name": "MS Office",
-      "description": "Pokročilá znalosť MS Office (hlavne Excel)."
-    },
-    {
-      "name": "Komunikácia",
-      "description": "Výborné komunikačné a organizačné schopnosti, schopnosť komunikovať so zákazníkmi a dodávateľmi."
-    },
-    {
-      "name": "Projektové manažment",
-      "description": "Schopnosť riadiť projekty, dodržiavať termíny a rozpočet."
-    },
-    {
-      "name": "Jazykové znalosti",
-      "description": "Pokročilá znalosť anglického jazyka."
-    }
-  ],
-  "frameworks": ["Siemens TIA Portal", "Rockwell Automation Studio 5000", "Schneider Electric EcoStruxure"],
-  "salary": "1500",
-  "experience": "Prax v elektrotechnike je výhodou, špecifikovaná nie je.",
-  "education": [
-    "Stredoškolské s maturitou",
-    "Nadstavbové/vyššie odborné vzdelanie",
-    "Vysokoškolské I. stupňa",
-    "Vysokoškolské II. stupňa",
-    "Vysokoškolské III. stupňa"
-  ],
-  "other": ["Vodičský preukaz B"],
-  "language": [
-    {
-      "name": "Anglický",
-      "level": "Pokročilý"
-    },
-    {
-      "name": "Slovenský",
-      "level": "Rodný"
-    }
-  ]
+  "summary": "Pre túto pozíciu nie sú k dispozícii žiadne podrobnosti. Prosím, poskytnite viac informácií o pracovnom mieste.",
+  "knowledge": [],
+  "frameworks": [],
+  "salary": "700",
+  "experience": null,
+  "education": [],
+  "other": [],
+  "language": []
 }

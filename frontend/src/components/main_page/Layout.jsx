@@ -7,7 +7,7 @@ import { api } from "../../services/api";
 const Layout = () => {
   const [vacancies, setVacancies] = useState([]);
   const [selectedVacancyId, setSelectedVacancyId] = useState(null);
-  const [currentFilter, setCurrentFilter] = useState("all");
+  const [currentFilter, setCurrentFilter] = useState("All");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [retryAttempt, setRetryAttempt] = useState(0);
@@ -21,10 +21,15 @@ const Layout = () => {
   }, []);
 
   useEffect(() => {
-    loadVacancies();
+    loadVacancies(getApiCurrentFilter());
   }, [currentFilter]);
 
-  const loadVacancies = async (retryCount = 0, maxRetries = 3) => {
+  const getApiCurrentFilter = () => {
+    const filter = currentFilter || "All";
+    return filter.replace(" ", "_").toLocaleLowerCase();
+  };
+
+  const loadVacancies = async (filter, retryCount = 0, maxRetries = 3) => {
     setRetryAttempt(retryCount);
 
     if (retryCount === 0) {
@@ -35,7 +40,7 @@ const Layout = () => {
     setError(null);
 
     try {
-      const data = await api.getVacancies(currentFilter);
+      const data = await api.getVacancies(filter);
 
       if (Array.isArray(data)) {
         setVacancies(data);
@@ -65,7 +70,7 @@ const Layout = () => {
       }
 
       setError(
-        `${error.message} (attampt ${retryCount + 1}/${maxRetries + 1})`
+        `${error.message} (attempt ${retryCount + 1}/${maxRetries + 1})`
       );
       setVacancies([]);
       setRetryAttempt(0);
@@ -116,7 +121,7 @@ const Layout = () => {
 
   // Обработчик ручного retry
   const handleRetry = () => {
-    loadVacancies(0);
+    loadVacancies(getApiCurrentFilter(), 0);
   };
 
   const handleFetchingNewestVacancies = async () => {
@@ -124,7 +129,7 @@ const Layout = () => {
     try {
       const result = await api.getNewestVacancies();
       if (result.success) {
-        await loadVacancies(0);
+        await loadVacancies(getApiCurrentFilter(), 0);
       }
     } catch (error) {
       console.error("Ошибка при парсинге новых вакансий:", error);
@@ -176,6 +181,7 @@ const Layout = () => {
           {/* Верхняя панель навигации */}
           <Header
             currentFilter={currentFilter}
+            currentIconPage={null}
             onFilterChange={handleFilterChange}
             onNewestFetching={handleFetchingNewestVacancies}
             isNewestFetching={isNewestFetching}

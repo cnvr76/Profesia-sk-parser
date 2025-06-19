@@ -145,14 +145,6 @@
   color: white;
 }
 
-.details-card-info {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: end;
-  color: var(--details-card-text);
-}
-
 .side-panel .hidden {
   visibility: hidden;
 }
@@ -193,12 +185,17 @@
 
 /* Анимация контента */
 .details-card-info {
-  overflow: hidden;
-  transition: max-height 0.4s ease-in-out, padding 0.3s ease;
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  text-align: end;
+  color: var(--details-card-text);
+  transition: grid-template-rows 0.3s ease-in-out;
+  > * {
+    overflow: hidden;
+  }
 }
 
 .details-card.collapsed .details-card-info {
-  max-height: 0px;
-  padding-top: 0;
-  padding-bottom: 0;
+  grid-template-rows: 0fr;
 }

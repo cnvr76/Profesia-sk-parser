@@ -103,7 +103,7 @@ const VacancyCard = ({
             style={{
               cursor: isStarring ? "wait" : "pointer",
               opacity: isStarring ? 0.5 : 1,
-              color: isStarred ? "#FFD700" : "inherit",
+              color: isStarred ? "#ffe863" : "inherit",
             }}
             title={isStarred ? "Убрать из избранного" : "Добавить в избранное"}
           />

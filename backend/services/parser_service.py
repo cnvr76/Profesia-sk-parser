@@ -16,7 +16,8 @@ class ParserService:
             "fetched": self.conn.get_fetched_vacancies,
             "applied_to": self.conn.get_applied_to,
             "expired": self.conn.get_expired,
-            "most_recent": self.conn.get_most_recent
+            "most_recent": self.conn.get_most_recent,
+            "problematic": self.conn.get_problematic_vacancies
         }
     
     @property
@@ -35,14 +36,12 @@ class ParserService:
 
     @handle_db_connection
     def get_vacancy_details(self, v_id: int) -> Dict:
-        self.conn.connect()
-
         data: Dict = self.conn.get_vacancy_by_id(v_id)
+        detailsExist: bool = self.conn.check_details_exist(v_id)
 
         # Getting info for the vacancy
         last_response: Dict[str, Dict] = self.engine.read_from_json(self.engine.json_last_response)
         response: Dict[str, Dict] = last_response
-        detailsExist: bool = data.get("Salary") is not None
         answer: Dict = {}
 
         if v_id == last_response["v_id"]:
@@ -51,9 +50,9 @@ class ParserService:
         elif detailsExist:
             answer = self.conn.get_vacancy_metadata(v_id)
         else:
-            response = self.engine.send_request(v_id, link=data["Link"])
+            response = self.engine.send_request(v_id, link=data["Link"], timeout=5)
             prompt: str = self.ai.make_prompt(
-                question="Что мне нужно знать для этой вакансии (на словацком) + зарплату бери минимальную и одним числом",
+                question="Что конкретно мне нужно знать для этой вакансии (на словацком) + зарплату бери минимальную и одним числом",
                 context=f"Header of the vacancy: {response['header']}\nBody: {response['details']}"
             )
             answer = self.ai.ask(prompt)
@@ -112,12 +111,11 @@ class ParserService:
         unique_vacancies = self.engine.remove_duplicates(parsed_messages, replace=True)
         
         self.engine.write_to_db(unique_vacancies)
-
-        return {"executed": True}
+        return {"executed": True, "newest_data": unique_vacancies}
 
     @handle_db_connection
     def filter_vacancies(self, filter_name: str):
-        filter_function: Callable = self.__filter_options.get(filter_name, self.load_all_data)
+        filter_function: Callable = self.__filter_options.get(filter_name, lambda: [{}])
         return filter_function()
 
 parser_service: ParserService = ParserService()

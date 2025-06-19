@@ -1,33 +1,26 @@
 import React, { useState } from "react";
 import avatar from "../../static/images/avatar.jpg";
+import { useNavigate } from "react-router-dom";
+import DropdownButton from "./DropdownButton";
 
 const Header = ({
   currentFilter,
+  currentIconPage,
   onFilterChange,
   onNewestFetching,
   isNewestFetching,
 }) => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [selectedFilter, setSelectedFilter] = useState(currentFilter || "All");
+  const [selectedIcon, setSelectedIcon] = useState(null || currentIconPage);
 
-  const filterOptions = ["All", "Fetched", "Expired", "Most recent"];
+  const navigator = useNavigate();
 
-  const handleFilterSelect = (filterName) => {
-    setSelectedFilter(filterName);
-    setIsDropdownOpen(false);
-
-    localStorage.setItem("selectedFilter", filterName);
-
-    onFilterChange(filterName);
-  };
-
-  const handleMouseEnter = () => {
-    setIsDropdownOpen(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsDropdownOpen(false);
-  };
+  const filterOptions = [
+    "All",
+    "Fetched",
+    "Problematic",
+    "Expired",
+    "Most recent",
+  ];
 
   return (
     <section className="bar">
@@ -73,46 +66,13 @@ const Header = ({
         </button>
 
         {/* Dropdown фильтры (заменяет filters.js) */}
-        <div
-          className="dropdown"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <button
-            className="button"
-            id="filters-btn"
-            style={{
-              borderRadius: isDropdownOpen ? "10px 10px 0 0" : "10px",
-            }}
-          >
-            <i class="fa-solid fa-filter"></i> Filters
-          </button>
-
-          <span id="selected">{selectedFilter}</span>
-
-          <div
-            className="dropdown-content"
-            style={{
-              display: isDropdownOpen ? "flex" : "none",
-            }}
-          >
-            {filterOptions.map((option) => (
-              <a
-                key={option}
-                href="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleFilterSelect(
-                    option.toLocaleLowerCase().replace(" ", "_")
-                  );
-                }}
-                className={selectedFilter === option ? "selected" : ""}
-              >
-                {option}
-              </a>
-            ))}
-          </div>
-        </div>
+        <DropdownButton
+          title={"Filters"}
+          icon={"fa-filter"}
+          options={filterOptions}
+          selectedOption={currentFilter}
+          onOptionChange={onFilterChange}
+        />
       </div>
 
       {/* Правая часть навигации */}
@@ -137,10 +97,13 @@ const Header = ({
         {/* Тут скорее всего сделать надо переход на другую страницу со всеми избранными */}
         <button
           className="button icon-btn"
-          onClick={() => console.log("Starred функциональность в разработке")}
+          onClick={() => navigator("/starred")}
           title="Избранные вакансии"
         >
-          <i className="fa-solid fa-bookmark"></i>
+          <i
+            className="fa-solid fa-star"
+            style={{ color: "white", fontSize: "1rem" }}
+          ></i>
         </button>
 
         {/* Аватар профиля */}

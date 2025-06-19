@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { api } from "../../services/api";
+import DetailsSection from "./DetailsSection";
 
 const DetailsPanel = ({
   vacancyId,
@@ -82,44 +83,6 @@ const DetailsPanel = ({
     }
   };
 
-  // Компонент секции (заменяет createCardDetailsSection логику)
-  const DetailsSection = ({
-    title,
-    icon,
-    children,
-    sectionKey,
-    isCollapsed,
-  }) => (
-    <div className={`details-card ${isCollapsed ? "collapsed" : ""}`}>
-      <div
-        className="details-card-name"
-        onClick={() => toggleSection(sectionKey)}
-        style={{ cursor: "pointer" }}
-      >
-        <h3>
-          <i className={`fa-solid ${icon}`}></i>
-          {title}
-        </h3>
-        <i
-          className={`fa-solid fa-chevron-down unfold-arrow-icon ${
-            isCollapsed ? "rotated" : ""
-          }`}
-        ></i>
-      </div>
-
-      <div
-        className="details-card-info"
-        style={{
-          maxHeight: isCollapsed ? "0px" : "1000px",
-          overflow: "hidden",
-          transition: "max-height 0.4s ease-in-out",
-        }}
-      >
-        {children}
-      </div>
-    </div>
-  );
-
   // Если не видна - не рендерим
   if (!isVisible) return null;
 
@@ -140,7 +103,7 @@ const DetailsPanel = ({
           </button>
         </div>
       )}
-
+      {console.log(vacancyDetails)}
       {vacancyDetails && (
         <>
           {/* Заголовок деталей */}
@@ -157,9 +120,7 @@ const DetailsPanel = ({
 
             <div className="additional-info">
               {vacancyDetails.hasExpired && <h5 id="hasExpired">Expired</h5>}
-              {vacancyDetails.haveApplied && (
-                <h5 id="haveApplied">Already applied</h5>
-              )}
+              {vacancyDetails.haveApplied && <h5 id="haveApplied">Applied</h5>}
             </div>
           </div>
 
@@ -169,9 +130,12 @@ const DetailsPanel = ({
             icon="fa-gear"
             sectionKey="summary"
             isCollapsed={collapsedSections.summary}
+            toggleSection={toggleSection}
           >
             <b>
-              <span style={{ color: "white" }}>{vacancyDetails.Company}</span>
+              <span style={{ color: "white", fontSize: "1.1rem" }}>
+                {vacancyDetails.Company}
+              </span>
             </b>
             <br />
             {vacancyDetails.Summary || "No data found"}
@@ -182,6 +146,7 @@ const DetailsPanel = ({
             icon="fa-gear"
             sectionKey="knowledges"
             isCollapsed={collapsedSections.knowledges}
+            toggleSection={toggleSection}
           >
             {vacancyDetails.Knowledges?.length > 0
               ? vacancyDetails.Knowledges.map((knowledge, index) => (
@@ -195,6 +160,7 @@ const DetailsPanel = ({
             icon="fa-gear"
             sectionKey="frameworks"
             isCollapsed={collapsedSections.frameworks}
+            toggleSection={toggleSection}
           >
             {vacancyDetails.Frameworks?.length > 0
               ? vacancyDetails.Frameworks.map((framework, index) => (
@@ -208,9 +174,10 @@ const DetailsPanel = ({
             icon="fa-gear"
             sectionKey="salary"
             isCollapsed={collapsedSections.salary}
+            toggleSection={toggleSection}
           >
             <p>
-              {vacancyDetails.Salary > 30
+              {vacancyDetails.Salary > 100
                 ? `${vacancyDetails.Salary}EUR/mesiac`
                 : `${vacancyDetails.Salary}EUR/hod`}
             </p>
@@ -240,7 +207,7 @@ const DetailsPanel = ({
               onClick={handleStarToggle}
               style={{
                 cursor: "pointer",
-                color: vacancyDetails.isStarred ? "#FFD700" : "white",
+                color: vacancyDetails.isStarred ? "#ffe863" : "white",
               }}
               title={
                 vacancyDetails.isStarred

@@ -16,18 +16,46 @@ from scripts.Gemini import Gemini
 
 class Parser:
     def __init__(self, query_params: Dict):
-        self.gmail = Gmail(client_secret_file="client_secret.json")
         self.query_params: Dict = query_params
         self.messages: List = []
         self.vacancies: Dict[str, Dict] = {}
         self.json_vacancies = "db/vacancies.json"
         self.json_last_response = "db/last_response.json"
 
+        self.gmail = None
+        self.__initialize_gmail()
         self.ai = Gemini()
         self.connector = sqlserver_con.Connector()
 
+    def __initialize_gmail(self):
+        try:
+            self.gmail = Gmail(client_secret_file="client_secret.json")
+        except Exception as e:
+            print("Gmail verification failed:", e)
+            self.gmail = None
+
     def get_messages(self) -> List:
-        return self.gmail.get_messages(query=construct_query(self.query_params))
+        """Get messages with automatic OAuth handling"""
+        if not self.gmail:
+            self.__initialize_gmail()
+        
+        if not self.gmail:
+            raise Exception("Gmail not initialized")
+        
+        try:
+            # This will trigger OAuth flow if needed
+            messages = self.gmail.get_messages(query=construct_query(self.query_params))
+            return messages
+        except Exception as e:
+            print(f"Error getting messages: {e}")
+            # If auth failed, try to reinitialize
+            if "authentication" in str(e).lower() or "credential" in str(e).lower():
+                print("Attempting to reinitialize Gmail connection...")
+                self.gmail = None
+                self.__initialize_gmail()
+                if self.gmail:
+                    return self.gmail.get_messages(query=construct_query(self.query_params))
+            raise e
 
     def parse_messages(self, messages: List) -> Dict[str, Dict]:
         self.messages = messages
@@ -74,7 +102,7 @@ class Parser:
         return self.vacancies
 
     def parse_date(self, date: str) -> str:
-        parsed_date: datetime = datetime.strptime(date, "%Y-%d-%m %H:%M:%S%z")
+        parsed_date: datetime = datetime.strptime(date, "%Y-%m-%d %H:%M:%S%z")
         sql_date: str = parsed_date.strftime("%Y-%m-%d %H:%M:%S")
         return sql_date
 

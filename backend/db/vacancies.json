@@ -1,335 +1,320 @@
 {
-    "2025-06-11 06:13:59+02:00": {
-        "Cybersecurity student": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/2/bgq9_DrtNHId5m3ZIZvMjA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwNzYxMzk_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Košice, Slovakia (Job with occasional home office)"
+    "2025-06-18 06:32:07+02:00": {
+        "Python [PySpark] inžinier, 300 až 350€ MD": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/2/3fqI2DHCESXQ-iVNwn2ydg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdGl0YW5zLWZyZWVsYW5jZXJzL081MTAwNzg0P3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24taG90LW9mZmVycw",
+            "company": "TITANS freelancers, s.r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Customer Experience Business Analyst": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/3/Tcv17fiRKnP0vByrERrrzw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evb24tc2VtaWNvbmR1Y3Rvci1zbG92YWtpYS9PNTA5MjAxNT9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "ON Semiconductor Slovakia, a.s.",
+            "location": "Bratislava, Slovensko, Bratislava, Slovak Republic (Job with occasional home office)"
+        },
+        "Senior Customer Experience Data & Insights Analyst": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/4/lUStacbsbuVzWV97OGQo8A/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evb24tc2VtaWNvbmR1Y3Rvci1zbG92YWtpYS9PNTA5MjAxND9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "ON Semiconductor Slovakia, a.s.",
+            "location": "Bratislava, Slovensko, Bratislava, Slovak Republic (Job with occasional home office)"
+        },
+        "Low Code Programmer Trainee": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/5/smQFIQ_nNj-22PFn3KvVhw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY29udGluZW50YWwtYWcvTzUwMzk0NzE_cnVsb2dpbj02ODUyMTkxZjExZjE4MzhmNTE1NWQ4NmQ4NzhkZjZkYiZzZWFyY2hfaWQ9ZjBmMGFlMGItZGQwOS00NWQ1LTg2NjgtOWZiYTA0YjVlZTU2JnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE4JmVpZD02ODUyMTkxZWI4YmU4NzJmNzE5ZTU0OWYyYzZjNWYzOSZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
+            "company": "Continental AG",
+            "location": "Zvolen"
         },
         "Web Editor Digital Marketing": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/3/BkvVVdowmua6cbZzTw9AGA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaGVua2VsLXNsb3ZlbnNrby9PNTA2NjQ2OT9ydWxvZ2luPTY4NDhkZGFjOGI0Mjk0MTQ0ZTk2ODBiZDRkMTM2MTRjJnNlYXJjaF9pZD1jNDhmNzJlNC1iNjcyLTQxODItOGUxMC00OTU3Yzk4MzY4YzAmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTEmZWlkPTY4NDhkZGFjNDc4NmE4ZGU4NjcyMmYzNDExZTYyMDY3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/6/TgXDOeehclTDHtqsV13lYQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaGVua2VsLXNsb3ZlbnNrby9PNTA2NjQ2OT9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
             "company": "HENKEL SLOVENSKO, spol. s r.o.",
             "location": "Bratislava, Slovakia (Job with occasional home office)"
         },
-        "Lead .NET Software Engineer – Shape the Future of Medical Imaging with Siemens Healthineers": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/5/uo8Kt0cUvFKLw8mit_Ln8w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwNTc2NjY_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Žilina, Slovakia (Job with occasional home office)"
-        },
-        "Programátor automatizácie pre priemysel a TZB": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/6/XCzz76pw0o-ZuFU4NU43rQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdHJlbGxpcy9PNTA5NjYzMT9ydWxvZ2luPTY4NDhkZGFjOGI0Mjk0MTQ0ZTk2ODBiZDRkMTM2MTRjJnNlYXJjaF9pZD1jNDhmNzJlNC1iNjcyLTQxODItOGUxMC00OTU3Yzk4MzY4YzAmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTEmZWlkPTY4NDhkZGFjNDc4NmE4ZGU4NjcyMmYzNDExZTYyMDY3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "TRELLIS s. r. o.",
-            "location": "Trenčín"
-        },
-        "Data Science Analyst": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/7/g4uZXDEJC6sTALt9Ip3F6g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvenVyaWNoLWluc3VyYW5jZS1jb21wYW55LWx0ZC1vcmdhbml6YWNuYS16bG96a2EvTzUwOTY1NjE_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Zurich Insurance Company Ltd, organizačná zložka",
-            "location": "Bratislava, Slovak Republic (Job with occasional home office)"
-        },
-        "DTP A CTP Grafik": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/8/HMv6M2fF1tXHv_UyWEA4ig/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ3JpZmlzLXByaW50L081MDg1MDQ4P3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "GRIFIS PRINT s. r. o.",
-            "location": "Galvaniho 2A, Bratislava"
-        },
-        "Big Data Engineer on OpenXDR platform": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/9/-eR6N9zDbjpnjxUWfc8e_g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXNldC9PNTA5NjUzNj9ydWxvZ2luPTY4NDhkZGFjOGI0Mjk0MTQ0ZTk2ODBiZDRkMTM2MTRjJnNlYXJjaF9pZD1jNDhmNzJlNC1iNjcyLTQxODItOGUxMC00OTU3Yzk4MzY4YzAmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTEmZWlkPTY4NDhkZGFjNDc4NmE4ZGU4NjcyMmYzNDExZTYyMDY3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "ESET, spol. s r.o.",
-            "location": "Bratislava, Slovakia (Job with occasional home office)"
-        },
-        "Senior Java developer": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/10/vK7bqGSgyBF8EeFBHcv63Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvanVtcC1zb2Z0L081MDYyNzQ1P3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "JUMP soft a.s.",
-            "location": "Landererova 12, Staré Mesto, Slovensko ... (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "JAVA IT Developer (OpenAPI)": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/11/Cxz8o2_e4m18FO5v7s_9lw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvcmFpZmZlaXNlbi1wcm9jZXNzaW5nLWNlbnRyZS1ycGMvTzUwOTY1MDY_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Raiffeisen Processing Centre (RPC)",
-            "location": "Námestie Mateja Korvína 1, Bratislava, Slovakia (Job with occasional home office)"
-        },
-        "Senior Java Software Engineer (Air Traffic Management)": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/12/dyo5Ft_R26-wIkvEiQYpLA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZnJlcXVlbnRpcy1zb2x1dGlvbnMtc2VydmljZXMvTzUwODUwMDY_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "FREQUENTIS Solutions & Services s. r. o.",
-            "location": "Karadžičova 8, Bratislava, Slovakia (Job with occasional home office)"
-        },
-        "Senior Software Engineer (Python)": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/13/lgqCcmzLew7nv4VOmUJWDw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXJjb25kaXMtc29sdXRpb25zL081MDA0MTMzP3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "Arcondis Solutions s.r.o.",
-            "location": "Remote work"
-        },
-        "Senior React Developer": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/14/wNenXB921465q61iV2FNKw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXJjb25kaXMtc29sdXRpb25zL080OTI1NTk3P3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "Arcondis Solutions s.r.o.",
-            "location": "Košice, Slovakia (Job with occasional home office)"
-        },
-        "Java Developer": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/15/PotLoXmkTh_VtMVygiBR3w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbW94eW1pbmQvTzUwOTY0NDU_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Moxymind s. r. o.",
-            "location": "Košice, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Tlačiar (textilu)": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/16/hOb2y5y8pLfN69EqZooDmg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWVyY2h5b3UvTzUwOTU5MTM_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "MERCHYOU s.r.o.",
-            "location": "Na Pántoch, Bratislava"
-        },
-        "Dizajnérka/Dizajnér - Grafička/Grafik": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/17/cZsIIBjq8kYKtyJQBR4XVA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXVzdHJpYS1iZXRvbi13ZXJrL08zMTA1Mzc3P3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "AUSTRIA BETON WERK s.r.o.",
-            "location": "Tehelňa 1011, Kráľová pri Senci, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Java Backend Developer Junior": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/18/SBsIxY3Gu1B_SBqVCvwG5g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZm91bmRhdGlvbi9PNTA5NjM5Nz9ydWxvZ2luPTY4NDhkZGFjOGI0Mjk0MTQ0ZTk2ODBiZDRkMTM2MTRjJnNlYXJjaF9pZD1jNDhmNzJlNC1iNjcyLTQxODItOGUxMC00OTU3Yzk4MzY4YzAmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTEmZWlkPTY4NDhkZGFjNDc4NmE4ZGU4NjcyMmYzNDExZTYyMDY3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "Foundation, s.r.o.",
-            "location": "Remote work"
-        },
-        "SAP špecialista": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/19/GGfTXpjFemDvt6rp_K3dPg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ2ktZ3JvdXAtaHItc2VydmljZXMtc2xvdmFraWEvTzUwOTYzOTY_cnVsb2dpbj02ODQ4ZGRhYzhiNDI5NDE0NGU5NjgwYmQ0ZDEzNjE0YyZzZWFyY2hfaWQ9YzQ4ZjcyZTQtYjY3Mi00MTgyLThlMTAtNDk1N2M5ODM2OGMwJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTExJmVpZD02ODQ4ZGRhYzQ3ODZhOGRlODY3MjJmMzQxMWU2MjA2NyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Gi Group HR Services Slovakia s.r.o.",
-            "location": "Košice"
-        },
-        "Frontend Developer Junior": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/20/7kqoC5tYsXxuXgLGqbgIaw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZm91bmRhdGlvbi9PNTA5NjM3OT9ydWxvZ2luPTY4NDhkZGFjOGI0Mjk0MTQ0ZTk2ODBiZDRkMTM2MTRjJnNlYXJjaF9pZD1jNDhmNzJlNC1iNjcyLTQxODItOGUxMC00OTU3Yzk4MzY4YzAmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTEmZWlkPTY4NDhkZGFjNDc4NmE4ZGU4NjcyMmYzNDExZTYyMDY3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "Foundation, s.r.o.",
-            "location": "Remote work"
-        },
-        "Dátový analytik - ERP špecialista": {
-            "link": "https://tr.profesia.sk/lnk/CAAAByKwhvMAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoSQKHVFZBoXbESfuUt3ky2Je8TgAIUkc/21/rl1Ij9TbVD7yat6iNzIFWQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbXNtLWdyb3VwL081MDk2MzQyP3J1bG9naW49Njg0OGRkYWM4YjQyOTQxNDRlOTY4MGJkNGQxMzYxNGMmc2VhcmNoX2lkPWM0OGY3MmU0LWI2NzItNDE4Mi04ZTEwLTQ5NTdjOTgzNjhjMCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMSZlaWQ9Njg0OGRkYWM0Nzg2YThkZTg2NzIyZjM0MTFlNjIwNjcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "MSM GROUP s.r.o.",
-            "location": "Dubnica nad Váhom"
-        }
-    },
-    "2025-06-10 05:56:17+02:00": {
-        "Senior .NET Developer/Analytik": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/2/wB1LdeV-ke-_CnJh1e4jew/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXNzZWNvLWNlbnRyYWwtZXVyb3BlL081MDk1NjIxP3J1bG9naW49Njg0NzhhYjU0NjdmNWMwMzBjZWZmMGM4YTRjYjM3NGYmc2VhcmNoX2lkPTZiNjUzNzAzLWRjYTQtNGFhYS1hYTUzLWEwODcwZGYxMmEwYiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMCZlaWQ9Njg0NzhhYjUxMDI3YjM2ZmU1MTE4OTI4MmQ0ZGIzMGYmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "Asseco Central Europe, a.s.",
-            "location": "Galvaniho 19, 821 04 Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "DevOps Engineer": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/4/VbjfQuwkCRb5XZHfx4lMyw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzQ4MjQ0NjU_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Žilina, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Software Developer with PHP": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/5/hcb9G71T8H5vtTR1u-cbwA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZGV1dHNjaGUtdGVsZWtvbS1pdC1zb2x1dGlvbnMtc2xvdmFraWEvTzQ4ODc2MDE_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
+        "Lead Application Developer (REF502S) Back-End": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/7/oh09-F5tSX5g3HIU79pRzg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZGV1dHNjaGUtdGVsZWtvbS1pdC1zb2x1dGlvbnMtc2xvdmFraWEvTzQ1NzU5ODA_cnVsb2dpbj02ODUyMTkxZjExZjE4MzhmNTE1NWQ4NmQ4NzhkZjZkYiZzZWFyY2hfaWQ9ZjBmMGFlMGItZGQwOS00NWQ1LTg2NjgtOWZiYTA0YjVlZTU2JnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE4JmVpZD02ODUyMTkxZWI4YmU4NzJmNzE5ZTU0OWYyYzZjNWYzOSZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
             "company": "Deutsche Telekom IT Solutions Slovakia",
-            "location": "Moldavská cesta, Košice, Slovakia (Job with occasional home office)"
-        },
-        "Výroba reklamy - manuálna práca v super kolektíve v Plotbase.sk": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/6/KRAx4vPEI2JuPomEoKMHPQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvcGxvdGJhc2UvTzUwOTU1NTM_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Plotbase s. r. o.",
-            "location": "Pečnianska, Petržalka"
-        },
-        "Senior Python Developer": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/7/5rHChqwnQ3YiQTteb2WQEQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY29kZXJhbWEvTzUwOTU1NDI_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "CODERAMA s. r. o.",
-            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Hľadáme ABAP Developera (m/ž) do tímu korporátnych riešení - zástup počas MD/RD": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/8/N2F0aRX0LA0VnRyaNGr9gA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvemFwYWRvc2xvdmVuc2thLWVuZXJnZXRpa2EvTzUwOTU0OTY_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Západoslovenská energetika, a.s.",
-            "location": "Bratislava"
-        },
-        "Data Engineer": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/9/2joo-U7LjBjkRFlkcsUjlA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evb24tc2VtaWNvbmR1Y3Rvci1zbG92YWtpYS9PNTA5NTQ4OD9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "ON Semiconductor Slovakia, a.s.",
-            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "INTERN - Software Engineer": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/10/CDzR2kiDcpliVp-hAUbTAg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evb24tc2VtaWNvbmR1Y3Rvci1zbG92YWtpYS9PNTA5NTQ4Nz9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "ON Semiconductor Slovakia, a.s.",
-            "location": "Bratislava"
-        },
-        "Manual Tester": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/11/uXoNFoAp6wjAUqIcoXFmEg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evbi1pLWstZS9PNTA5NTQ3Nz9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "N I K É , spol. s r.o.",
-            "location": "Bratislava"
-        },
-        "Programátor  C++": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/12/_iCmYPOJS91DnyujEZ0tUA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbnJzeXMvTzUwOTU0NTY_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "NRSYS s.r.o.",
-            "location": "Nitra"
-        },
-        "IT špecialista": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/13/TJawNcGnR5FobJry3QhLjA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2xvdmVuc2t5LWh5ZHJvbWV0ZW9yb2xvZ2lja3ktdXN0YXYvTzUwOTU0MDU_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Slovenský hydrometeorologický ústav",
-            "location": "Jeséniova, Bratislava"
-        },
-        "PL/SQL programátor": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/14/M9osSys_LUZV9XarYh4nnA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYWl0ZW4vTzUwOTQ3MTQ_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "AITEN, a.s.",
-            "location": "Trnava"
-        },
-        "Platform Enablement Specialist": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/15/0Rdvjwb6ayPknFgF0t00Zg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ3JvdXBtLXNsb3Zha2lhL081MDk1MjAzP3J1bG9naW49Njg0NzhhYjU0NjdmNWMwMzBjZWZmMGM4YTRjYjM3NGYmc2VhcmNoX2lkPTZiNjUzNzAzLWRjYTQtNGFhYS1hYTUzLWEwODcwZGYxMmEwYiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xMCZlaWQ9Njg0NzhhYjUxMDI3YjM2ZmU1MTE4OTI4MmQ0ZGIzMGYmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "GroupM Slovakia s. r. o.",
-            "location": "Karadžičova, Bratislava"
-        },
-        "Projektant-architekt": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/16/t98ZYMddythRdXbgAVUXjg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvM2ludGVyaWVyci9PNTA5NTEwMz9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "3interierr s.r.o.",
-            "location": "Trieda SNP, Košice, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Junior účtovník/asistent audítora - prechod na digitálne účtovníctvo": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/17/jyStoeM4Tz15w9Nnnl-a5g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXVqb2ItcGVyc29uYWxuYS1hZ2VudHVyYS9PNTA5NTA4Mz9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "AuJob s.r.o., Personálna agentúra",
-            "location": "Dunajská Streda, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Práca v reklamnej agentúre": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/18/zWkrFmDuQbGVLgGfl2K3Ew/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWVkaWEtY3JlYXRpdmUtcHJvZHVjdGlvbi9PNTA5NTA4MD9ydWxvZ2luPTY4NDc4YWI1NDY3ZjVjMDMwY2VmZjBjOGE0Y2IzNzRmJnNlYXJjaF9pZD02YjY1MzcwMy1kY2E0LTRhYWEtYWE1My1hMDg3MGRmMTJhMGImdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTAmZWlkPTY4NDc4YWI1MTAyN2IzNmZlNTExODkyODJkNGRiMzBmJnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "Media Creative Production, spol. s r.o.",
-            "location": "Na Karlove 1a, Banská Bystrica"
-        },
-        "IX/UI Designer for Shui®, our Healthineers Design System": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/20/5p7WTxfoHaHoq03013Zefg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwOTUwNjg_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Bratislava, Slovakia (Job with occasional home office)"
-        },
-        "Junior Software Developer - student embedded software testing": {
-            "link": "https://tr.profesia.sk/lnk/EAAAByF-PjQAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoR6zh9tnPV7I6Q56YVx-2xN14OwAIUkc/21/F5TAyMw-D5YhKzDLna4ZIA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwOTUwNTY_cnVsb2dpbj02ODQ3OGFiNTQ2N2Y1YzAzMGNlZmYwYzhhNGNiMzc0ZiZzZWFyY2hfaWQ9NmI2NTM3MDMtZGNhNC00YWFhLWFhNTMtYTA4NzBkZjEyYTBiJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTEwJmVpZD02ODQ3OGFiNTEwMjdiMzZmZTUxMTg5MjgyZDRkYjMwZiZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Košice, Slovakia (Job with occasional home office)"
-        }
-    },
-    "2025-06-09 04:30:34+02:00": {
-        "E-mail Marketing špecialista/špecialistka pre e-shop BENU": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/2/wSz6S1OOdBo8ehqYxap05g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYmVudS1waG9lbml4L081MDk0NTkxP3J1bG9naW49Njg0NjMyZDQyYThlYzI5YjA3NzA2MWYwMDBiNjJiZDcmc2VhcmNoX2lkPWNjZGQxZTRlLWYyZmEtNGQ4Mi04MzcyLWM3MDBmYmMxNjE0ZCZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOSZlaWQ9Njg0NjMyZDNhMDQ5MjYxM2JkMzA1MDMzMjY5NTdhOTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "BENU / PHOENIX",
-            "location": "Pribylinská 2A, Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "IT študent na Dohodu (Automation Tester)": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/15/QeQSX6-rWlrAiyuC77Uezg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evbi1pLWstZS9PNTA3OTkyOD9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "N I K É , spol. s r.o.",
-            "location": "Bratislava"
-        },
-        "Medior C+C#NET Software developer": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/4/X5O3Rpo5T_oNwP0e6DkQJA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwNjQ1ODc_cnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZzZWFyY2hfaWQ9Y2NkZDFlNGUtZjJmYS00ZDgyLTgzNzItYzcwMGZiYzE2MTRkJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Košice, Slovakia (Job with occasional home office)"
-        },
-        "System Architect R&D": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/5/YXakG4tip9gAeCPIojQYPA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwNjQwOTY_cnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZzZWFyY2hfaWQ9Y2NkZDFlNGUtZjJmYS00ZDgyLTgzNzItYzcwMGZiYzE2MTRkJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Siemens Slovensko",
-            "location": "Galvaniho 7, 821 04 Ružinov"
-        },
-        "AI/ML Engineer": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/6/PQwOLxgno8VbQN3ZGQwqGA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdW5pcWEtZ3JvdXAtc2VydmljZS1jZW50ZXItc2xvdmFraWEvTzUwNTYwODQ_cnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZzZWFyY2hfaWQ9Y2NkZDFlNGUtZjJmYS00ZDgyLTgzNzItYzcwMGZiYzE2MTRkJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "UNIQA Group Service Center Slovakia, spol. s r.o.",
             "location": "Remote work"
         },
-        "Software Developer SAP Platform": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/7/7BbMp9HMAacEf2wVTvjxfw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaGVua2VsLXNsb3ZlbnNrby9PNDc3NDY4MT9ydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnNlYXJjaF9pZD1jY2RkMWU0ZS1mMmZhLTRkODItODM3Mi1jNzAwZmJjMTYxNGQmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "HENKEL SLOVENSKO, spol. s r.o.",
+        "Junior web developer - aj študenti alebo absolventi VŠ": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/8/ZDH327MMuLpsVNxM1Vdxaw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdWl0LWRldmVsb3BtZW50L081MDkwNTI3P3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "UIT Development, s. r. o.",
+            "location": "Poprad, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Vývojový inžinier meracích zariadení": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/9/N7dQpKCQiRVC3-6PRd1DBQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdHJlc2Nvbi1zbG92YWtpYS9PNTEwMTkyMj9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "Trescon Slovakia, s. r. o.",
+            "location": "Vimperk, Česko"
+        },
+        "Tagetik Developer (all humans)": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/10/2fSwlYHfon9PN1-7j3zeBA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXJzdGUtZGlnaXRhbC1nbWJoL081MDg5OTQzP3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Erste Digital GmbH",
             "location": "Bratislava, Slovakia (Job with occasional home office)"
         },
-        "Software Engineer in Test": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/8/WChMCS1QqtHv1a72jauTKg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc3dpc3MtcmUvTzUwNDg0NjE_cnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZzZWFyY2hfaWQ9Y2NkZDFlNGUtZjJmYS00ZDgyLTgzNzItYzcwMGZiYzE2MTRkJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
-            "company": "Swiss Re",
-            "location": "Twin City B, Mlynské nivy, Bratislava, Slovakia (Job with occasional home office)"
+        "WordPress špecialista pre obsah a správu webu": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/11/yl8n2Jamhqbe_PJyF279vA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY2FyZGlvLWZpdG5lc3Mtc3R1ZGlvL081MTAxNzk5P3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Cardio & Fitness Studio",
+            "location": "Družstevná 18, Komárno"
         },
-        "Junior Full Stack Developer": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/9/SsrBfhoMDe_yq5SCV5Xcuw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaW5zdGVhL081MDkwOTcxP3JpZD1lODQ4ZGUzMWYzOGQ3YWJkJnJ1bG9naW49Njg0NjMyZDQyYThlYzI5YjA3NzA2MWYwMDBiNjJiZDcmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOSZlaWQ9Njg0NjMyZDNhMDQ5MjYxM2JkMzA1MDMzMjY5NTdhOTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
-            "company": "Instea s. r. o.",
-            "location": "Práca z domu"
-        },
-        "Junior Data Engineer": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/10/yO86PejaDp_bhjF1Ppi2bw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ3ltYmVhbS9PNTA2MjQxND9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "GymBeam s.r.o.",
+        "Lead Developer(C#NET)": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/12/jFIC8APY-wB4duFLBSy9kQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdW5saW1pdC1yZWNydWl0bWVudC9PNTEwMTY2OT9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "Unlimit Recruitment, s.r.o.",
             "location": "Košice, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
         },
-        "Sprostredkovateľská činnosť, flexibilný pracovný čas, home office": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/11/HRcKt9I9qiqba79DmAZP2Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY2svTzUwNzg0ODI_cmlkPWU4NDhkZTMxZjM4ZDdhYmQmcnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
-            "company": "CK, s.r.o.",
-            "location": "Práca z domu"
-        },
-        "Junior Software Engineer/AI": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/12/TVsRD-A8lvWHZFOIzT69ng/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXNldC9PNTA4NDIzNz9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "ESET, spol. s r.o.",
-            "location": "Bratislava, Slovakia (Job with occasional home office)"
-        },
-        "Junior / Medior Power Platform Developer (Power Apps, Power Automate, SharePoint)": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/13/6cEgip5GklFxie3ZT6iIpw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaGV4YXRlY2gvTzUwODIwNDM_cmlkPWU4NDhkZTMxZjM4ZDdhYmQmcnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
-            "company": "HexaTech s. r. o.",
-            "location": "Práca z domu"
-        },
-        "Manažér kybernetickej bezpečnosti": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/14/xbtR2ZyLCzLl1eLU8PBk1Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYnJhaW5pdC1zay9PNTA3NzAxMz9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "brainit.sk, s. r. o.",
-            "location": "Práca z domu"
-        },
-        "Dátový analytik - junior": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/16/QaN4nz3fSDERsOUyfhiu0g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZW1pbmVvLXBhcnRuZXJzLWZpbmFuY2lhbC1zZXJ2aWNlcy9PNTA4OTI1MD9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "Emineo Partners - financial services, s.r.o.",
-            "location": "Hviezdoslavovo námestie, Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Dátový inžinier [Big Data, AI/ML], 320 až 430€ MD": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/17/lwGuE98xNjdF4mr3ul5_Cw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdGl0YW5zLWZyZWVsYW5jZXJzL081MDgzNTY1P3JpZD1lODQ4ZGUzMWYzOGQ3YWJkJnJ1bG9naW49Njg0NjMyZDQyYThlYzI5YjA3NzA2MWYwMDBiNjJiZDcmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOSZlaWQ9Njg0NjMyZDNhMDQ5MjYxM2JkMzA1MDMzMjY5NTdhOTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
-            "company": "TITANS freelancers, s.r.o.",
-            "location": "Práca z domu"
-        },
-        "Data Scientist": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/18/Xuuxkf9qZN9gFSrs1MjnMw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY29kZXJhbWEvTzUwODgyMTM_cmlkPWU4NDhkZTMxZjM4ZDdhYmQmcnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
-            "company": "CODERAMA s. r. o.",
-            "location": "Práca z domu"
+        "FatChilli hľadá Medior/Senior Backend Developera": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/13/04feZujvzBmY85YLydobXQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZmF0LWNoaWxsaS9PNTEwMTY2OD9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "FAT CHILLI, s.r.o.",
+            "location": "Galandova 1, Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
         },
         "Junior Web QA Engineer/Developer (student/part-time)": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/19/rEMmiZU-odB59wBeZcmznw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYnJpZ2h0cGljay9PNTA3NjEyMz9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/14/P1ZqwmQwu5VJjjhDqbPLUg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYnJpZ2h0cGljay9PNTEwMTY1Mz9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
             "company": "Brightpick s. r. o.",
             "location": "Plynárenská 4937/6, Ružinov"
         },
-        "Junior Data analytik": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/20/fOZ1Q_RBRIDDBHoXH2vnpg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaGV4YXRlY2gvTzUwODIwNjg_cmlkPWU4NDhkZTMxZjM4ZDdhYmQmcnVsb2dpbj02ODQ2MzJkNDJhOGVjMjliMDc3MDYxZjAwMGI2MmJkNyZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA5JmVpZD02ODQ2MzJkM2EwNDkyNjEzYmQzMDUwMzMyNjk1N2E5OCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
-            "company": "HexaTech s. r. o.",
+        "Senior Java Developer (POS Team)": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/15/CTr1d6h23WwEe8XbIzPvCg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY2dpLXNsb3Zha2lhL081MDU2ODEyP3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "CGI Slovakia s. r. o.",
+            "location": "Landererova, Bratislava"
+        },
+        "ServiceNow Expert (all humans)": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/16/zPldbRAjTPiNiAIQ09B8Qw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXJzdGUtZGlnaXRhbC1nbWJoL081MTAxMDg4P3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Erste Digital GmbH",
+            "location": "Košice, Slovakia (Job with occasional home office)"
+        },
+        "Junior Backend Developer": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/17/NEinvZr2_HtdqNeK3X4MrQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY2dpLXNsb3Zha2lhL081MTAxNjQ3P3J1bG9naW49Njg1MjE5MWYxMWYxODM4ZjUxNTVkODZkODc4ZGY2ZGImc2VhcmNoX2lkPWYwZjBhZTBiLWRkMDktNDVkNS04NjY4LTlmYmEwNGI1ZWU1NiZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xOCZlaWQ9Njg1MjE5MWViOGJlODcyZjcxOWU1NDlmMmM2YzVmMzkmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "CGI Slovakia s. r. o.",
+            "location": "Landererova 12, Staré Mesto, Slovensko ... (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Senior Java Developer (Greenfield projekt)": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/18/CDguAbH2K0nkjJu7_UP86w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY29kZXJhbWEvTzUxMDE2MDM_cnVsb2dpbj02ODUyMTkxZjExZjE4MzhmNTE1NWQ4NmQ4NzhkZjZkYiZzZWFyY2hfaWQ9ZjBmMGFlMGItZGQwOS00NWQ1LTg2NjgtOWZiYTA0YjVlZTU2JnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE4JmVpZD02ODUyMTkxZWI4YmU4NzJmNzE5ZTU0OWYyYzZjNWYzOSZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
+            "company": "CODERAMA s. r. o.",
             "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
         },
-        "Práca v sklade  (kozmetika,Žilina)": {
-            "link": "https://tr.profesia.sk/lnk/BAAAByBoC6YAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRkdK9Pr2n9xlSy6ooAJkrcGSXwAIUkc/21/qNvVTILOrzXw4UVVsS6cSQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYmlvcnV6YS9PNTA4NDI1Nz9yaWQ9ZTg0OGRlMzFmMzhkN2FiZCZydWxvZ2luPTY4NDYzMmQ0MmE4ZWMyOWIwNzcwNjFmMDAwYjYyYmQ3JnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDkmZWlkPTY4NDYzMmQzYTA0OTI2MTNiZDMwNTAzMzI2OTU3YTk4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "BIORUŽA, s. r. o.",
-            "location": "Rosinská cesta, Žilina"
+        "Big data expert for Eset Protect Platform": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/19/RJNwJu7gUhPNYeL41ydYow/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXNldC9PNDk2NDAyOD9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "ESET, spol. s r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Web - Frontend Developer": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/20/UXoGx9dhfKu4mOrm_Egmpg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZXNldC9PNTEwMTU2Nj9ydWxvZ2luPTY4NTIxOTFmMTFmMTgzOGY1MTU1ZDg2ZDg3OGRmNmRiJnNlYXJjaF9pZD1mMGYwYWUwYi1kZDA5LTQ1ZDUtODY2OC05ZmJhMDRiNWVlNTYmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTgmZWlkPTY4NTIxOTFlYjhiZTg3MmY3MTllNTQ5ZjJjNmM1ZjM5JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "ESET, spol. s r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Produktový dizajnér": {
+            "link": "https://tr.profesia.sk/lnk/BAAABypsHDkAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoUkFHnkvdDhiLS-SsOEnkYFtArgAIUkc/21/is765Ebsd9eNS0GE9dnZwg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYmUtbGVua2EvTzUxMDE1MzM_cnVsb2dpbj02ODUyMTkxZjExZjE4MzhmNTE1NWQ4NmQ4NzhkZjZkYiZzZWFyY2hfaWQ9ZjBmMGFlMGItZGQwOS00NWQ1LTg2NjgtOWZiYTA0YjVlZTU2JnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE4JmVpZD02ODUyMTkxZWI4YmU4NzJmNzE5ZTU0OWYyYzZjNWYzOSZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
+            "company": "Be Lenka s.r.o.",
+            "location": "Obchodná 9076/3d, Žilina-Vlčince"
         }
     },
-    "2025-06-08 04:50:44+02:00": {
-        "Programátor": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/2/RP66HYmPZhv8zveXbgVQMw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWljcm9jb21wLWNvbXB1dGVyc3lzdGVtL081MDgzNzkxP3J1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmc2VhcmNoX2lkPTIzYWVkOWNjLWQ1ZmMtNDQyMS1hZGEyLThmYTJmYTcxMDZiOSZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "MICROCOMP - Computersystém s.r.o.",
-            "location": "Banská Bystrica, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+    "2025-06-16 22:08:13+02:00": {
+        "DevOps Engineer": {
+            "link": "https://tr.profesia.sk/lnk/CAAABykBTfYAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHmtDZrBg6m_Q2GmCBdqMTaIYwAIUkc/3/G_hI3W5p59m83Te8jJE-6A/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzQ4MjQ0NjU_cnVsb2dpbj01N2Q2NWM5MjAzNTYwMGMwM2JlZjJiNWEzMjkxZmFjMiZzdWdnZXN0X2lkPWQ4OWJjMGJhLWNmZjItNDY0Ny1hNmVjLTYwZGVjZWU0MTk4ZiZyaWQ9Njg5NTg3ODM4NGJmZmE0ZCZydW49YWFjZSZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDE0MyZ1dG1fY29udGVudD1vdGhlciZ1dG1fY2FtcGFpZ249MTAxNDMmdXRtX3Rlcm09MjAyNS0wNi0xNg",
+            "company": "Siemens Slovensko",
+            "location": "Žilina, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
         },
-        "Senior Java Developer": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/3/usoHvezkYuzzRVKsGR3oYg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbmV0Y29yZS1qLXMtYS9PNTA4MjU0MT9ydWxvZ2luPTY4NDRlMjg1ODA0YTljYjZkMWRkNGY3ZmFlYWM0MmYzJnNlYXJjaF9pZD0yM2FlZDljYy1kNWZjLTQ0MjEtYWRhMi04ZmEyZmE3MTA2YjkmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDgmZWlkPTY4NDRlMjg1NGJlYzU3ZTQ1YWRiMDMwZjE5ZjJkZGE4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
-            "company": "NetCore j.s.a.",
-            "location": "Garbiarska 2, Košice"
-        },
-        "Digitální výroba | CAD | 3D modelování (Práce na dálku z Česka – ideálně Plzeň a okolí)": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/4/6ZMMMIDgQCezu7dyVOxw5w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaG9ybHVjaHMtaGVhcmluZy1nbWJoLWNvLWtnL081MDgzMzY2P3J1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmc2VhcmNoX2lkPTIzYWVkOWNjLWQ1ZmMtNDQyMS1hZGEyLThmYTJmYTcxMDZiOSZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "Hörluchs Hearing GmbH & Co. KG",
-            "location": "Heimarbeit"
-        },
-        "Commercial & Marketing Support": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/5/T3XXm8k5JhEcqVosxZWPJg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbHVjcm9uLWdyb3VwL081MDgzMjA2P3J1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmc2VhcmNoX2lkPTIzYWVkOWNjLWQ1ZmMtNDQyMS1hZGEyLThmYTJmYTcxMDZiOSZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
-            "company": "Lucron Group, a. s.",
-            "location": "Legionárska 10, Bratislava"
-        },
-        "Špecialista podpory aplikácií_Košice": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/7/hNN8Q5myusxz_WSJPJD7Qw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvcGVudGEtaG9zcGl0YWxzLXNrL081MDg0NDg0P3JpZD0zYThmNGYzNjE5NTMwNjUwJnJ1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
-            "company": "Penta Hospitals SK, a. s.",
-            "location": "Košice, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
-        },
-        "Security Technik Administrator": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/17/jML8oA29lNVHSfn-e5mC-w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZGV1dHNjaGUtdGVsZWtvbS1pdC1zb2x1dGlvbnMtc2xvdmFraWEvTzUwODUxMjc_cmlkPTNhOGY0ZjM2MTk1MzA2NTAmcnVsb2dpbj02ODQ0ZTI4NTgwNGE5Y2I2ZDFkZDRmN2ZhZWFjNDJmMyZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTA4JmVpZD02ODQ0ZTI4NTRiZWM1N2U0NWFkYjAzMGYxOWYyZGRhOCZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
-            "company": "Deutsche Telekom IT Solutions Slovakia",
-            "location": "Košice"
-        },
-        "Brigádnik/čka pre predajňu Office SHOES v  OC Aupark Žilina": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/18/L5Z9sjkXNUnAJvi25N2RmA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2hvZWJveC1zbG92YWtpYS9PNTA4NDQ2ND9yaWQ9M2E4ZjRmMzYxOTUzMDY1MCZydWxvZ2luPTY4NDRlMjg1ODA0YTljYjZkMWRkNGY3ZmFlYWM0MmYzJnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMDgmZWlkPTY4NDRlMjg1NGJlYzU3ZTQ1YWRiMDMwZjE5ZjJkZGE4JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
-            "company": "Shoebox Slovakia s. r. o.",
-            "location": "Žilina"
-        },
-        "IT Dátový Analytik, 100%  z domu": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/20/F7_jIWxgZxlQrR1xMusbGA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbmVlZGxlLXJlY3J1aXRtZW50L081MDg2ODMzP3JpZD0zYThmNGYzNjE5NTMwNjUwJnJ1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
-            "company": "NEEDLE RECRUITMENT s.r.o.",
+        "Copywriter a tvorca obsahu - práca z domu": {
+            "link": "https://tr.profesia.sk/lnk/CAAABykBTfYAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHmtDZrBg6m_Q2GmCBdqMTaIYwAIUkc/4/k95Mss-v2-ipnDiZCeQmpw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ3JhZGV0YS9PNTA5Mjc5MT9ydWxvZ2luPTU3ZDY1YzkyMDM1NjAwYzAzYmVmMmI1YTMyOTFmYWMyJnN1Z2dlc3RfaWQ9ZDg5YmMwYmEtY2ZmMi00NjQ3LWE2ZWMtNjBkZWNlZTQxOThmJnJpZD02ODk1ODc4Mzg0YmZmYTRkJnJ1bj1hYWNlJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMTQzJnV0bV9jb250ZW50PW90aGVyJnV0bV9jYW1wYWlnbj0xMDE0MyZ1dG1fdGVybT0yMDI1LTA2LTE2",
+            "company": "Gradeta s. r. o.",
             "location": "Práca z domu"
         },
-        "Audio/Video editor pre podcastové štúdio": {
-            "link": "https://tr.profesia.sk/lnk/EAAABx_JE1AAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoRPqEQdmfubyaQgiqwv1xMtJF4QAIUkc/21/jhoFcZ3eWedTGIomp0aY2w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Eva292YXN0L081MDg2NjE0P3JpZD0zYThmNGYzNjE5NTMwNjUwJnJ1bG9naW49Njg0NGUyODU4MDRhOWNiNmQxZGQ0ZjdmYWVhYzQyZjMmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0wOCZlaWQ9Njg0NGUyODU0YmVjNTdlNDVhZGIwMzBmMTlmMmRkYTgmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
-            "company": "Kovast s. r. o.",
+        "Translator – English/Slovak to Greek": {
+            "link": "https://tr.profesia.sk/lnk/CAAABykBTfYAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHmtDZrBg6m_Q2GmCBdqMTaIYwAIUkc/5/HfzU54he3EF81i0_wGnmdQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYmVybGluLWJyYW5kcy1ncm91cC9PNTA5NzE1OT9ydWxvZ2luPTU3ZDY1YzkyMDM1NjAwYzAzYmVmMmI1YTMyOTFmYWMyJnN1Z2dlc3RfaWQ9ZDg5YmMwYmEtY2ZmMi00NjQ3LWE2ZWMtNjBkZWNlZTQxOThmJnJpZD02ODk1ODc4Mzg0YmZmYTRkJnJ1bj1hYWNlJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMTQzJnV0bV9jb250ZW50PW90aGVyJnV0bV9jYW1wYWlnbj0xMDE0MyZ1dG1fdGVybT0yMDI1LTA2LTE2",
+            "company": "Berlin Brands Group a.s.",
+            "location": "Remote work"
+        },
+        "Frontend Developer Junior": {
+            "link": "https://tr.profesia.sk/lnk/CAAABykBTfYAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHmtDZrBg6m_Q2GmCBdqMTaIYwAIUkc/6/dO5R4HyIpQN7ii0rcY3V2g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZm91bmRhdGlvbi9PNTA5NjM3OT9ydWxvZ2luPTU3ZDY1YzkyMDM1NjAwYzAzYmVmMmI1YTMyOTFmYWMyJnN1Z2dlc3RfaWQ9ZDg5YmMwYmEtY2ZmMi00NjQ3LWE2ZWMtNjBkZWNlZTQxOThmJnJpZD02ODk1ODc4Mzg0YmZmYTRkJnJ1bj1hYWNlJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMTQzJnV0bV9jb250ZW50PW90aGVyJnV0bV9jYW1wYWlnbj0xMDE0MyZ1dG1fdGVybT0yMDI1LTA2LTE2",
+            "company": "Foundation, s.r.o.",
+            "location": "Remote work"
+        },
+        "Junior DevOps Engineer": {
+            "link": "https://tr.profesia.sk/lnk/CAAABykBTfYAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHmtDZrBg6m_Q2GmCBdqMTaIYwAIUkc/7/PEFoLLanXhxLqNj9FdMkhw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZGV2b3BzZ3JvdXAvTzUwOTYxNjU_cnVsb2dpbj01N2Q2NWM5MjAzNTYwMGMwM2JlZjJiNWEzMjkxZmFjMiZzdWdnZXN0X2lkPWQ4OWJjMGJhLWNmZjItNDY0Ny1hNmVjLTYwZGVjZWU0MTk4ZiZyaWQ9Njg5NTg3ODM4NGJmZmE0ZCZydW49YWFjZSZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDE0MyZ1dG1fY29udGVudD1vdGhlciZ1dG1fY2FtcGFpZ249MTAxNDMmdXRtX3Rlcm09MjAyNS0wNi0xNg",
+            "company": "DevOpsGroup s. r. o.",
+            "location": "Remote work"
+        }
+    },
+    "2025-06-16 22:03:05+02:00": {
+        "Administratíva - asist 2025": {
+            "link": "https://tr.profesia.sk/lnk/BAAAByj2niAAAcqpLBYAAL9CtXIAAAAAimgAAAAAAAj8PQBoUHh5W4UWVFzbQi-t-Z1nAU1XwQAIUkc/7/c6gGY_YCc4dHazHnG1ymVA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZmVyY2FtLXNsb3Zha2lhL081MDk4ODY3P3J1bG9naW49MzBjYTBmNjU4NTg2NWMzMzFmOTM4MDA1Yzk1YzNkZjImc3VnZ2VzdF9pZD01ZjU2OTk2Yy04NzYwLTQxYjEtODQ2OS01NmVmY2U5NWE2MGMmcmlkPTJhNTVhOGU3YmZmZDcwNDgmcnVuPWFhY2UmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAxNDMmdXRtX2NvbnRlbnQ9b3RoZXImdXRtX2NhbXBhaWduPTEwMTQzJnV0bV90ZXJtPTIwMjUtMDYtMTY",
+            "company": "FERCAM Slovakia, s.r.o.",
             "location": "Práca z domu"
         }
-    }
+    },
+    "2025-06-16 22:02:23+02:00": {},
+    "2025-06-16 21:17:15+02:00": {},
+    "2025-06-16 03:59:59+02:00": {
+        "DevOps Specialist": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/2/qYq4yqElETrpl-Qzp3Vz3w/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXNzZWNvLWNlbnRyYWwtZXVyb3BlL081MDk5Nzc2P3J1bG9naW49Njg0ZjZiM2ExYWY1MTgzZTRlYjBlODMxYjU4NjMyNzImc2VhcmNoX2lkPTNhNTNjN2RjLWU4Y2YtNGEyMy05NDE4LWY2OTBkNzA4YmExYyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNiZlaWQ9Njg0ZjZiMzlkN2QyN2Y3ODUyMjQ5M2QxMGVhOTc2ZDcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Asseco Central Europe, a.s.",
+            "location": "Galvaniho 19, 821 04 Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Manual Software Tester": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/3/1gLSdgD2Pkw-fIR6irfuLg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evbi1pLWstZS9PNTA5NTQ3Nz9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "N I K É , spol. s r.o.",
+            "location": "Bratislava"
+        },
+        "Hardware Developer for Electronics (m/f/d)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/4/Sqmtf5Yp35iPMxYO_TKh4Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYnJvc2UtcHJpZXZpZHphL081MDk0NzkzP3J1bG9naW49Njg0ZjZiM2ExYWY1MTgzZTRlYjBlODMxYjU4NjMyNzImc2VhcmNoX2lkPTNhNTNjN2RjLWU4Y2YtNGEyMy05NDE4LWY2OTBkNzA4YmExYyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNiZlaWQ9Njg0ZjZiMzlkN2QyN2Y3ODUyMjQ5M2QxMGVhOTc2ZDcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Brose Prievidza, spol. s r.o.",
+            "location": "Prievidza"
+        },
+        "Web Developer (Angular, TypeScript,Node)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/5/7BpFYjubVrQkgKDXPjLflw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM0OT9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava"
+        },
+        "C+Python Developer ( Bratislava)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/6/Ao-Or2H-kUsUHVZzcv_KDg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM1MD9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Development Team Lead": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/8/ooYqNeWr_taGLOjMWwhfpA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM1ND9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Solution Architect": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/10/v3j_5AtQtcVKQT8Penc6Wg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM1OD9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Senior Platform Engineer with Java (Java, DevOps, PostgreSQL)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/11/-53dgxivcYF4Ex6cj0Ltow/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM1OT9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Košice, Slovakia (Job with occasional home office)"
+        },
+        "Senior .NET Developer (AWS, Entity, RestAPI)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/14/RC_H8KRMeGyENhJv2m4Vug/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM2Mz9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Košice, Slovakia (Job with occasional home office)"
+        },
+        "HW Developer (PCB, Firmware) Zilina": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/13/18LhBmEG5ETal8gqQZQ-vA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM3MD9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Žilina, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "C/C++ Developer (QT, QML) Zilina": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/15/BjV4Id1nmtg0_9GPnRyT4g/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM2OD9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Žilina, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Senior Frontend/Fullstack Developer (React+Node/Java)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/16/FVxULF4p8QKRi7T7JqbHbQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM4NT9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Tech Lead (JavaScript, TypeScript, Angular, Node, Python, C+": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/17/TMXAFPDQXmMRtsV4mJkElw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NTM4Nz9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "ServiceNow Technical Consultant (Javascript)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/18/zAjBY_GK36SGpCFxp3WdPA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NjM4MT9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Technical Analyst for IT Solution Design (UML, BPMN, DMN)": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/19/J4T8vpx7nI8FpPK8d7Io4Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NjM4ND9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Senior REACT Developer": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/20/mq6rAcbemGgWNHfg2vxcjg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NjM5Mj9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        },
+        "Mobile QA Engineer": {
+            "link": "https://tr.profesia.sk/lnk/CAAAByfzpJEAAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoT3qeOFs9lglyQWmPIHm1XNqgWgAIUkc/21/8Obm6rPqSKLzKCXmFmMUXg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc291cmNlZmlyc3QtaW50ZXJuYXRpb25hbC9PNTA3NjgyMT9ydWxvZ2luPTY4NGY2YjNhMWFmNTE4M2U0ZWIwZTgzMWI1ODYzMjcyJnNlYXJjaF9pZD0zYTUzYzdkYy1lOGNmLTRhMjMtOTQxOC1mNjkwZDcwOGJhMWMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTYmZWlkPTY4NGY2YjM5ZDdkMjdmNzg1MjI0OTNkMTBlYTk3NmQ3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SourceFirst International s.r.o.",
+            "location": "Bratislava, Slovakia (Job with occasional home office)"
+        }
+    },
+    "2025-06-15 04:44:34+02:00": {
+        "Career Opportunity for Experienced Java Engineers": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/2/11OQ5dAv821US-TYiBPxFA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbG9jYWxob3N0L080OTQzMzU4P3J1bG9naW49Njg0ZTFjODJjNmU2M2U1MzY3NThiNmM0NTAzMTEzMGYmc2VhcmNoX2lkPWM3MTA4MzU5LWZhNjgtNDNmMC1iYmFlLWE4YTgwMWU5ODA4MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNSZlaWQ9Njg0ZTFjODI2Y2FjMGQ0NDE3NTg4Yzg3NzY3OWNkZTcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "localhost s.r.o.",
+            "location": "Košice, Slovakia (Job with occasional home office)"
+        },
+        "Dizajnér / projektový manažér/bytový architekt": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/3/KNoxJeDESq_uKCWXG36pvA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvaG9ydXMtdHJhZGUvTzUwODkwMDk_cnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZzZWFyY2hfaWQ9YzcxMDgzNTktZmE2OC00M2YwLWJiYWUtYThhODAxZTk4MDgzJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbg",
+            "company": "Horus Trade s.r.o.",
+            "location": "Bratislava II, Bratislava"
+        },
+        "Senior .NET Developer": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/4/bN8JRPdP40vPEIjitNKBFg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Eva29kaXZhL081MDg4ODQzP3J1bG9naW49Njg0ZTFjODJjNmU2M2U1MzY3NThiNmM0NTAzMTEzMGYmc2VhcmNoX2lkPWM3MTA4MzU5LWZhNjgtNDNmMC1iYmFlLWE4YTgwMWU5ODA4MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNSZlaWQ9Njg0ZTFjODI2Y2FjMGQ0NDE3NTg4Yzg3NzY3OWNkZTcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "Kodiva s. r. o.",
+            "location": "Práca z domu"
+        },
+        "Mid / Senior Grafický dizajnér": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/5/g0OA4MrMoe5cdhWOvVrATg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc29sYS1zd2l0emVybGFuZC1ldS9PNTA4ODQ4NT9ydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnNlYXJjaF9pZD1jNzEwODM1OS1mYTY4LTQzZjAtYmJhZS1hOGE4MDFlOTgwODMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "SOLA Switzerland EU s.r.o.",
+            "location": "Novozámocká 1065, Ivanka pri Nitre"
+        },
+        "Solution Architekt pre ČSOB Poisťovňu (M/Ž)": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/6/3cT8dSbcbKNlvy13KBddvA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY3NvYi1maW5hbmNuYS1za3VwaW5hL081MDk5NTAwP3J1bG9naW49Njg0ZTFjODJjNmU2M2U1MzY3NThiNmM0NTAzMTEzMGYmc2VhcmNoX2lkPWM3MTA4MzU5LWZhNjgtNDNmMC1iYmFlLWE4YTgwMWU5ODA4MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNSZlaWQ9Njg0ZTFjODI2Y2FjMGQ0NDE3NTg4Yzg3NzY3OWNkZTcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "ČSOB Finančná skupina",
+            "location": "Bratislavský kraj"
+        },
+        "IT Architekt pre ČSOB Poisťovňu (M/Ž)": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/7/OrfEsvMYCt-Lg6cQVSJiEw/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvY3NvYi1maW5hbmNuYS1za3VwaW5hL081MDk5NDk5P3J1bG9naW49Njg0ZTFjODJjNmU2M2U1MzY3NThiNmM0NTAzMTEzMGYmc2VhcmNoX2lkPWM3MTA4MzU5LWZhNjgtNDNmMC1iYmFlLWE4YTgwMWU5ODA4MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNSZlaWQ9Njg0ZTFjODI2Y2FjMGQ0NDE3NTg4Yzg3NzY3OWNkZTcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24",
+            "company": "ČSOB Finančná skupina",
+            "location": "Bratislavský kraj"
+        },
+        "Social Media Coordinator": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/8/4drdvxYgNDiQOXqsA_SWQA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWFya2l6YS1zbG92YWtpYS9PNTA4ODc2Nz9ydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnNlYXJjaF9pZD1jNzEwODM1OS1mYTY4LTQzZjAtYmJhZS1hOGE4MDFlOTgwODMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9u",
+            "company": "MARKÍZA - SLOVAKIA, spol. s r.o.",
+            "location": "Bratislavský kraj"
+        },
+        "Senior Developer for Healthcare/MedTech Products": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/10/BFkb2BqLMCPzKQqVXen_OQ/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2llbWVucy1zbG92ZW5za28vTzUwMjQ1ODM_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "Siemens Slovensko",
+            "location": "Žilina, Slovakia (Job with occasional home office)"
+        },
+        "Junior / Senior Java developer": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/11/CZ9rO3pLB6pvP-ky5Jv6Xg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvdW5pbGFicy1zbG92ZW5za28vTzUwNzg2MTE_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "Unilabs Slovensko, s. r. o.",
+            "location": "Martin"
+        },
+        "Administratívny pracovník/ recruiter": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/12/UIdD9DpHtMPovVOm0MetHA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZGVhbC13aW4vTzUwODgzODI_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "DEAL & WIN s.r.o.",
+            "location": "Žilina"
+        },
+        "SW Integration Engineer": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/14/gX_ydWCzec8HqM9HJ6ZYIg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2Evc2NoZWlkdC1iYWNobWFubi1zbG92ZW5za28vTzQ3OTgxNzc_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "Scheidt & Bachmann Slovensko s.r.o.",
+            "location": "Žilina, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Vedúci laboratoria/ laboratórny diagnostik": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/15/B87utj_cFQUZoEgsgTVo0Q/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYnVzaW5lc3MtZXNzZW50aWFscy9PNTA3NzE0MT9yaWQ9ZDY1MzVjNTI0MWQ5NTA0ZSZydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
+            "company": "BUSINESS ESSENTIALS spol. s r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Manažér/ka  lekárskej genetiky": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/16/lDQWRyiMu5YP735pc6seHg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWVkaXJleC1ncm91cC9PNTA4NTE1MT9yaWQ9ZDY1MzVjNTI0MWQ5NTA0ZSZydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
+            "company": "Medirex Group",
+            "location": "Galvaniho 17/C, Bratislava"
+        },
+        "Laboratory Supervisor (Water Quality Analytics)": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/17/ruFkA9XiNAiZBdRfqBS7cg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvZ29zcGFjZS10ZWNoL081MDgwMzQ5P3JpZD1kNjUzNWM1MjQxZDk1MDRlJnJ1bG9naW49Njg0ZTFjODJjNmU2M2U1MzY3NThiNmM0NTAzMTEzMGYmcnVuPXNhJnNpbWlsYXI9MyZ1dG1fbWVkaXVtPW1haWwmdXRtX3NvdXJjZT0xMDAwNyZ1dG1fY2FtcGFpZ249MTAwMDcmdXRtX3Rlcm09MjAyNS0wNi0xNSZlaWQ9Njg0ZTFjODI2Y2FjMGQ0NDE3NTg4Yzg3NzY3OWNkZTcmdXRtX2NvbnRlbnQ9Y2FsbC10by1hY3Rpb24tc2ltaWxhci1vZmZlcnM",
+            "company": "GOSPACE Tech s. r. o.",
+            "location": "Ilkovičova 8, Karlova Ves"
+        },
+        "Obchodný zástupca - Bratislava/Košice": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/18/XRjaHb4XbOqBKbxfY_s7yA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYmlvdGVjaC9PNTA3OTIwMj9yaWQ9ZDY1MzVjNTI0MWQ5NTA0ZSZydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
+            "company": "BIOTECH s.r.o.",
+            "location": "Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        },
+        "Junior Finance Controller/Finance Controller": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/19/BZSGi401uoVEVe8T6uedqg/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvYXJ2YWwtY29tcGV0ZW5jZS1jZW50ZXIvTzUwNzkxNDE_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "ARVAL COMPETENCE CENTER",
+            "location": "Bratislava, Slovak Republic (Job with occasional home office)"
+        },
+        "Zdravotnícky laborant na oddelení biochémie, Bratislava": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/20/uUzSp35bBGBYPm_aYklSMA/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvbWVkaXJleC1ncm91cC9PNTA4Nzc3Mj9yaWQ9ZDY1MzVjNTI0MWQ5NTA0ZSZydWxvZ2luPTY4NGUxYzgyYzZlNjNlNTM2NzU4YjZjNDUwMzExMzBmJnJ1bj1zYSZzaW1pbGFyPTMmdXRtX21lZGl1bT1tYWlsJnV0bV9zb3VyY2U9MTAwMDcmdXRtX2NhbXBhaWduPTEwMDA3JnV0bV90ZXJtPTIwMjUtMDYtMTUmZWlkPTY4NGUxYzgyNmNhYzBkNDQxNzU4OGM4Nzc2NzljZGU3JnV0bV9jb250ZW50PWNhbGwtdG8tYWN0aW9uLXNpbWlsYXItb2ZmZXJz",
+            "company": "Medirex Group",
+            "location": "Galvaniho 17/C, Bratislava"
+        },
+        "Junior Full Stack Programátor (PHP/Laravel)": {
+            "link": "https://tr.profesia.sk/lnk/CAAABycuzc4AAcqpLCIAAL9CtXIAAAAAimgAAAAAAAj8PQBoTjOSbWkPOYzQTPWF34m8MUIScgAIUkc/21/sJnweXZBiGcsOK4FXANm4A/aHR0cHM6Ly93d3cucHJvZmVzaWEuc2svcHJhY2EvcG9zaXRpdmUtc29mdHdhcmUvTzUwOTIwODY_cmlkPWQ2NTM1YzUyNDFkOTUwNGUmcnVsb2dpbj02ODRlMWM4MmM2ZTYzZTUzNjc1OGI2YzQ1MDMxMTMwZiZydW49c2Emc2ltaWxhcj0zJnV0bV9tZWRpdW09bWFpbCZ1dG1fc291cmNlPTEwMDA3JnV0bV9jYW1wYWlnbj0xMDAwNyZ1dG1fdGVybT0yMDI1LTA2LTE1JmVpZD02ODRlMWM4MjZjYWMwZDQ0MTc1ODhjODc3Njc5Y2RlNyZ1dG1fY29udGVudD1jYWxsLXRvLWFjdGlvbi1zaW1pbGFyLW9mZmVycw",
+            "company": "Positive software s.r.o.",
+            "location": "Škultétyho, Bratislava, Slovensko (Pozícia umožňuje občasnú prácu z domu)"
+        }
+    },
+    "2025-06-14 17:28:11+02:00": {}
 }

@@ -16,6 +16,10 @@ class Functions:
     def get_vacancy_by_id(self, v_id: int) -> Dict[str, Any]:
         return self.executeQuery("SELECT * FROM Vacancies WHERE V_id = ?", (v_id))["view"][0]
     
+    def check_details_exist(self, v_id: int) -> bool:
+        result = self.executeQuery("SELECT * FROM Knowledges WHERE V_id = ?", (v_id))["view"]
+        return len(result) > 0
+
     def get_vacancy_metadata(self, v_id: int) -> Dict[str, Any]:
         query: str = """
             SELECT * FROM VacanciesMetadata
